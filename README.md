@@ -1,22 +1,22 @@
 # CHDR Tokens (Ʉ)
 
-© 2018 Cheddur, Inc.  All rights reserved
+Copyright © 2018 Cheddur, Inc.  All rights reserved.
 
 ## CHDR Whitepaper
 
 This repository contains the [LaTeX](https://www.latex-project.org/)
 source code for the CHDR whitepaper. To build the PDF, clone the repository
-and then follow the instructions below.
+and follow the instructions below.
 
 ### Building on macOS
 
-1. Install Docker:
+1. Install [Docker](https://www.docker.com/):
 
     ```
     brew install docker docker-machine
     ```
 
-2. Install VirtualBox
+2. Install [VirtualBox])(https://www.virtualbox.org/):
 
     ```
     brew tap caskroom/cask
@@ -27,9 +27,10 @@ and then follow the instructions below.
 
     ```
     docker-machine create --driver virtualbox default
+    eval $(docker-machine env default)
     ```
 
-4. Build the PDF:
+4. Build the PDF using [Pandoc](https://pandoc.org/):
 
     ```
     make
