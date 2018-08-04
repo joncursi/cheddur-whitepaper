@@ -65,7 +65,7 @@ urlcolor: blue
 
     \vspace{5mm}
 
-    {\centering{}Cheddur is ...}
+    {\centering{}Cheddur is a social network that rewards its users for rating and reviewing cryptocurrency projects, applications, and businesses.}
 
   \end{minipage}
 
@@ -83,4 +83,31 @@ urlcolor: blue
 
 # Introduction
 
-Intro goes here.
+The cryptocurrency industry is currently modeling the same exponential
+user growth that the Internet did in the 1990's[^fn1]. Blockchain--one of
+the industry's leading wallet providers--has over 27M users as of
+August 2018[^fn2]. Coinbase, another industry giant, reports having over
+20M users[^fn3]. And Binance, one of the industry's leading exchanges, has
+racked up over 9M users in just its first year of operation[^fn4].
+
+If we estimate that there are ~30M unique cryptocurrency users worldwide
+(as of August 2018), that would put us in the year 1996 compared to the
+Internet. The Internet crossed the 1 billion users mark just 9 years later
+(December, 2005), which makes it reasonable to estimate that ~1 billion people
+will have entered the cryptocurrency market by the year 2027[^fn5].
+
+[^fn1]: Medium, Chris McCann, "12 Graphs That Show Just How Early The Cryptocurrency Market Is," May 2018.
+\hfill\break
+https://medium.com/@mccannatron/12-graphs-that-show-just-how-early-the-cryptocurrency-market-is-653a4b8b2720
+[^fn2]: Blockchain Wallet Users.
+\hfill\break
+https://www.blockchain.com/charts/my-wallet-n-users?timespan=all
+[^fn3]: About Coinbase.
+\hfill\break
+https://www.coinbase.com/about?locale=en-US
+[^fn4]: CCN, Josiah Wilmoth, "Binance Has Quadrupled Its User Base Since January, Will Launch EUR Pairs," June 2018.
+\hfill\break
+https://www.ccn.com/binance-has-quadrupled-its-user-base-since-january-will-launch-eur-pairs/
+[^fn5]: World Stats, "Internet Growth Statistics."
+\hfill\break
+https://www.internetworldstats.com/emarketing.htm
