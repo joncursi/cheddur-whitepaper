@@ -16,7 +16,7 @@ repository and follow the instructions below.
     brew install docker docker-machine
     ```
 
-2. Install [VirtualBox])(https://www.virtualbox.org/):
+2. Install [VirtualBox](https://www.virtualbox.org/):
 
     ```
     brew tap caskroom/cask
