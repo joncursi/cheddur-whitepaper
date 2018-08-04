@@ -10,7 +10,6 @@ ADD ./manual /cheddur
 
 WORKDIR /cheddur
 
-RUN bash build.sh && \
-    pandoc manual.md --latex-engine=xelatex -o chdr-whitepaper.pdf
+RUN bash build.sh
 
 ENTRYPOINT [ "/bin/cat" , "/cheddur/chdr-whitepaper.pdf" ]
