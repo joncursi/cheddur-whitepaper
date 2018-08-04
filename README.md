@@ -2,11 +2,11 @@
 
 Copyright © 2018 Cheddur, Inc.  All rights reserved.
 
-## CHDR Whitepaper
+## CHDR White Paper
 
 This repository contains the [LaTeX](https://www.latex-project.org/)
-source code for the CHDR whitepaper. To build the PDF, clone the repository
-and follow the instructions below.
+source code for the CHDR white paper. To build the PDF version, clone the
+repository and follow the instructions below.
 
 ### Building on macOS
 
