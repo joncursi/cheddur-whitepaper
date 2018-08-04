@@ -38,4 +38,4 @@ Pull requests to update the white paper will gladly be accepted upon review.
     make
     ```
 
-The PDF file will be output to `./chdr-whitepaper.pdf`.
+The PDF file will be output to `./whitepaper.pdf`.
