@@ -1,6 +1,6 @@
 # CHDR Tokens (Ʉ)
 
-(c) 2018 Cheddur, Inc.  All rights reserved
+© 2018 Cheddur, Inc.  All rights reserved
 
 ## CHDR Whitepaper
 
