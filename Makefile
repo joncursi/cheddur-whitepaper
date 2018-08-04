@@ -1,13 +1,13 @@
 default: open
 
-.PHONY: clean chdr-whitepaper.pdf open
+.PHONY: clean whitepaper.pdf open
 
 clean:
 	rm -rf *.pdf
 
-chdr-whitepaper.pdf:
+whitepaper.pdf:
 	docker build -t cheddur/whitepaper .
 	docker run cheddur/whitepaper > $@
 
-open: chdr-whitepaper.pdf
-	open chdr-whitepaper.pdf
+open: whitepaper.pdf
+	open whitepaper.pdf

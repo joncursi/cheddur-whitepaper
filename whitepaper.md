@@ -9,11 +9,12 @@ linkcolor: blue
 # Document Metadata
 
 * Creators: @joncursi
-* GitHub: [https://github.com/cheddur/whitepaper/blob/master/manual/manual.md](https://github.com/cheddur/whitepaper/blob/master/manual/manual.md)
+* GitHub: [https://github.com/cheddur/whitepaper/blob/master/whitepaper.md](https://github.com/cheddur/whitepaper/blob/master/whitepaper.md)
 * Copyright © 2018 Cheddur, Inc.  All rights reserved.
 
 # Cheddur Tokens (CHDR)
 
+\newpage
 \tableofcontents
 \newpage
 

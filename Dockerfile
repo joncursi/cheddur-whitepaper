@@ -6,10 +6,10 @@ RUN apt-get update && \
     apt -y install texlive-xetex pandoc python3-pip graphviz imagemagick && \
     pip3 install matplotlib
 
-ADD ./manual /cheddur
+ADD . /cheddur
 
 WORKDIR /cheddur
 
 RUN bash build.sh
 
-ENTRYPOINT [ "/bin/cat" , "/cheddur/chdr-whitepaper.pdf" ]
+ENTRYPOINT [ "/bin/cat" , "/cheddur/whitepaper.pdf" ]
