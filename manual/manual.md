@@ -10,7 +10,7 @@ linkcolor: blue
 
 * Creators: @joncursi
 * GitHub: [https://github.com/cheddur/whitepaper/blob/master/manual/manual.md](https://github.com/cheddur/whitepaper/blob/master/manual/manual.md)
-* Copyright (c) Cheddur, Inc. 2018
+* © Cheddur, Inc. 2018
 
 # Cheddur Tokens (CHDR)
 
