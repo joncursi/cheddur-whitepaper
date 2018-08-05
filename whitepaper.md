@@ -83,18 +83,29 @@ urlcolor: blue
 
 # Introduction
 
-The cryptocurrency industry is currently modeling the same exponential
-user growth that the Internet did in the 1990's[^fn1]. Blockchain--one of
-the industry's leading wallet providers--has over 27M users as of
-August 2018[^fn2]. Coinbase, another industry giant, reports having over
-20M users[^fn3]. And Binance, one of the industry's leading exchanges, has
-racked up over 9M users in just its first year of operation[^fn4].
+Blockchain technology is currently modeling the same exponential growth that
+the Internet did in the 1990's. The number of cryptocurrency projects (coins,
+tokens,
+[DApps](https://www.coindesk.com/information/what-is-a-decentralized-application-dapp/))
+that were launched between 2014-17 tracks closely to the number of websites
+that were launched on the Internet between 1991-95. The number of
+funded Initial Coin Offerings (ICOs) between 2014-17 also tracks closely
+to the number of Internet companies that received venture capital funding
+between 1991-95. And most importantly, the number of cryptocurrency users
+who downloaded their first wallet and bought their first cryptocurrency between
+2014-17 is on the same trajectory as the number of users who first connected
+to the Internet between 1991-1995[^fn1].
 
-If we estimate that there are ~30M unique cryptocurrency users worldwide
-(as of August 2018), that would put us in the year 1996 compared to the
-Internet. The Internet crossed the 1 billion users mark just 9 years later
-(December, 2005), which makes it reasonable to estimate that ~1 billion people
-will have entered the cryptocurrency market by the year 2027[^fn5].
+Blockchain--one of the industry's leading wallet providers--has over 27M users
+as of August 2018[^fn2]. Coinbase, another industry giant, currently has over
+20M users[^fn3]. And Binance, one of the industry's leading exchanges, has
+acquired over 9M users within its first year of operation[^fn4]. If we were to
+estimate that there are ~30M unique cryptocurrency users worldwide
+(as of August 2018), that would put us in the year 1996 when compared to the
+Internet. The Internet surpassed 1 billion users just 9 years later
+(December, 2005), which would make it reasonable to estimate that
+**~1 billion people will have entered the cryptocurrency market by the
+year 2027[^fn5]**.
 
 [^fn1]: Medium, Chris McCann, "12 Graphs That Show Just How Early The Cryptocurrency Market Is," May 2018.
 \hfill\break
