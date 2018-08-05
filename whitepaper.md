@@ -138,45 +138,43 @@ floodgates are just starting to open, keeping up is already a full-time job
 for consumers.
 
 * The developers of these cryptocurrency projects need to grow their
-communities of users and investors in order to survive, but this is becoming
+communities of users and investors in order to survive, and this is becoming
 increasingly difficult (and expensive) as competition floods the market.
 
-* There's almost no (positive) regulation in the space and, as a result,
-[scammers are running rampant](https://www.proofpoint.com/us/threat-insight/post/money-nothing-cryptocurrency-giveaways-net-thousands-scammers-0).
-A
+* There's almost no (helpful) regulation in the space and, as a result,
+scammers are running rampant. A
 [recent study](https://research.bloomberg.com/pub/res/d28giW28tf6G7T_Wr77aU0gDgFQ)
 from the [Statis Group](http://satisgroup.io/), an ICO advisory firm, suggests
 that *more than 80%* of ICOs that were conducted in 2017 were scams[^fn8].
 
 ## Parallels to the Internet
 
-The cryptocurrency industry in 2018 is still the Wild West and, true to the
-comparisons made above, this too is no different than the state of the Internet
-in 1996. Cybercriminals---skilled, organized, and motivated by financial
+The cryptocurrency industry in 2018 is still the Wild West and, similar to the
+comparisons made above, this too is much like the Internet in 1996.
+Cybercriminals---skilled, organized, and motivated by financial
 gain---were at work sending spam email, orchestrating phishing attacks, defacing
 websites, and stealing private information[^fn9]. New dot-com companies were
-launching every day, but focused their resources on "fast-tracking to IPO,
-without adequate emphasis on a viable business plan, solid mission, and
-inspiring vision"[^fn10]. Furthermore,
-[very few investors understood](https://www.youtube.com/watch?v=UlJku_CSyNg)
-the companies they were investing in and, as a result, many investors made poor
-decisions.
+launching every single day, but were focusing their resources on "fast-tracking
+to IPO, without adequate emphasis on a viable business plan, solid mission,
+and inspiring vision"[^fn10]. Furthermore,
+[very few investors understood the technology](https://www.youtube.com/watch?v=UlJku_CSyNg),
+let alone the companies they were investing in.
 
 This was the recipe for the dot-com collapse of 2000, of which only 48% of
 Internet companies survived and countless investors lost their
-life savings[^fn11]. Today, we're seeing these same ingredients coalesce in the
-cryptocurrency markets as uneducated investors enter the market, scammers
-prey on newcomers through
+life savings[^fn11]. Today, we're seeing the same ingredients coalesce in the
+cryptocurrency markets as uneducated investors are beginning to enter the
+market, scammers are preying on newcomers through
 [fake Twitter accounts](https://www.coindesk.com/6-outrageous-moments-crypto-twitter-scam-history/)
 and
 [cryptocurrency "giveaways"](https://www.proofpoint.com/us/threat-insight/post/money-nothing-cryptocurrency-giveaways-net-thousands-scammers-0),
-hackers
-[steal from exchanges and smart contracts](https://blockgeeks.com/guides/cryptocurrency-hacks/),
-and
+hackers are
+[stealing from exchanges and smart contracts](https://blockgeeks.com/guides/cryptocurrency-hacks/),
+and all the while
 [ICO fever](https://news.bitcoin.com/despite-falling-revenue-ico-fever-remains-high/)
 continues to grow.
 
-## Lowering the Barriers
+## Taming the Wild West
 
 So in order to get involved, what you need is a TRUSTED EXPERT in your life,
 someone who can help guide you to safely enter the market, and then navigate
