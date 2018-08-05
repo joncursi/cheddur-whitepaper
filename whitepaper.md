@@ -182,132 +182,231 @@ and
 [ICO fever](https://news.bitcoin.com/despite-falling-revenue-ico-fever-remains-high/)
 continues to grow.
 
-<!--
 ## Lowering the Barrier
 
-In order to get involved, most people need a TRUSTED EXPERT in their life,
-someone who can help guide them to safely enter the market, and then navigate
-the ecosystem once they're in it.
--->
+* Consumers:
+  * Need a trusted expert in their life, someone who can help guide them to
+  safely enter the market, and then navigate the ecosystem
+    * Help them pick the right coins to invest in
+      * Unbiased opinions
+      * Identify scams and steer clear
+    * Use the right wallets to safely store and secure those coins
+    * Protect and manage their cryptocurrency portfolio
+  * Must be beginner-friendly, yet still advanced enough to be able to serve
+  and grow with you as you progress through your crypto journey
+* Developers:
+  * Need a platform to:
+    * Share their mission and story
+    * Compete for, reach, and connect with new users and investors
+      * Grow their communities
+    * Advertise
 
-<!--
+## The Power of Reviews
+
+* 2/3rds of US internet users reference online reviews before making a purchase (even if they don't purchase that item online).
+  * We believe this behavior is especially true for cryptocurrencies because most people don't fully understand the tech themselves and need to rely on the opinion of someone else.
+
 # Cheddur 1.0
 
-On October 31, 2017, we launched version 1.0 of
-[Cheddur](https://www.cheddur.com/) to help address these issues.
-
-That’s why we created Cheddur, a mobile and web platform that uses a peer review system to help you…
-
-Pick the right coins to invest in
-Use the right wallets to safely store and secure those coins
-And overall protect and manage your cryptocurrency portfolio
-
-Like having a cryptocurrency expert right in your pocket, on-call 24/7 and
+* Launched on October 31, 2017 to address these needs
+* Like having a cryptocurrency expert right in your pocket, on-call 24/7 and
 ready to answer your questions at all times.
+* Feature overview:
+  * Read and write reviews
+  * Learn the Basics
+  * Discover, learn about, and get started with any coin or crypto app
+    * All of the information you need is consolidated in one place
+  * Compare coins side-by-side
+  * Connect with friends and followers
+  * Post coin addresses
+  * Watch prices
+  * Anyone (community / developers) can submit new listings
+  * Anyone (community / developers) can submit edits to existing profiles
+
+## Traction
+
+As of August 2018:
+
+* Over 10k registered users
+* Over 2k cryptocurrency reviews written
+* Over 2k coin addresses posted
+* 4.9 on App Store (65 ratings)
+* 4.6 on Google Play (124 ratings)
+* 179 coin and app pages claimed by their development teams
 
 ## Challenges
 
-Seeing manipulation:
+* Peer reviews:
+  * Users shilling low quality projects via 5-star reviews for personal financial gain
+    * Developers paying users in their own coin for positive reviews
+    * Causes low-quality projects to rise up the popularity rankings
+  * Most reviews are average to low quality
+* Profile submissions:
+  * Cheddur team is doing most of the legwork; failing to scale as floodgates
+  open and number of projects being launched continues to grow exponentially
 
-* users shilling bad projects through 5 star reviews for personal financial gain
-* bad projects rise up
-* most reviews are average or low quality
+## Solutions
 
-Community is not being properly incentivized to contribute, as a result we're
-doing all the work. But it's impossible to keep up with the rate of growth
-with just our samll team.
--->
+* System where users are rewarded for virtuous behavior on the
+platform. Users are incentivized to:
+  * Reviews:
+    * Write and curate (upvote) high-quality reviews
+    * Downvote low-quality reviews or malicious activity (bribed reviews?)
+  * Listings (?):
+    * List new coins and apps
+    * Submit edits to existing coin and app listings
+    * Claim profiles
+    * Maintain profiles over time
 
-<!--
-# Cheddur Version 2.0
+# Cheddur 2.0
 
-Incentivized platform.
+* Uses Cheddur 1.0 as a foundation, adds the incentives described above
+* Empowers the community to self-police and self-sustain.
+* Truly the "Yelp for crypto"
+* How?
+  * How do you maintain the integrity of the system?
+  * How do you properly incentivize the innovators and experts in the space---those with the knowledge---to write reviews?
+    * Especially when they are currently incentivized to NOT share (this is a financial edge in the market)
 
-* Users incentivized to write more, and higher-quality, reviews.
-* Go-to place to list your coin, project, business, app, dapp, etc.
-  * Rewards for listing (?)
-  * Rewards for editing existing profiles (?)
-  * Rewards for claiming (?)
+## Cheddur Currency
 
-And in the future, Cheddur will even understand your preferences and make recommendations based on your interests and risk tolerance. And this is important because by 2020, there will be over 1M coins out there to pick from (and you’re nobody is going to have time to research all of them.)
+* Launching our own cryptocurrency, called Cheddur:
+  * $CHDR (Ʉ)
+  * Earn CHDR on Cheddur
 
-## Tokenized Reviews
+* Why / benefits:
+  * Incentivize production of high-quality information to inform your decision making
+  * Earn your way into the cryptocurrency market without ever having to pull out your wallet
+  * Positive feedback loop between reviewers and readers
 
-But we’re not just building any old review system. We’re building an incentivized peer review system.. 2/3rds of internet users in the US reference online reviews before making a purchase (even if they don’t purchase that item online). And this behavior is especially true for cryptocurrencies because most people don’t fully understand the tech themselves and need to rely on the opinion of someone else.
+### Monetary Policy
 
-### Maintaining Integrity
+* Hard-coded into the smart contracts
+* Cannot be changed later (?)
 
-But the obvious question is… how will we guarantee the integrity of these reviews and incentivize the people with the knowledge to write them? (Prevent scammers from abusing it... ) The way we’re going to do this is by launching our own cryptocurrency, called Cheddur. The purpose of the Cheddur currency is simple: to incentivize virtuous behavior on the platform. The experts and innovators in the space will be able to earn Cheddur for writing high quality reviews, and you’ll be able to earn Cheddur too by up-voting the best content, and downvoting any malicious activity that you see.
+#### Initial Supply
 
-Not only will you be able to use this information to inform your decision making, but you’ll be able to earn your way into the cryptocurrency market without ever having to pull out your wallet.
-
-Not only does this create a positive feedback loop between the buyers (the people relying on reviews) and the sellers (the people writing those reviews)... it will allow buyers to enter the market without having to actually BUY anything.
-
-### CHDR Currency
-
-How it works. Basic info:
-* initial total supply = 100M coins
-* distribution to public = 75M (75%)
-* kept by company = 25M (25%)
-* has inflation
+* Total starting supply: 100M coins
+  * Public distribution: 75M coins (75%)
+  * Company reserve: 25M (25%)
 
 #### Inflation
 
-Explain the inflation rate over time, why we do this, and who gets what %.
-9.5% starting, decrease by 0.5% per year, to a minimum of 1%.
-
-* 15% holders of Cheddur power
-* 15% company (platform fee)
-* 70% rewards pool
+* Predictable emission rate:
+  * 9.5% in Y1
+  * Decreases by 0.5% per year until we reach a minimum annual inflation of 1%
+* Distribution:
+  * 15% holders of Cheddur power
+  * 15% company (platform fee)
+  * 70% rewards pool
 
 #### Rewards Pool
 
-Every week, rewards will be distributed to those who produce and curate thee most valuable content. And in addition to owning a 25% stake in the overall supply of Cheddur, we’ll take a 5% rake from all rewards that are given out over time.
+* Every week (?), rewards are distributed to those who produce and curate the most valuable content
+* Distribution:
+  * 70% author?
+  * 30% curation?
+    * Does this change by the minute like Steem?
 
-% splits:
+#### Vesting / Staking
 
-* 70% author?
-* 30% curator?
+* Tokens can be "vested":
+  * Gain influence (voting power) on the platform
+  * Get annual interest
+  * Prevents users from selling rewards directly into the market (helps the price)
 
-#### Advertising
+#### De-vesting / Un-staking
 
-As competition over the rewards pool grows, traffic will grow with it, and the Developers of these coins and apps will also be able to advertise on the platform, and if they pay with Cheddur, they’ll earn a 50% discount. All coins earned through advertising will be destroyed, thereby increasing the portfolio value of everyone who participates in the system.
+* Coins are de-vested over a 13-week period
+  * Given out in 1-week increments
+  * Can be canceled at any time
 
-Coins burned to help mitigate inflation?
+### Advertising
 
-#### Use of Funds
+* As competition over the rewards pool grows, traffic will grow with it
+* Developers of these coins and apps will be able to advertise on the platform
+  * Only allowed to pay with Cheddur, or 50% discount?
+  * All coins earned through advertising will be destroyed (?)
+    * Increasing the portfolio value of everyone who participates in the system long-term, i.e. through HODLing / vesting.
+    * Helps fight excess inflation, good for price
 
-How we intend to use our 25M initial keep, plus earnings going forward.
+### Use of Funds
+
+* How we intend to use:
+  * Our 25M initial keep
+  * Platform fee earnings over time
 
 ## Competition
 
-Compare versus Revain, Utrum, ICOBox "expert reviews"
+* Compare versus:
+  * Revain
+  * Utrum
+  * ICOBox's "expert reviews"
 
 ## Migration
 
-How we will port v1 to v2.
+* How will we migrate from v1 to v2?
+  * User accounts
+  * Existing reviews
+  * User addresses
+  * Possible removal from App Store
 
 # Roadmap
 
-Tokenized:
-* General chat
-* News
-* Q&A
-*
-*
+Version 2.0:
+* ICO / Airdrop dates
+* Launch date
 
-Other:
+Future features:
+* News
+* Chat
+* Q&A
 * Portfolio
 * Price Alerts
-*
-*
+* Tailored recommendations based on preferences, interests, risk tolerance
 
 # FAQ
 
-1. Sybil attacks? (if onboarding reward)
+1. How to prevent malicious voting?
+  * Your votes have minimum weight by default
+  * Voting power is based on the balance of vested coins in your account
+    * More vested coins = more power, and visa versa
+  * If you have high voting power (high stake) and you vote maliciously, you are hurting
+  yourself because your coins are staked and you can't immediately sell them
+  * This method of assigning power has been battle-tested on Steem
+2. How will introducing the Cheddur currency grow the system?
+  * Higher rate of inflation in the early days to incentivize early adoption
+  * More users -> more competition -> review quality increases over time -> price goes up
+    * More traffic -> more advertising -> more coins are burned -> price goes up
+3. How to control inflation?
+  * Burn advertising coins
+4. How to prevent the price from dumping from users immediately selling rewards?
+  * Selling will exist, but will incentivize users to vest portion of their earnings
+    * Interest and voting power given to those who vest
 
-2. Prevent malicious voting? (vested coins)
--->
+# TODO
+
+* Flush out scope of work:
+  * Just tokenizing reviews, or listings too?
+  * Can listings be tokenized later, or does this have to be set on day 1?
+* Platform to build on?
+  * Steem (SMT)
+  * Steem (direct)
+  * EOS
+  * Ethereum
+* ICO or Airdrop?
+  * Use of funds
+* Flush out all parameters of the monetary policy
+  * Initial supply, distribution
+  * Inflation curve
+  * Rewards pool, distribution
+  * Vesting / de-vesting
+  * Platform fee vs. burning coins from the ad network:
+    * No platform fee, but keep coins spent on advertising?
+    * Platform fee, but burn all ad coins?
+    * Platform fee, but burn ad coins up to a certain extent (e.g. BNB Coin)?
+* Migration strategy
+* Roadmap dates and features
 
 [^fn1]: Medium, Chris McCann, "12 Graphs That Show Just How Early The Cryptocurrency Market Is," May 2018.
 \hfill\break
