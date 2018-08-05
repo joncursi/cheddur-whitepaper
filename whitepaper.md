@@ -35,7 +35,7 @@ urlcolor: blue
 
       \vspace{5mm}
 
-      \textcolor{Grey}{\LARGE An incentivized, peer review platform for the cryptocurrency industry.}
+      \textcolor{Grey}{\LARGE One-liner elevator pitch goes here.}
 
       \vspace{5mm}
 
@@ -48,6 +48,10 @@ urlcolor: blue
   \vspace{\stretch{3}}
 
 \clearpage
+
+<!--
+An incentivized, peer review platform for the cryptocurrency industry.
+-->
 
 <!-- Abstract ----------------------------------------------------------------->
 
@@ -65,13 +69,17 @@ urlcolor: blue
 
     \vspace{5mm}
 
-    {\centering{}Cheddur is a social network that rewards its users for rating and reviewing cryptocurrency projects, applications, and businesses.}
+    {\centering{}Abstract goes here. Will write it once the contents of the white paper are complete.}
 
   \end{minipage}
 
   \vspace{\stretch{3}}
 
 \clearpage
+
+<!--
+Cheddur is a social network that rewards its users for rating and reviewing cryptocurrency projects, applications, and businesses.
+-->
 
 <!-- Table of Contents -------------------------------------------------------->
 
@@ -157,28 +165,149 @@ websites, and stealing private information[^fn9]. New dot-com companies were
 launching every single day, but were focusing their resources on "fast-tracking
 to IPO, without adequate emphasis on a viable business plan, solid mission,
 and inspiring vision"[^fn10]. Furthermore,
-[very few investors understood the technology](https://www.youtube.com/watch?v=UlJku_CSyNg),
-let alone the companies they were investing in.
+[few investors understood the technology](https://www.youtube.com/watch?v=UlJku_CSyNg),
+nor the companies they were investing in.
 
 This was the recipe for the dot-com collapse of 2000, of which only 48% of
-Internet companies survived and countless investors lost their
-life savings[^fn11]. Today, we're seeing the same ingredients coalesce in the
-cryptocurrency markets as uneducated investors are beginning to enter the
-market, scammers are preying on newcomers through
+Internet companies survived and many investors lost their life savings[^fn11].
+Today, we're seeing the same ingredients coalesce in the cryptocurrency markets
+as uneducated investors are beginning to enter the market, scammers are
+preying on newcomers through
 [fake Twitter accounts](https://www.coindesk.com/6-outrageous-moments-crypto-twitter-scam-history/)
 and
 [cryptocurrency "giveaways"](https://www.proofpoint.com/us/threat-insight/post/money-nothing-cryptocurrency-giveaways-net-thousands-scammers-0),
 hackers are
 [stealing from exchanges and smart contracts](https://blockgeeks.com/guides/cryptocurrency-hacks/),
-and all the while
+and
 [ICO fever](https://news.bitcoin.com/despite-falling-revenue-ico-fever-remains-high/)
 continues to grow.
 
-## Taming the Wild West
+<!--
+## Lowering the Barrier
 
-So in order to get involved, what you need is a TRUSTED EXPERT in your life,
-someone who can help guide you to safely enter the market, and then navigate
-the market once you’re in it.
+In order to get involved, most people need a TRUSTED EXPERT in their life,
+someone who can help guide them to safely enter the market, and then navigate
+the ecosystem once they're in it.
+-->
+
+<!--
+# Cheddur 1.0
+
+On October 31, 2017, we launched version 1.0 of
+[Cheddur](https://www.cheddur.com/) to help address these issues.
+
+That’s why we created Cheddur, a mobile and web platform that uses a peer review system to help you…
+
+Pick the right coins to invest in
+Use the right wallets to safely store and secure those coins
+And overall protect and manage your cryptocurrency portfolio
+
+Like having a cryptocurrency expert right in your pocket, on-call 24/7 and
+ready to answer your questions at all times.
+
+## Challenges
+
+Seeing manipulation:
+
+* users shilling bad projects through 5 star reviews for personal financial gain
+* bad projects rise up
+* most reviews are average or low quality
+
+Community is not being properly incentivized to contribute, as a result we're
+doing all the work. But it's impossible to keep up with the rate of growth
+with just our samll team.
+-->
+
+<!--
+# Cheddur Version 2.0
+
+Incentivized platform.
+
+* Users incentivized to write more, and higher-quality, reviews.
+* Go-to place to list your coin, project, business, app, dapp, etc.
+  * Rewards for listing (?)
+  * Rewards for editing existing profiles (?)
+  * Rewards for claiming (?)
+
+And in the future, Cheddur will even understand your preferences and make recommendations based on your interests and risk tolerance. And this is important because by 2020, there will be over 1M coins out there to pick from (and you’re nobody is going to have time to research all of them.)
+
+## Tokenized Reviews
+
+But we’re not just building any old review system. We’re building an incentivized peer review system.. 2/3rds of internet users in the US reference online reviews before making a purchase (even if they don’t purchase that item online). And this behavior is especially true for cryptocurrencies because most people don’t fully understand the tech themselves and need to rely on the opinion of someone else.
+
+### Maintaining Integrity
+
+But the obvious question is… how will we guarantee the integrity of these reviews and incentivize the people with the knowledge to write them? (Prevent scammers from abusing it... ) The way we’re going to do this is by launching our own cryptocurrency, called Cheddur. The purpose of the Cheddur currency is simple: to incentivize virtuous behavior on the platform. The experts and innovators in the space will be able to earn Cheddur for writing high quality reviews, and you’ll be able to earn Cheddur too by up-voting the best content, and downvoting any malicious activity that you see.
+
+Not only will you be able to use this information to inform your decision making, but you’ll be able to earn your way into the cryptocurrency market without ever having to pull out your wallet.
+
+Not only does this create a positive feedback loop between the buyers (the people relying on reviews) and the sellers (the people writing those reviews)... it will allow buyers to enter the market without having to actually BUY anything.
+
+### CHDR Currency
+
+How it works. Basic info:
+* initial total supply = 100M coins
+* distribution to public = 75M (75%)
+* kept by company = 25M (25%)
+* has inflation
+
+#### Inflation
+
+Explain the inflation rate over time, why we do this, and who gets what %.
+9.5% starting, decrease by 0.5% per year, to a minimum of 1%.
+
+* 15% holders of Cheddur power
+* 15% company (platform fee)
+* 70% rewards pool
+
+#### Rewards Pool
+
+Every week, rewards will be distributed to those who produce and curate thee most valuable content. And in addition to owning a 25% stake in the overall supply of Cheddur, we’ll take a 5% rake from all rewards that are given out over time.
+
+% splits:
+
+* 70% author?
+* 30% curator?
+
+#### Advertising
+
+As competition over the rewards pool grows, traffic will grow with it, and the Developers of these coins and apps will also be able to advertise on the platform, and if they pay with Cheddur, they’ll earn a 50% discount. All coins earned through advertising will be destroyed, thereby increasing the portfolio value of everyone who participates in the system.
+
+Coins burned to help mitigate inflation?
+
+#### Use of Funds
+
+How we intend to use our 25M initial keep, plus earnings going forward.
+
+## Competition
+
+Compare versus Revain, Utrum, ICOBox "expert reviews"
+
+## Migration
+
+How we will port v1 to v2.
+
+# Roadmap
+
+Tokenized:
+* General chat
+* News
+* Q&A
+*
+*
+
+Other:
+* Portfolio
+* Price Alerts
+*
+*
+
+# FAQ
+
+1. Sybil attacks? (if onboarding reward)
+
+2. Prevent malicious voting? (vested coins)
+-->
 
 [^fn1]: Medium, Chris McCann, "12 Graphs That Show Just How Early The Cryptocurrency Market Is," May 2018.
 \hfill\break
