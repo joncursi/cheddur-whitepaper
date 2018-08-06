@@ -203,9 +203,12 @@ continues to grow.
 
 ## The Power of Reviews
 
-* 2/3rds of US internet users reference online reviews before making a purchase (even if they don't purchase that item online).
+* 2/3rds of US internet users reference online reviews before making a purchase
+(even if they don't purchase that item online).
     * https://retail.emarketer.com/article/surprise-most-consumers-look-reviews-before-purchase/5a94768debd4000744ae413e
-    * We believe this behavior is especially true for cryptocurrencies because most people don't fully understand the tech themselves and need to rely on the opinion of someone else.
+    * We believe this behavior is especially true for cryptocurrencies because
+    most people don't fully understand the tech themselves and need to rely on
+    the opinion of someone else.
 
 # Cheddur 1.0
 
