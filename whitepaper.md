@@ -375,6 +375,10 @@ platform. Users are incentivized to:
     * Selling will exist, but will incentivize users to vest portion of their earnings
         * Interest and voting power given to those who vest
 
+# Conclusion
+
+Conclusion here.
+
 # TODO
 
 * Flush out scope of work:
