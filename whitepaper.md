@@ -89,7 +89,7 @@ Cheddur is a social network that rewards its users for rating and reviewing cryp
 Blockchain technology is currently modeling the same exponential growth that
 the Internet did in the 1990s. The number of cryptocurrency projects (coins,
 tokens, and
-[DApps](https://www.coindesk.com/information/what-is-a-decentralized-application-dapp/))
+[ÐApps](https://www.coindesk.com/information/what-is-a-decentralized-application-dapp/))
 that were launched between 2014-17 tracks closely to the number of websites
 that were launched on the Internet between 1991-95. The number of
 funded
@@ -97,75 +97,73 @@ funded
 between 2014-17 also tracks closely to the number of Internet companies that
 received venture capital funding between 1991-95. And most importantly,
 the number of people who downloaded a wallet and bought their first
-cryptocurrency between 2014-17 tracks closely to the number of people who
+cryptocurrency between 2014-17 also tracks closely to the number of people who
 bought a modem and connected to the Internet for the first time between
 1991-95[^fn1].
+
+## Market Size
 
 [Blockchain](https://www.blockchain.com/)---one of the industry's leading
 wallet providers---has over 27M users as of August 2018[^fn2].
 [Coinbase](https://www.coinbase.com/), another industry giant, currently has
 over 20M users[^fn3]. And [Binance](https://www.binance.com/), one of the
 industry's leading exchanges, has acquired over 9M users within its first year
-of operation[^fn4]. If we were to estimate that there are ~30M unique
-cryptocurrency users worldwide (as of August 2018), we are currently in the
-year 1996 when compared to the Internet. The Internet surpassed 1 billion users
-just 9 years later (December, 2005), and based on the above similarities in
-growth, it is reasonable to estimate that **~1 billion people will enter the
-cryptocurrency market by the year 2027[^fn5]**.
+of operation[^fn4]. Estimating that there are ~30M unique cryptocurrency users
+worldwide (as of August 2018), we are currently in the year 1996 when compared
+to the Internet. The Internet surpassed 1 billion users just 9 years later
+(December, 2005), and based on growth comparisons above, it is
+reasonable to estimate that **~1 billion people will enter the cryptocurrency
+market by the year 2027[^fn5]**.
 
 ## Barriers to Entry
 
-In 2018, the barrier to entry into the cryptocurrency market is still very high.
+In 2018, however, the barrier to entry into the cryptocurrency market is still
+very high.
 
-* Cryptocurrency is a brand new asset class that most people do not have any
-familiarity with. Many consumers have lots of questions, doubts, and
-uncertainties about cryptocurrency, and it currently takes too much time,
-energy, and experience to get answers.
+* Most consumers are unfamiliar with cryptocurrency as an asset class. As a
+result, they have lots of questions, doubts, and uncertainties about
+cryptocurrency, and it currently takes too much time, energy, and experience
+to get answers.
 
-* Most cryptocurrency tools and applications are extremely technical and,
-to newcomers especially, it can feel like you need a Ph.D. in computer science
-just to get started.
+* Most cryptocurrency tools, wallets, and applications are still extremely
+technical and, to newcomers especially, it can feel as though you need a Ph.D.
+in computer science just to get started.
 
 * The fiat-to-crypto "on-ramps"---platforms like
 [Coinbase](https://www.coinbase.com/), [Gemini](https://gemini.com/), and
 [Bittrex](https://bittrex.com/)---are simplifying the purchasing process, but
-are neglecting the educational components that are needed to help new users
-understand *what* it is that they are buying so that they can make better
+have neglected the educational components that are needed to help their users
+understand *what* it is that they are buying so that they can make informed
 investment decisions.
 
 * According to
-[CoinSchedule](https://www.coinschedule.com), 25 new ICOs have launched every
+[CoinSchedule](https://www.coinschedule.com), ~25 new ICOs have launched every
 single week between January and August of 2018[^fn6]. This is up over 500%
 from the number of ICOs that were launched in 2017[^fn7]. Even though the
-floodgates are just starting to open, keeping up is already a full-time job
-for consumers.
+floodgates are just starting to open, keeping up is already a full-time job.
 
-* The developers of these cryptocurrency projects need to grow their
-communities of users and investors in order to survive, and this is becoming
-increasingly difficult (and expensive) as competition floods the market.
-
-* There's almost no (helpful) regulation in the space and, as a result,
+* There's very little (helpful) regulation in the space and, as a result,
 scammers are running rampant. A
 [recent study](https://research.bloomberg.com/pub/res/d28giW28tf6G7T_Wr77aU0gDgFQ)
 from the [Statis Group](http://satisgroup.io/), an ICO advisory firm, suggests
-that *more than 80%* of ICOs that were conducted in 2017 were scams[^fn8].
+that **more than 80% of ICOs that were conducted in 2017 were scams**[^fn8].
 
 ## Parallels to the Internet
 
 The cryptocurrency industry in 2018 is still the Wild West and, similar to the
-comparisons made above, this too is much like the Internet in 1996.
-Cybercriminals---skilled, organized, and motivated by financial
-gain---were at work sending spam email, orchestrating phishing attacks, defacing
+comparisons made above, this too is much like the Internet. In 1996,
+cybercriminals---skilled, organized, and motivated by financial
+gain---were busy sending spam email, orchestrating phishing attacks, defacing
 websites, and stealing private information[^fn9]. New dot-com companies were
-launching every single day, but were focusing their resources on "fast-tracking
-to IPO, without adequate emphasis on a viable business plan, solid mission,
-and inspiring vision"[^fn10]. Furthermore,
-[few investors understood the technology](https://www.youtube.com/watch?v=UlJku_CSyNg),
+being launched every single day, but their resources were focused on
+"fast-tracking to IPO, without adequate emphasis on a viable business plan,
+solid mission, and inspiring vision"[^fn10]. Furthermore,
+[few investors truly understood the technology](https://www.youtube.com/watch?v=UlJku_CSyNg),
 nor the companies they were investing in.
 
 This was the recipe for the dot-com collapse of 2000, of which only 48% of
 Internet companies survived and many investors lost their life savings[^fn11].
-Today, we're seeing the same ingredients coalesce in the cryptocurrency markets
+Today, we're seeing the same ingredients coalesce in the cryptocurrency industry
 as uneducated investors are beginning to enter the market, scammers are
 preying on newcomers through
 [fake Twitter accounts](https://www.coindesk.com/6-outrageous-moments-crypto-twitter-scam-history/)
@@ -177,39 +175,65 @@ and
 [ICO fever](https://news.bitcoin.com/despite-falling-revenue-ico-fever-remains-high/)
 continues to grow.
 
-## Lowering the Barrier
+## Problems
 
-* Consumers:
-    * Need a trusted expert in their life, someone who can help guide them to
-    safely enter the market, and then navigate the ecosystem
-        * Help them pick the right coins to invest in
-            * Unbiased opinions
-            * Identify scams and steer clear
-        * Use the right wallets to safely store and secure those coins
-        * Protect and manage their cryptocurrency portfolio
-    * Must be beginner-friendly, yet still advanced enough to be able to serve
-    and grow with you as you progress through your crypto journey
+In order to get involved in the cryptocurrency market, most *consumers* need
+the help of a "trusted expert"---someone who can help them safely enter
+the market and navigate the ecosystem. However, most consumers do not have a
+trusted expert in their life, which puts cryptocurrency out of the reach of the
+mainstream.
+
+Furthermore, the *developers* of cryptocurrency projects need to grow their
+communities of users and investors in order to survive, and this is becoming
+increasingly difficult (and expensive) as competition floods the market.
+
+# Cheddur V1.0
+
+On October 30, 2017, [Cheddur](https://www.cheddur.com/) was launched as a free
+download
+[on the App Store](https://itunes.apple.com/us/app/id1269377156)
+and
+[on Google Play](https://play.google.com/store/apps/details?id=com.cheddur)
+to address these problems.
+
+
+Built from the ground up with beginners in mind, Cheddur has served as the
+trusted expert for thousands of consumers
+
+like having a cryptocurrency expert right in your pocket, on-call 24/7 and ready to answer your questions at all times.
+
+
+
+
+
+
+Serving as the trusted expert for thousands
+of consumers, ---available 24/7
+
+
+
+Your personal guide to cryptocurrency.
+
+
+
+
+
+* Help them pick the right coins to invest in
+    * Unbiased opinions
+    * Identify scams and steer clear
+* Use the right wallets to safely store and secure those coins
+* Protect and manage their cryptocurrency portfolio
+* Must be beginner-friendly, yet still advanced enough to be able to serve
+and grow with you as you progress through your crypto journey
+
 * Developers:
-    * Need a platform to:
-        * Share their mission and story
-        * Compete for, reach, and connect with new users and investors
-            * Grow their communities
-        * Advertise
+* Need a platform to:
+* Share their mission and story
+* Compete for, reach, and connect with new users and investors
+    * Grow their communities
+* Advertise
 
-## The Power of Reviews
 
-* 2/3rds of US internet users reference online reviews before making a purchase
-(even if they don't purchase that item online).
-    * https://retail.emarketer.com/article/surprise-most-consumers-look-reviews-before-purchase/5a94768debd4000744ae413e
-    * We believe this behavior is especially true for cryptocurrencies because
-    most people don't fully understand the tech themselves and need to rely on
-    the opinion of someone else.
-
-# Cheddur 1.0
-
-* Launched on October 31, 2017 to address these needs
-* Like having a cryptocurrency expert right in your pocket, on-call 24/7 and
-ready to answer your questions at all times.
 * Feature overview:
     * Read and write reviews
     * Learn the Basics
@@ -222,7 +246,20 @@ ready to answer your questions at all times.
     * Anyone (community / developers) can submit new listings
     * Anyone (community / developers) can submit edits to existing profiles
 
+## Progress
+
+Since then...
+
+Claimable profiles in March 2018
+
+Web in June 2018
+
 ## Traction
+
+- Over 10k registered Users
+- Over 2500 cryptocurrency reviews written
+- Over 2000 coin addresses posted
+- Over 200 development teams claimed and managing their pages
 
 As of August 2018:
 
@@ -243,6 +280,15 @@ As of August 2018:
 * Profile submissions:
     * Cheddur team is doing most of the legwork; failing to scale as floodgates
     open and number of projects being launched continues to grow exponentially
+
+## The Power of Reviews
+
+* 2/3rds of US internet users reference online reviews before making a purchase
+(even if they don't purchase that item online).
+    * https://retail.emarketer.com/article/surprise-most-consumers-look-reviews-before-purchase/5a94768debd4000744ae413e
+    * We believe this behavior is especially true for cryptocurrencies because
+    most people don't fully understand the tech themselves and need to rely on
+    the opinion of someone else.
 
 # Cheddur 2.0
 
