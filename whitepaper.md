@@ -4,7 +4,7 @@ header-includes:
     - \usepackage{xcolor}
     - \definecolor{Blue}{HTML}{1E88E5}
     - \definecolor{Grey}{HTML}{616161}
-    - \definecolor{Maroon}{HTML}{0E7AFE}
+    - \definecolor{Maroon}{HTML}{0020F5}
     - \definecolor{Purple}{HTML}{5555FF}
     - \definecolor{Teal}{HTML}{00BFA5}
     - \usepackage{datetime}
@@ -12,8 +12,6 @@ header-includes:
     - \renewcommand{\contentsname}{Table of Contents}
     - \usepackage{graphicx}
     - \usepackage{wrapfig}
-    - \usepackage{fontspec}
-    - \setmainfont{Latin Modern Sans}
     - \fontsize{13pt}{13pt}
     - \usepackage[hang]{footmisc}
 urlcolor: blue
@@ -31,15 +29,15 @@ urlcolor: blue
 
     \begin{center}
 
-      {\Huge Cheddur}
+      {\Huge \textbf{Cheddur}}
 
       \vspace{5mm}
 
-      \textcolor{Grey}{\LARGE One-liner elevator pitch goes here.}
+      {\Large A monetized Yelp for the crypto community.}
 
-      \vspace{5mm}
+      \vspace{15mm}
 
-      {\Large \mydate\today}
+      \textcolor{Grey}{\mydate\today}
 
     \end{center}
 
@@ -49,9 +47,6 @@ urlcolor: blue
 
 \clearpage
 
-<!--
-An incentivized, peer review platform for the cryptocurrency industry.
--->
 
 <!-- Abstract ----------------------------------------------------------------->
 
