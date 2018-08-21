@@ -33,7 +33,7 @@ urlcolor: blue
 
       \vspace{5mm}
 
-      {\Large A monetized Yelp for the crypto community.}
+      {\Large A monetized version of Yelp for the cryptocurrency community.}
 
       \vspace{15mm}
 
@@ -187,66 +187,35 @@ Furthermore, the *developers* of cryptocurrency projects need to grow their
 communities of users and investors in order to survive, and this is becoming
 increasingly difficult (and expensive) as competition floods the market.
 
-# Cheddur V1.0
+# Cheddur 1.0
 
-On October 30, 2017, [Cheddur](https://www.cheddur.com/) was launched as a free
-download
+On October 30, 2017, the first version of [Cheddur](https://www.cheddur.com/)
+was launched as a free download
 [on the App Store](https://itunes.apple.com/us/app/id1269377156)
 and
 [on Google Play](https://play.google.com/store/apps/details?id=com.cheddur)
-to address these problems.
+to address these problems. As of August 2018, Cheddur has served as the trusted
+expert for over 50,000 consumers aiming to:
 
+* Learn the basics of cryptocurrency.
+* Find the best coins and ICOs to invest in.
+* Find the best wallets, exchanges, and other crypto applications to safely
+store, secure, and trade those coins.
+* Read and write cryptocurrency reviews.
+* Send and receive tips, payments, and donations in any cryptocurrency to other
+users.
+* Connect with friends, developers, and other cryptocurrency users.
 
-Built from the ground up with beginners in mind, Cheddur has served as the
-trusted expert for thousands of consumers
+At the same time, Cheddur has also served as an invaluable tool for over 200
+cryptocurrency development teams (as of August 2018) seeking to:
 
-like having a cryptocurrency expert right in your pocket, on-call 24/7 and ready to answer your questions at all times.
+* Share their mission and vision with the cryptocurrency community.
+* Get discovered by---and connect with---new users and investors.
+* Solicit (and respond to) user feedback in the form of ratings and reviews.
+* Advertise their projects on the platform for an increase in exposure.
+* Grow their individual communities.
 
-
-
-
-
-
-Serving as the trusted expert for thousands
-of consumers, ---available 24/7
-
-
-
-Your personal guide to cryptocurrency.
-
-
-
-
-
-* Help them pick the right coins to invest in
-    * Unbiased opinions
-    * Identify scams and steer clear
-* Use the right wallets to safely store and secure those coins
-* Protect and manage their cryptocurrency portfolio
-* Must be beginner-friendly, yet still advanced enough to be able to serve
-and grow with you as you progress through your crypto journey
-
-* Developers:
-* Need a platform to:
-* Share their mission and story
-* Compete for, reach, and connect with new users and investors
-    * Grow their communities
-* Advertise
-
-
-* Feature overview:
-    * Read and write reviews
-    * Learn the Basics
-    * Discover, learn about, and get started with any coin or crypto app
-        * All of the information you need is consolidated in one place
-    * Compare coins side-by-side
-    * Connect with friends and followers
-    * Post coin addresses
-    * Watch prices
-    * Anyone (community / developers) can submit new listings
-    * Anyone (community / developers) can submit edits to existing profiles
-
-## Progress
+## Traction & Progress
 
 Since then...
 
@@ -255,6 +224,12 @@ Claimable profiles in March 2018
 Web in June 2018
 
 ## Traction
+
+25,465 - WEB total users
+8,731 - ios total
+12,242 - android total
+
+25,465 + 8,731 + 12,242 = 46,438
 
 - Over 10k registered Users
 - Over 2500 cryptocurrency reviews written
@@ -376,8 +351,15 @@ platform. Users are incentivized to:
 
 * Compare versus:
     * Revain
+    * Review.Network
     * Utrum
     * ICOBox's "expert reviews"
+* Metrics
+    * Beginner friendly
+    * Incentivized
+    * Who pays?
+    * Platform
+    * How much raised in ICO
 
 ## Migration
 
