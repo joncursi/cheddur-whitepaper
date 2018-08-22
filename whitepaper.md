@@ -146,7 +146,7 @@ floodgates are just starting to open, keeping up is already a full-time job.
 * There's very little (helpful) regulation in the space and, as a result,
 scammers are running rampant. A
 [recent study](https://research.bloomberg.com/pub/res/d28giW28tf6G7T_Wr77aU0gDgFQ)
-from the [Statis Group](http://satisgroup.io/), an ICO advisory firm, suggests
+from the [Statis Group](http://satisgroup.io/) (an ICO advisory firm) suggests
 that **more than 80% of ICOs that were conducted in 2017 were scams**[^fn8].
 
 ## Parallels to the Internet
@@ -192,7 +192,7 @@ market.
 # Cheddur 1.0
 
 On October 30, 2017, the first version of [Cheddur](https://www.cheddur.com/)
-was launched as a free download
+was launched
 [on the App Store](https://itunes.apple.com/us/app/id1269377156)
 and
 [on Google Play](https://play.google.com/store/apps/details?id=com.cheddur)
@@ -240,7 +240,7 @@ our 4.6/5 rating
 and our 4.5/5 rating
 [on Cheddur](https://www.cheddur.com/apps/cheddur).
 
-## Cryptocurrency Ratings & Reviews
+## Cryptocurrency Reviews
 
 We recognize that in 2018, a significant portion of the cryptocurrency projects
 on the market may be of low quality, or may even be outright scams. While it is
@@ -248,21 +248,21 @@ important to identify these projects as such, deciding *which* projects are
 scams and which projects are not is often a highly subjective process---at least
 before any acts of crime have been committed.
 
-Therefore, as a platform, we've chosen to neither be the judge nor jury over
-this decision, and to instead focus on *facts*. When it comes to listing
-coins and crypto apps on Cheddur, our goal is to be factually complete and to
-list new and interesting projects based on user demand and the facts that are
-available on the Internet.
+As a company, we've chosen to neither be the judge nor jury over such subjective
+decisions. When it comes to listing new coins and crypto apps on Cheddur, our
+goal is to instead be *factually complete* and to list new and interesting
+projects based on user demand and the facts that are available on the Internet.
 
-Thus, in order to help newcomers steer clear of bad projects, we believe that it
-is the responsibility of the cryptocurrency community---rather than a central
-authority---to collectively determine the quality of each project. This is
-accomplished on Cheddur in the form of user ratings and reviews.
+We believe that it is the responsibility of the cryptocurrency community as a
+whole---rather than a central authority---to collectively determine the quality
+of each project. This is accomplished on Cheddur in the form of user-generated
+cryptocurrency reviews.
 
-## Challenges
+## Observations
 
-Having amassed over 2,500 cryptocurrency reviews on the platform (as of August
-2018), we've identified a number of challenges with the current review system:
+From studying over 2,500 cryptocurrency reviews on the Cheddur platform and
+speaking with dozens of community members one-on-one, our team has been able to
+make several important observations:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
 to be overly positive in their reviews of coins that they hold (5 stars), or
@@ -274,11 +274,12 @@ result, developers may resort to astroturfing[^fn13] or vote brigading[^fn14] in
 order to drown out critical reviews and/or fake their popularity on the
 platform.
 3. **Determining the quality of each review is paramount**, as high-quality
-reviews should carry more weight towards a cryptocurrency project's overall
-rating then spammy, low-quality reviews.
-4. The experts and innovators in the cryptocurrency space---those with the
-wisdom and knowledge to produce the highest-quality, most unbiased reviews---are
-not being properly incentivized to spend the time and energy to do so.
+reviews should carry more weight towards determining a cryptocurrency project's
+overall rating then should spammy or low-quality reviews.
+4. Generally speaking, the experts and innovators in the cryptocurrency
+space---those with the wisdom and experience to produce the highest-quality,
+most unbiased reviews---are not being properly incentivized to spend the time
+and energy to do so.
 
 ## The Importance of Reviews
 
