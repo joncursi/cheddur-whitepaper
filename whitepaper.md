@@ -240,7 +240,7 @@ our 4.6/5 rating
 and our 4.5/5 rating
 [on Cheddur](https://www.cheddur.com/apps/cheddur).
 
-## Challenges
+## Challenges & Observations
 
 Like most startups, the success of the Cheddur platform has also come with its
 fair share of challenges. We recognize that in 2018, a significant portion of
@@ -259,7 +259,7 @@ determine the quality of each project, and this is accomplished on Cheddur in
 the form of user ratings and reviews.
 
 Having amassed over 2,500 cryptocurrency reviews on the platform, we've been
-able to spot a number of interesting observations and challenges:
+able to spot a number of interesting challenges and observations:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
 to be overly positive in their reviews of coins that they hold, or overly
@@ -276,31 +276,27 @@ should spammy, low-quality reviews.
 determined through the up-votes (or lack thereof) it receives, the *quality* of
 the users who casted the up-votes is arguably more important than the *quantity*
 of users who casted votes.
-5. In order to properly calculate the quality of each user and the amount of
-influence they should have within the network, a reputation system is needed.
+5. In order to properly calculate the quality of each user, a reputation system
+is needed. A user's reputation should dictate the amount of influence that user
+has within the network.
 6. Reputation cannot be an abundant resource that is freely available within the
 network. An increase in a user's reputation must come at a cost to that
 user---either financial, or in the form of sweat equity.
 7. Reputation within the network should not easily be transferred or sold.
 8. Rewards are needed to encourage users to acquire reputation and influence in
 the network through the creation and curating high-quality content. By the same
-token, penalties are needed to discourage users with influence from abusing it.
+token, penalties are needed to discourage users of influence from abusing it.
 9. The experts and innovators in the cryptocurrency space---those with the
 wisdom and knowledge to produce the highest-quality, most unbiased reviews---are
 not being properly incentivized to spend the time and energy to do so.
 
+Why are these challenges worth overcoming?
+
+## The Power of Reviews
 
 Solving this is challenging, because subjective content - who is the arbiter?
 
-
-* Profile submissions:
-    * Cheddur team is doing most of the legwork; failing to scale as floodgates
-    open and number of projects being launched continues to grow exponentially
-
-
 GOAL = HIGH-QUALITY REVIEW. WHY? See below. Why is this worth solving?
-
-## The Power of Reviews
 
 Why honest, unbiased reviews are so important.
 
