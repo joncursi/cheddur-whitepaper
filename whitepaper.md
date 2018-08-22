@@ -240,7 +240,7 @@ our 4.6/5 rating
 and our 4.5/5 rating
 [on Cheddur](https://www.cheddur.com/apps/cheddur).
 
-## Cryptocurrency Reviews
+# Cryptocurrency Reviews
 
 We recognize that in 2018, a significant portion of the cryptocurrency projects
 on the market may be of low quality, or may even be outright scams. While it is
@@ -248,49 +248,79 @@ important to identify these projects as such, deciding *which* projects are
 scams and which projects are not is often a highly subjective process---at least
 before any acts of crime have been committed.
 
-As a company, we've chosen to neither be the judge nor jury over such subjective
-decisions. When it comes to listing new coins and crypto apps on Cheddur, our
-goal is to instead be *factually complete* and to list new and interesting
-projects based on user demand and the facts that are available on the Internet.
+## Using the Wisdom of the Crowd
+
+As a company, we've chosen to neither be the judge nor jury over these
+subjective decisions. When it comes to listing new coins and crypto apps on
+Cheddur, our goal is to instead be *factually complete* and to list new and
+interesting projects based on user demand and the facts that are available on
+the Internet.
 
 We believe that it is the responsibility of the cryptocurrency community as a
 whole---rather than a central authority---to collectively determine the quality
-of each project. This is accomplished on Cheddur in the form of user-generated
-cryptocurrency reviews.
+of each project. This is commonly referred to as the "wisdom of the crowd"
+principle[^fn12], and is currently being accomplished on Cheddur in the form of
+user-generated cryptocurrency reviews.
 
-## Observations
+## Challenges
 
-From studying over 2,500 cryptocurrency reviews on the Cheddur platform and
+In studying over 2,500 cryptocurrency reviews on the Cheddur platform and
 speaking with dozens of community members one-on-one, our team has been able to
-make several important observations:
+identify several important challenges:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
 to be overly positive in their reviews of coins that they hold (5 stars), or
-overly negative in their reviews of "rival" projects (one star)[^fn12].
+overly negative in their reviews of "rival" projects (one star)[^fn13].
 2. The developers of a cryptocurrency project are not permitted to remove user
 reviews of their project, so long as those reviews abide by the
 [Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
-result, developers may resort to astroturfing[^fn13] or vote brigading[^fn14] in
+result, developers may resort to astroturfing[^fn14] or vote brigading[^fn15] in
 order to drown out critical reviews and/or fake their popularity on the
 platform.
-3. **Determining the quality of each review is paramount**, as high-quality
-reviews should carry more weight towards determining a cryptocurrency project's
-overall rating then should spammy or low-quality reviews.
+3. The less familiar a user is with cryptocurrency, the exponentially more
+reliant they tend to be on the opinions (reviews) of others.
 4. Generally speaking, the experts and innovators in the cryptocurrency
 space---those with the wisdom and experience to produce the highest-quality,
-most unbiased reviews---are not being properly incentivized to spend the time
-and energy to do so.
+most unbiased reviews---have not been properly incentivized to spend the time
+and energy doing so.
 
-## The Importance of Reviews
+## Conclusions
 
-Why honest, unbiased reviews are so important.
+Maintaining the integrity of the Cheddur review system is critical towards
+holding cryptocurrency projects accountable for their actions (or lack thereof)
+and enabling consumers to easily distinguish between high-quality and
+low-quality projects.
 
-* 2/3rds of US internet users reference online reviews before making a purchase
-(even if they don't purchase that item online).
-    * https://retail.emarketer.com/article/surprise-most-consumers-look-reviews-before-purchase/5a94768debd4000744ae413e
-    * We believe this behavior is especially true for cryptocurrencies because
-    most people don't fully understand the tech themselves and need to rely on
-    the opinion of someone else.
+Based on the findings from the Cheddur user study above, we have arrived at the
+following conclusions:
+
+1. High-quality reviews ought to carry more weight towards determining a
+cryptocurrency project's overall star rating then should spammy, low-quality
+reviews.
+2. If the quality of a review can be determined through the up-votes (or lack
+thereof) that it receives, the *quality* of the users who casted the up-votes is
+arguably more important than the *quantity* of users who casted votes.
+3. In order to properly calculate the quality of each user, a reputation system
+is needed. A user's reputation should dictate the amount of influence that user
+has within the network.
+4. Reputation cannot be an abundant resource that is freely available within the
+network. Increasing a user's reputation must come at a cost to that
+user---either financial, or in the form of sweat equity[^fn16].
+5. To prevent timing attacks[^fn17], reputation within the network should not be
+easily transferred or sold.
+6. Rewards are needed to encourage users to acquire (and compete for)
+reputation and influence in the network via the creation and curation of
+high-quality content. By the same token, penalties are needed to discourage
+users of influence from abusing it.
+
+## The High Quality Review
+
+In a recent study conducted by [Bizrate Insights](https://bizrateinsights.com/),
+66% of US internet users reference online reviews before making a purchase, even
+if they are not purchasing that item online[^fn18]. As 1 billion consumers enter
+the cryptocurrency market over the next 9 years, the high-quality cryptocurrency
+review will likely be the backbone behind the majority of consumer investment
+and decision-making in crypto.
 
 # Cheddur 2.0
 
@@ -314,23 +344,6 @@ platform. Users are incentivized to:
     * How do you maintain the integrity of the system?
     * How do you properly incentivize the innovators and experts in the space---those with the knowledge---to write reviews?
         * Especially when they are currently incentivized to NOT share (this is a financial edge in the market)
-
-## Incentivizing High Quality Reviews
-
-1. Quality is a subjective metric. If the quality of a review can be
-determined through the up-votes (or lack thereof) it receives, the *quality* of
-the users who casted the up-votes is arguably more important than the *quantity*
-of users who casted votes.
-2. In order to properly calculate the quality of each user, a reputation system
-is needed. A user's reputation should dictate the amount of influence that user
-has within the network.
-3. Reputation cannot be an abundant resource that is freely available within the
-network. An increase in a user's reputation must come at a cost to that
-user---either financial, or in the form of sweat equity. Reputation within the
-network should not easily be transferred or sold.
-4. Rewards are needed to encourage users to acquire reputation and influence in
-the network through the creation and curating high-quality content. By the same
-token, penalties are needed to discourage users of influence from abusing it.
 
 ## Cheddur Currency
 
@@ -531,12 +544,24 @@ https://www.inc.com/articles/2001/09/23447.html
 [^fn11]: Wikipedia, "Dot-com bubble."
 \hfill\break
 https://en.wikipedia.org/wiki/Dot-com_bubble
-[^fn12]: Medium, Anthony Sassano, "Tribalism in Cryptocurrency," September 2017.
+[^fn12]: Wikipedia, "Wisdom of the crowd."
+\hfill\break
+https://en.wikipedia.org/wiki/Wisdom_of_the_crowd
+[^fn13]: Medium, Anthony Sassano, "Tribalism in Cryptocurrency," September 2017.
 \hfill\break
 https://medium.com/@AnthonySassano/tribalism-in-cryptocurrency-2e39dd6bb0b5
-[^fn13]: Wikipedia, "Astroturfing."
+[^fn14]: Wikipedia, "Astroturfing."
 \hfill\break
 https://en.wikipedia.org/wiki/Astroturfing
-[^fn14]: Wikipedia, "Vote brigading."
+[^fn15]: Wikipedia, "Vote brigading."
 \hfill\break
 https://en.wikipedia.org/wiki/Vote_brigading
+[^fn16]: Investopedia, "Sweat Equity."
+\hfill\break
+https://www.investopedia.com/terms/s/sweatequity.asp
+[^fn17]: Wikipedia, "Timing attack."
+\hfill\break
+https://en.wikipedia.org/wiki/Timing_attack
+[^fn18]: eMarketer Retail, Rimma Kats, "Surprise! Most Consumers Look at Reviews Before a Purchase," February 2018.
+\hfill\break
+https://retail.emarketer.com/article/surprise-most-consumers-look-reviews-before-purchase/5a94768debd4000744ae413e
