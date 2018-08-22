@@ -15,6 +15,7 @@ header-includes:
     - \fontsize{13pt}{13pt}
     - \usepackage[hang]{footmisc}
     - \usepackage[normalem]{ulem}
+    - \usepackage{nicefrac}
 urlcolor: blue
 ---
 
@@ -132,15 +133,15 @@ in computer science just to get started.
 
 * The fiat-to-crypto "on-ramps"---platforms like
 [Coinbase](https://www.coinbase.com/), [Gemini](https://gemini.com/), and
-[Bittrex](https://bittrex.com/)---are simplifying the purchasing process, but
-have neglected the educational components that are needed to help their users
-understand *what* it is that they are buying so that they can make informed
-investment decisions.
+[Bittrex](https://bittrex.com/)---are greatly simplifying the purchasing
+process, but have neglected the educational components that are needed to help
+their users understand *what* it is that they are buying so that they can make
+informed investment decisions.
 
 * According to
-[CoinSchedule](https://www.coinschedule.com), ~25 new ICOs have launched every
-single week between January and August of 2018[^fn6]. This is up over 500%
-from the number of ICOs that were launched in 2017[^fn7]. Even though the
+[CoinSchedule](https://www.coinschedule.com), ~25 new ICOs have launched per
+week between January and August of 2018[^fn6]. This is up over 500% from the
+number of ICOs that were launched per week in 2017[^fn7]. Even though the
 floodgates are just starting to open, keeping up is already a full-time job.
 
 * There's very little (helpful) regulation in the space and, as a result,
@@ -164,7 +165,7 @@ nor the companies they were investing in.
 
 This was the recipe for the dot-com collapse of 2000, of which only 48% of
 Internet companies survived and many investors lost their life savings[^fn11].
-Today, we're seeing the same ingredients coalesce in the cryptocurrency industry
+Today, we're seeing the same ingredients coalesce in the cryptocurrency market
 as uneducated investors are beginning to enter the market, scammers are
 preying on newcomers through
 [fake Twitter accounts](https://www.coindesk.com/6-outrageous-moments-crypto-twitter-scam-history/)
@@ -232,13 +233,13 @@ growing steadily. As of August 2018:
 [partnerships have been established](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
 with cryptocurrency development teams across the globe.
 
-We've received an overwhelming amount of positive feedback over the past few
-months, as evidenced by our 4.9/5 rating
-[on the App Store](https://itunes.apple.com/us/app/id1269377156),
-our 4.6/5 rating
-[on Google Play](https://play.google.com/store/apps/details?id=com.cheddur),
-and our 4.5/5 rating
-[on Cheddur](https://www.cheddur.com/apps/cheddur).
+We've also received an overwhelming amount of positive feedback over the past
+few months, as evidenced by our
+[\nicefrac{4.9}{5} rating on the App Store](https://itunes.apple.com/us/app/id1269377156),
+our
+[\nicefrac{4.6}{5} rating on Google Play](https://play.google.com/store/apps/details?id=com.cheddur),
+and our
+[\nicefrac{4.5}{5} rating on Cheddur](https://www.cheddur.com/apps/cheddur).
 
 # Cryptocurrency Reviews
 
@@ -250,9 +251,9 @@ before any acts of crime have been committed.
 
 ## Using the Wisdom of the Crowd
 
-As a company, we've chosen to neither be the judge nor jury over these
-subjective decisions. When it comes to listing new coins and crypto apps on
-Cheddur, our goal is to instead be *factually complete* and to list new and
+As a company, we believe that it is best to neither be the judge nor jury over
+these subjective decisions. When it comes to listing new coins and crypto apps
+on Cheddur, our goal is to instead be *factually complete* and to list new and
 interesting projects based on user demand and the facts that are available on
 the Internet.
 
@@ -266,7 +267,7 @@ user-generated cryptocurrency reviews.
 
 In studying over 2,500 cryptocurrency reviews on the Cheddur platform and
 speaking with dozens of community members one-on-one, our team has been able to
-identify several important challenges:
+identify several important challenges with user-generated reviews:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
 to be overly positive in their reviews of coins that they hold (5 stars), or
@@ -281,8 +282,8 @@ platform.
 reliant they tend to be on the opinions (reviews) of others.
 4. Generally speaking, the experts and innovators in the cryptocurrency
 space---those with the wisdom and experience to produce the highest-quality,
-most unbiased reviews---have not been properly incentivized to spend the time
-and energy doing so.
+most unbiased reviews---have not been properly incentivized in order for them to
+spend the time and energy doing so.
 
 ## Conclusions
 
@@ -291,8 +292,8 @@ holding cryptocurrency projects accountable for their actions (or lack thereof)
 and enabling consumers to easily distinguish between high-quality and
 low-quality projects.
 
-Based on the findings from the Cheddur user study above, we have arrived at the
-following conclusions:
+Based on the findings from the Cheddur user study above, we have been able to
+make the following conclusions:
 
 1. High-quality reviews ought to carry more weight towards determining a
 cryptocurrency project's overall star rating then should spammy, low-quality
@@ -317,12 +318,30 @@ users of influence from abusing it.
 
 In a recent study conducted by [Bizrate Insights](https://bizrateinsights.com/),
 66% of US internet users reference online reviews before making a purchase, even
-if they are not purchasing that item online[^fn18]. As 1 billion consumers enter
-the cryptocurrency market over the next 9 years, the high-quality cryptocurrency
-review will likely be the backbone behind the majority of consumer investment
-and decision-making in crypto.
+if they are not purchasing that item online[^fn18]. With 1 billion consumers
+slated to enter the cryptocurrency market over the next 9 years, the
+high-quality cryptocurrency review is likely to be the backbone of mainstream
+consumer decision-making in cryptocurrency.
 
 # Cheddur 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 To properly incentivize the HQR, to help consumers discover the best projects,
 and to hold projects accountable.
