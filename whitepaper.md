@@ -179,7 +179,7 @@ continues to grow.
 ## Problems
 
 In order to get involved in the cryptocurrency market, most \uline{consumers}
-need the help of a "trusted expert"---someone who can help them safely enter
+need the help of a "trusted expert"---someone who can guide them to safely enter
 the market and navigate the ecosystem. However, most consumers do not have a
 trusted expert in their life, which puts cryptocurrency out of the reach of the
 mainstream.
@@ -219,8 +219,8 @@ cryptocurrency development teams (as of August 2018) seeking to:
 
 ## Traction
 
-Despite launching Cheddur into the bear market of 2018, our community of users
-and developers has been growing rapidly. As of August 2018:
+Despite the bear market of 2018, our community of users and developers has been
+growing steadily. As of August 2018:
 
 * Over 50,000 consumers have been guided.
 * Over 10,000 accounts have been registered.
@@ -240,53 +240,61 @@ our 4.6/5 rating
 and our 4.5/5 rating
 [on Cheddur](https://www.cheddur.com/apps/cheddur).
 
-## Challenges & Observations
+## Cryptocurrency Ratings & Reviews
 
-Like most startups, the success of the Cheddur platform has also come with its
-fair share of challenges. We recognize that in 2018, a significant portion of
-the cryptocurrency projects on the market may be of low quality, or may even be
-outright scams. However, deciding *which* projects are scams and which projects
-are not is often a highly subjective process---at least before any acts of crime
-have been committed.
+We recognize that in 2018, a significant portion of the cryptocurrency projects
+on the market may be of low quality, or may even be outright scams. While it is
+important to identify these projects as such, deciding *which* projects are
+scams and which projects are not is often a highly subjective process---at least
+before any acts of crime have been committed.
 
 Therefore, as a platform, we've chosen to neither be the judge nor jury over
-this decision, and to instead focus on the *facts*. When it comes to listing
+this decision, and to instead focus on *facts*. When it comes to listing
 coins and crypto apps on Cheddur, our goal is to be factually complete and to
 list new and interesting projects based on user demand and the facts that are
-available on the Internet. We believe that it is the responsibility of the
-cryptocurrency community---rather than a central authority---to collectively
-determine the quality of each project, and this is accomplished on Cheddur in
-the form of user ratings and reviews.
+available on the Internet.
 
-Having amassed over 2,500 cryptocurrency reviews on the platform, we've been
-able to spot a number of interesting challenges and observations:
+Thus, in order to help newcomers steer clear of bad projects, we believe that it
+is the responsibility of the cryptocurrency community---rather than a central
+authority---to collectively determine the quality of each project. This is
+accomplished on Cheddur in the form of user ratings and reviews.
+
+## Challenges & Observations
+
+Having amassed over 2,500 cryptocurrency reviews on the platform (as of August
+2018), we've identified a number of challenges with the current review system:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
 to be overly positive in their reviews of coins that they hold, or overly
-negative in their reviews of a "rival" projects[^fn12].
+negative in their reviews of "rival" projects[^fn12].
 2. The developers of a cryptocurrency project cannot remove a user's review of
-their project if it abides by the
+their project so long as it abides by the
 [Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
 result, developers may resort to astroturfing[^fn13] or vote brigading[^fn14] in
-order to "drown out" critical reviews and/or fake their popularity on Cheddur.
+order to drown out critical reviews and/or fake their popularity on the
+platform.
 3. **Determining the quality of each review is paramount.** High-quality reviews
 should carry more weight towards a cryptocurrency project's overall rating then
-should spammy, low-quality reviews.
-4. Quality is a subjective metric. If the quality of a review can be
+spammy, low-quality reviews.
+
+From these challenges, we've been able to make a number of interesting
+observations:
+
+1. Quality is a subjective metric. If the quality of a review can be
 determined through the up-votes (or lack thereof) it receives, the *quality* of
 the users who casted the up-votes is arguably more important than the *quantity*
 of users who casted votes.
-5. In order to properly calculate the quality of each user, a reputation system
+2. In order to properly calculate the quality of each user, a reputation system
 is needed. A user's reputation should dictate the amount of influence that user
 has within the network.
-6. Reputation cannot be an abundant resource that is freely available within the
+3. Reputation cannot be an abundant resource that is freely available within the
 network. An increase in a user's reputation must come at a cost to that
-user---either financial, or in the form of sweat equity.
-7. Reputation within the network should not easily be transferred or sold.
-8. Rewards are needed to encourage users to acquire reputation and influence in
+user---either financial, or in the form of sweat equity. Reputation within the
+network should not easily be transferred or sold.
+4. Rewards are needed to encourage users to acquire reputation and influence in
 the network through the creation and curating high-quality content. By the same
 token, penalties are needed to discourage users of influence from abusing it.
-9. The experts and innovators in the cryptocurrency space---those with the
+5. The experts and innovators in the cryptocurrency space---those with the
 wisdom and knowledge to produce the highest-quality, most unbiased reviews---are
 not being properly incentivized to spend the time and energy to do so.
 
