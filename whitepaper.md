@@ -14,6 +14,7 @@ header-includes:
     - \usepackage{wrapfig}
     - \fontsize{13pt}{13pt}
     - \usepackage[hang]{footmisc}
+    - \usepackage[normalem]{ulem}
 urlcolor: blue
 ---
 
@@ -151,8 +152,8 @@ that **more than 80% of ICOs that were conducted in 2017 were scams**[^fn8].
 ## Parallels to the Internet
 
 The cryptocurrency industry in 2018 is still the Wild West and, similar to the
-comparisons made above, this too is much like the Internet. In 1996,
-cybercriminals---skilled, organized, and motivated by financial
+comparisons made above, this too is much like the early days of the Internet.
+In 1996, cybercriminals---skilled, organized, and motivated by financial
 gain---were busy sending spam email, orchestrating phishing attacks, defacing
 websites, and stealing private information[^fn9]. New dot-com companies were
 being launched every single day, but their resources were focused on
@@ -177,15 +178,16 @@ continues to grow.
 
 ## Problems
 
-In order to get involved in the cryptocurrency market, most *consumers* need
-the help of a "trusted expert"---someone who can help them safely enter
+In order to get involved in the cryptocurrency market, most \uline{consumers}
+need the help of a "trusted expert"---someone who can help them safely enter
 the market and navigate the ecosystem. However, most consumers do not have a
 trusted expert in their life, which puts cryptocurrency out of the reach of the
 mainstream.
 
-Furthermore, the *developers* of cryptocurrency projects need to grow their
-communities of users and investors in order to survive, and this is becoming
-increasingly difficult (and expensive) as competition floods the market.
+Furthermore, the \uline{developers} of cryptocurrency projects need to grow
+their communities of users and investors in order to survive, and this is
+becoming increasingly difficult (and expensive) as competition floods the
+market.
 
 # Cheddur 1.0
 
@@ -194,8 +196,8 @@ was launched as a free download
 [on the App Store](https://itunes.apple.com/us/app/id1269377156)
 and
 [on Google Play](https://play.google.com/store/apps/details?id=com.cheddur)
-to address these problems. As of August 2018, Cheddur has served as the trusted
-expert for over 50,000 consumers aiming to:
+to address these problems. Since then, Cheddur has served as the trusted
+expert for over 50,000 consumers (as of August 2018) aiming to:
 
 * Learn the basics of cryptocurrency.
 * Find the best coins and ICOs to invest in.
@@ -206,57 +208,101 @@ store, secure, and trade those coins.
 users.
 * Connect with friends, developers, and other cryptocurrency users.
 
-At the same time, Cheddur has also served as an invaluable tool for over 200
+In parallel, Cheddur has also served as an invaluable tool for over 2,000
 cryptocurrency development teams (as of August 2018) seeking to:
 
 * Share their mission and vision with the cryptocurrency community.
 * Get discovered by---and connect with---new users and investors.
 * Solicit (and respond to) user feedback in the form of ratings and reviews.
-* Advertise their projects on the platform for an increase in exposure.
+* Advertise their projects on the platform to increase their exposure.
 * Grow their individual communities.
-
-## Traction & Progress
-
-Since then...
-
-Claimable profiles in March 2018
-
-Web in June 2018
 
 ## Traction
 
-25,465 - WEB total users
-8,731 - ios total
-12,242 - android total
+Despite launching Cheddur into the bear market of 2018, our community of users
+and developers has been growing rapidly. As of August 2018:
 
-25,465 + 8,731 + 12,242 = 46,438
+* Over 50,000 consumers have been guided.
+* Over 10,000 accounts have been registered.
+* Over 2,500 cryptocurrency reviews have been written.
+* Over 2,000 coin addresses have been posted.
+* Over 2,000 [coins](https://www.cheddur.com/coins) and
+[crypto apps](https://www.cheddur.com/apps) have been listed.
+* Over 200
+[partnerships have been established](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
+with cryptocurrency development teams across the globe.
 
-- Over 10k registered Users
-- Over 2500 cryptocurrency reviews written
-- Over 2000 coin addresses posted
-- Over 200 development teams claimed and managing their pages
-
-As of August 2018:
-
-* Over 10k registered users
-* Over 2k cryptocurrency reviews written
-* Over 2k coin addresses posted
-* 4.9 on App Store (65 ratings)
-* 4.6 on Google Play (124 ratings)
-* 179 coin and app pages claimed by their development teams
+We've received an overwhelming amount of positive feedback over the past few
+months, as evidenced by our 4.9/5 rating
+[on the App Store](https://itunes.apple.com/us/app/id1269377156),
+our 4.6/5 rating
+[on Google Play](https://play.google.com/store/apps/details?id=com.cheddur),
+and our 4.5/5 rating
+[on Cheddur](https://www.cheddur.com/apps/cheddur).
 
 ## Challenges
 
-* Peer reviews:
-    * Users shilling low quality projects via 5-star reviews for personal financial gain
-        * Developers paying users in their own coin for positive reviews
-        * Causes low-quality projects to rise up the popularity rankings
-    * Most reviews are average to low quality
+Like most startups, the success of the Cheddur platform has also come with its
+fair share of challenges. We recognize that in 2018, a significant portion of
+the cryptocurrency projects on the market may be of low quality, or may even be
+outright scams. However, deciding *which* projects are scams and which projects
+are not is often a highly subjective process---at least before any acts of crime
+have been committed.
+
+Therefore, as a platform, we've chosen to neither be the judge nor jury over
+this decision, and to instead focus on the *facts*. When it comes to listing
+coins and crypto apps on Cheddur, our goal is to be factually complete and to
+list new and interesting projects based on user demand and the facts that are
+available on the Internet. We believe that it is the responsibility of the
+cryptocurrency community---rather than a central authority---to collectively
+determine the quality of each project, and this is accomplished on Cheddur in
+the form of user ratings and reviews.
+
+Having amassed over 2,500 cryptocurrency reviews on the platform, we've been
+able to spot a number of interesting observations and challenges:
+
+1. Tribalism is prevalent among cryptocurrency communities, and can cause users
+to be overly positive in their reviews of coins that they hold, or overly
+negative in their reviews of a "rival" projects[^fn12].
+2. The developers of a cryptocurrency project cannot remove a user's review of
+their project if it abides by the
+[Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
+result, developers may resort to astroturfing[^fn13] or vote brigading[^fn14] in
+order to "drown out" critical reviews and/or fake their popularity on Cheddur.
+3. **Determining the quality of each review is paramount.** High-quality reviews
+should carry more weight towards a cryptocurrency project's overall rating then
+should spammy, low-quality reviews.
+4. Quality is a subjective metric. If the quality of a review can be
+determined through the up-votes (or lack thereof) it receives, the *quality* of
+the users who casted the up-votes is arguably more important than the *quantity*
+of users who casted votes.
+5. In order to properly calculate the quality of each user and the amount of
+influence they should have within the network, a reputation system is needed.
+6. Reputation cannot be an abundant resource that is freely available within the
+network. An increase in a user's reputation must come at a cost to that
+user---either financial, or in the form of sweat equity.
+7. Reputation within the network should not easily be transferred or sold.
+8. Rewards are needed to encourage users to acquire reputation and influence in
+the network through the creation and curating high-quality content. By the same
+token, penalties are needed to discourage users with influence from abusing it.
+9. The experts and innovators in the cryptocurrency space---those with the
+wisdom and knowledge to produce the highest-quality, most unbiased reviews---are
+not being properly incentivized to spend the time and energy to do so.
+
+
+Solving this is challenging, because subjective content - who is the arbiter?
+
+
 * Profile submissions:
     * Cheddur team is doing most of the legwork; failing to scale as floodgates
     open and number of projects being launched continues to grow exponentially
 
+
+GOAL = HIGH-QUALITY REVIEW. WHY? See below. Why is this worth solving?
+
 ## The Power of Reviews
+
+Why honest, unbiased reviews are so important.
 
 * 2/3rds of US internet users reference online reviews before making a purchase
 (even if they don't purchase that item online).
@@ -332,6 +378,8 @@ platform. Users are incentivized to:
     * Given out in 1-week increments
     * Can be canceled at any time
 
+### Determining Overall Rating
+
 ### Advertising
 
 * As competition over the rewards pool grows, traffic will grow with it
@@ -360,6 +408,7 @@ platform. Users are incentivized to:
     * Who pays?
     * Platform
     * How much raised in ICO
+    * Filtration (auto vs crowd)
 
 ## Migration
 
@@ -368,8 +417,17 @@ platform. Users are incentivized to:
     * Existing reviews
     * User addresses
     * Possible removal from App Store
+* Changes
+  * Take down addresses?
+  * Team members cannot upvote reviews of their projects (biased)
 
 # Roadmap
+
+Since the initial release of Cheddur in 2017, we've made continual progress:
+
+* Q12018 - Managed Profiles (March)
+* Q22018 - Took on first investor; began Startup Acclerator (Desai)
+* Q32018 - Release of Website, tokenization progress, in discussion with investors (June...)
 
 * Version 2.0:
     * ICO / Airdrop dates
@@ -384,6 +442,15 @@ platform. Users are incentivized to:
 
 # FAQ
 
+0. Scam projects?
+  * Not our decision. Our goal is to be factually complete. We focus on listing
+  new and interesting cryptocurrency projects based on user demand and the
+  *facts* that we find on the Internet. It is up to the Cheddur community to
+  decide.
+0. Sybil attack?
+    * Even if restrictions are enacted at the account level to prevent a user
+    from reviewing the same project more than once, these restrictions can generally
+    be overcome through Sybil attacks.
 1. How to prevent malicious voting?
     * Your votes have minimum weight by default
     * Voting power is based on the balance of vested coins in your account
@@ -408,7 +475,7 @@ Conclusion here.
 # TODO
 
 * Flush out scope of work:
-    * Just tokenizing reviews, or listings too?
+    * Should profile submissions and edits be tokenized, too?
     * Can listings be tokenized later, or does this have to be set on day 1?
 * Platform to build on?
     * Steem (SMT)
@@ -462,3 +529,12 @@ https://www.inc.com/articles/2001/09/23447.html
 [^fn11]: Wikipedia, "Dot-com bubble."
 \hfill\break
 https://en.wikipedia.org/wiki/Dot-com_bubble
+[^fn12]: Medium, Anthony Sassano, "Tribalism in Cryptocurrency," September 2017.
+\hfill\break
+https://medium.com/@AnthonySassano/tribalism-in-cryptocurrency-2e39dd6bb0b5
+[^fn13]: Wikipedia, "Astroturfing."
+\hfill\break
+https://en.wikipedia.org/wiki/Astroturfing
+[^fn14]: Wikipedia, "Vote brigading."
+\hfill\break
+https://en.wikipedia.org/wiki/Vote_brigading
