@@ -259,52 +259,28 @@ is the responsibility of the cryptocurrency community---rather than a central
 authority---to collectively determine the quality of each project. This is
 accomplished on Cheddur in the form of user ratings and reviews.
 
-## Challenges & Observations
+## Challenges
 
 Having amassed over 2,500 cryptocurrency reviews on the platform (as of August
 2018), we've identified a number of challenges with the current review system:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
-to be overly positive in their reviews of coins that they hold, or overly
-negative in their reviews of "rival" projects[^fn12].
-2. The developers of a cryptocurrency project cannot remove a user's review of
-their project so long as it abides by the
+to be overly positive in their reviews of coins that they hold (5 stars), or
+overly negative in their reviews of "rival" projects (one star)[^fn12].
+2. The developers of a cryptocurrency project are not permitted to remove user
+reviews of their project, so long as those reviews abide by the
 [Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
 result, developers may resort to astroturfing[^fn13] or vote brigading[^fn14] in
 order to drown out critical reviews and/or fake their popularity on the
 platform.
-3. **Determining the quality of each review is paramount.** High-quality reviews
-should carry more weight towards a cryptocurrency project's overall rating then
-spammy, low-quality reviews.
-
-From these challenges, we've been able to make a number of interesting
-observations:
-
-1. Quality is a subjective metric. If the quality of a review can be
-determined through the up-votes (or lack thereof) it receives, the *quality* of
-the users who casted the up-votes is arguably more important than the *quantity*
-of users who casted votes.
-2. In order to properly calculate the quality of each user, a reputation system
-is needed. A user's reputation should dictate the amount of influence that user
-has within the network.
-3. Reputation cannot be an abundant resource that is freely available within the
-network. An increase in a user's reputation must come at a cost to that
-user---either financial, or in the form of sweat equity. Reputation within the
-network should not easily be transferred or sold.
-4. Rewards are needed to encourage users to acquire reputation and influence in
-the network through the creation and curating high-quality content. By the same
-token, penalties are needed to discourage users of influence from abusing it.
-5. The experts and innovators in the cryptocurrency space---those with the
+3. **Determining the quality of each review is paramount**, as high-quality
+reviews should carry more weight towards a cryptocurrency project's overall
+rating then spammy, low-quality reviews.
+4. The experts and innovators in the cryptocurrency space---those with the
 wisdom and knowledge to produce the highest-quality, most unbiased reviews---are
 not being properly incentivized to spend the time and energy to do so.
 
-Why are these challenges worth overcoming?
-
-## The Power of Reviews
-
-Solving this is challenging, because subjective content - who is the arbiter?
-
-GOAL = HIGH-QUALITY REVIEW. WHY? See below. Why is this worth solving?
+## The Importance of Reviews
 
 Why honest, unbiased reviews are so important.
 
@@ -316,6 +292,10 @@ Why honest, unbiased reviews are so important.
     the opinion of someone else.
 
 # Cheddur 2.0
+
+To properly incentivize the HQR, to help consumers discover the best projects,
+and to hold projects accountable.
+
 
 * System where users are rewarded for virtuous behavior on the
 platform. Users are incentivized to:
@@ -333,6 +313,23 @@ platform. Users are incentivized to:
     * How do you maintain the integrity of the system?
     * How do you properly incentivize the innovators and experts in the space---those with the knowledge---to write reviews?
         * Especially when they are currently incentivized to NOT share (this is a financial edge in the market)
+
+## Incentivizing High Quality Reviews
+
+1. Quality is a subjective metric. If the quality of a review can be
+determined through the up-votes (or lack thereof) it receives, the *quality* of
+the users who casted the up-votes is arguably more important than the *quantity*
+of users who casted votes.
+2. In order to properly calculate the quality of each user, a reputation system
+is needed. A user's reputation should dictate the amount of influence that user
+has within the network.
+3. Reputation cannot be an abundant resource that is freely available within the
+network. An increase in a user's reputation must come at a cost to that
+user---either financial, or in the form of sweat equity. Reputation within the
+network should not easily be transferred or sold.
+4. Rewards are needed to encourage users to acquire reputation and influence in
+the network through the creation and curating high-quality content. By the same
+token, penalties are needed to discourage users of influence from abusing it.
 
 ## Cheddur Currency
 
