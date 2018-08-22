@@ -320,60 +320,45 @@ In a recent study conducted by [Bizrate Insights](https://bizrateinsights.com/),
 66% of US internet users reference online reviews before making a purchase, even
 if they are not purchasing that item online[^fn18]. With 1 billion consumers
 slated to enter the cryptocurrency market over the next 9 years, the
-high-quality cryptocurrency review is likely to be the backbone of mainstream
-consumer decision-making in cryptocurrency.
+high-quality cryptocurrency review will be the backbone of mainstream consumer
+decision-making around cryptocurrencies.
 
 # Cheddur 2.0
 
+Version 2.0 of the Cheddur platform will make use of its very own
+[Smart Media Token](https://smt.steem.io/) in order to:
 
+* Incentivize users to create and curate high-quality cryptocurrency reviews
+through monetary rewards and influence within the network.
+* Allow newcomers to *earn* their way into the cryptocurrency market without
+ever having to pull out their wallet and make a purchase.
+* Align the financial interests of review writers, review readers,
+cryptocurrency development teams, and Cheddur.
+* More accurately calculate the overall star rating (and popularity) of each
+cryptocurrency project for a higher level of accountability.
+* Minimize the effects of tribalism, astroturfing, review brigading, and other
+forms of malicious activity.
+* Empower the Cheddur community to be self-policing and self-sustaining.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-To properly incentivize the HQR, to help consumers discover the best projects,
-and to hold projects accountable.
-
-
-* System where users are rewarded for virtuous behavior on the
-platform. Users are incentivized to:
-    * Reviews:
-        * Write and curate (upvote) high-quality reviews
-        * Downvote low-quality reviews or malicious activity (bribed reviews?)
-    * Listings (?):
-        * List new coins and apps
-        * Submit edits to existing coin and app listings
-        * Claim profiles
-        * Maintain profiles over time
-* Empowers the community to self-police and self-sustain.
-* Truly the "Yelp for crypto"
-* How?
-    * How do you maintain the integrity of the system?
-    * How do you properly incentivize the innovators and experts in the space---those with the knowledge---to write reviews?
-        * Especially when they are currently incentivized to NOT share (this is a financial edge in the market)
+Version 2.0 of the platform is slated to launch on May 1, 2019.
 
 ## Cheddur Currency
+
+SMT
+utility token
+
+### SMT Parameters
+
+
+
+
+
+
 
 * Launching our own cryptocurrency, called Cheddur:
     * $CHDR (Ʉ)
     * Earn CHDR on Cheddur
 
-* Why / benefits:
-    * Incentivize production of high-quality information to inform your decision making
-    * Earn your way into the cryptocurrency market without ever having to pull out your wallet
-    * Positive feedback loop between reviewers and readers
 
 ### Initial Supply
 
@@ -508,6 +493,7 @@ Conclusion here.
 
 # TODO
 
+* market size: talk about VC investment, number of projects in 2020...
 * Flush out scope of work:
     * Should profile submissions and edits be tokenized, too?
     * Can listings be tokenized later, or does this have to be set on day 1?
