@@ -438,7 +438,7 @@ For these reasons, we're taking a different approach to rewarding users within
 the Cheddur ecosystem. Rather than individual users having to pay rewards and
 fees directly, \text{\sout{U}} tokens will be awarded via the programmatic
 inflation of the CHDR supply. Inflation aligns the interests of each stakeholder
-as the *Cheddur community* as a whole---reviewers, readers, developers, and the
+as the *Cheddur community as a whole*---reviewers, readers, developers, and the
 Cheddur team---collectively pay for the creation and curation of high-quality
 content.
 
@@ -448,22 +448,21 @@ mainstream social networks of today. This encourages the production of fresh
 cryptocurrency reviews, which is healthy for the growth of the platform.
 
 Review readers are able to cast votes on these reviews---also at no direct
-cost---which encourages the curation of this content. Reviews that are deemed by
-the community to be of high-quality (via up-votes) are rewarded in newly minted
-\text{\sout{U}} token. In addition to the author receiving a reward for their
-work, the curators who did the work of discovering and up-voting that content
-are also rewarded for their efforts.
+cost---which encourages the curation of content. Reviews that are deemed by
+the community to be of the highest quality (via up-votes) are rewarded in newly
+minted \text{\sout{U}} tokens. In addition to the author receiving a reward for
+their work, the curators who did the work of discovering and up-voting the
+author's content are also rewarded for their efforts.
 
 This creates a positive feedback loop between review writers and review readers
 as they are financially incentivized to *work together* to deliver the
 highest-quality content to the platform. Furthermore, each stakeholder in the
 system is incentivized to maximize the growth of the network in order to offset
-the downward effects of inflation on the price of their \text{\sout{U}}. As long
-as the rate of growth of the platform (e.g. users, profiles, and high-quality
-reviews) exceeds the rate of inflation, every stakeholder should benefit
-financially.
+the downward effects of inflation on the price of their own \text{\sout{U}}. So
+long as the rate of growth of the platform (e.g. high-quality reviews, profiles,
+and users) exceeds the rate of inflation, each stakeholder will benefit.
 
-#### Inflation
+### Inflation
 
 * Token inflation event / SMT emissions every 3 seconds (match heartbeat of Steem blockchain)
   * 70% rewards pool
