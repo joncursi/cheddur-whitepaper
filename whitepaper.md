@@ -365,14 +365,10 @@ market with little or no downside risk.
 In order to achieve this, the CHDR currency will utilize the industry-leading
 Proof of Brain[^fn19] properties that were pioneered by the
 [Steem](https://steem.io/) blockchain and made available through the
-[Smart Media Tokens](https://smt.steem.io/) (SMT) protocol.
-
-Each piece of user-generated content will be stored on the Steem blockchain and
-voted on by the Cheddur community in order to determine its social value, and
-therefore its payout in \text{\sout{U}}. Thanks to Steem's use of the Delegated
-Proof of Stake (DPos)[^fn20] consensus mechanism, zero-fee transactions, and low
-latency provided by 3-second block times, Cheddur users will be able to enjoy
-the benefits of the blockchain without having to realize they are using one.
+[Smart Media Tokens](https://smt.steem.io/) (SMT) protocol. Each piece of
+user-generated content will be stored on the Steem blockchain and voted on by
+the Cheddur community in order to determine its social value, and therefore its
+payout in \text{\sout{U}}.
 
 \begin{tabular}{| l | l |}
 
@@ -396,7 +392,59 @@ the benefits of the blockchain without having to realize they are using one.
 
 \end{tabular}
 
+### Why Steem?
+
+By using the Steem blockchain, Cheddur users will be able to enjoy the benefits
+of the blockchain without having to realize they are using one, thanks to
+Steem's:
+
+* Delegated Proof of Stake (DPoS) consensus mechanism[^fn20].
+* Zero transaction fees.
+* Low latency provided by 3-second block times.
+* High transactional throughput.
+* [Stolen account recovery system](https://steemit.com/recover_account_step_1).
+
+These features are paramount in order to serve the crypto novice customer
+segment, and have made platforms like [Ethereum](https://ethereum.org/) a
+non-starter for our use case.
+
+For any rewards-based ÐApp, the most critical question to answer is: "Who pays
+for it?" In the case of Cheddur, the question is more specifically: *"Who pays
+reviewers to produce high-quality reviews?"*
+
+In most ÐApps today (i.e. applications that are built on top of Ethereum), the
+person who initiates the transaction generally has to foot the bill. If these
+mechanics were to be used on Cheddur, then a review writer would need to pay a
+platform fee in order to post their cryptocurrency review and a review reader
+would need to pay the writer their reward (directly) in the form of an up-vote.
+
+In this scenario, the incentives are misaligned between each of the parties
+involved. In order to boostrap the growth of the network, the Cheddur platform
+will need cryptocurrency reviews more than review writers will need to post
+them. If a transaction fee (or pay wall) is introduced in order for content to
+be posted on the network, less content will be posted on the network.
+Furthermore, if review readers are responsible for rewarding review writers
+directly from their own wallets (another pay wall), users will need to maintain
+a minimum balance on their account in order to interact with the platform. More
+importantly, the incentive to curate content altogether will be diminished.
+In the absence of curation, writers will not be appropriately rewarded and
+high-quality content will become harder to find (and eventually cease to exist).
+
+### Rewards
+
+For these reasons, we're taking a radically different approach with Cheddur.
+Rather than users having to pay rewards and fees directly, CHDR rewards will
+be paid out through a programmatic inflation of the money supply.
+
+
+
+In other words, the *community* foots the bill as a whole.
+
+
+
 ### Monetary Policy
+
+
 
 Who pays for the rewards?
 
