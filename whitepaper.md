@@ -1,22 +1,38 @@
+<!-- Preamble ----------------------------------------------------------------->
+
 ---
 header-includes:
-    - \usepackage[top=3cm,bottom=3.5cm,left=3.5cm,right=3cm,headheight=20pt,headsep=30pt,footnotesep=1.5\baselineskip]{geometry}
+    # Colors
     - \usepackage{xcolor}
     - \definecolor{Blue}{HTML}{1E88E5}
     - \definecolor{Grey}{HTML}{616161}
     - \definecolor{Maroon}{HTML}{0020F5}
     - \definecolor{Purple}{HTML}{5555FF}
     - \definecolor{Teal}{HTML}{00BFA5}
+    # Dates
     - \usepackage{datetime}
     - \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+    # General
     - \renewcommand{\contentsname}{Table of Contents}
-    - \usepackage{graphicx}
+    # Geometry
+    - \usepackage{geometry}
+    - \geometry{bottom=3.5cm, footnotesep=1.5\baselineskip, headheight=20pt, headsep=30pt, left=3.5cm, right=3cm, top=3cm}
+    # Figures
+    - \usepackage{./sty/pgf-pie}
+    - \usepackage{pgfplots}
+    - \pgfplotsset{width=10cm,compat=1.9}
     - \usepackage{wrapfig}
+    # Font
     - \fontsize{13pt}{13pt}
-    - \usepackage[hang]{footmisc}
     - \usepackage[normalem]{ulem}
-    - \usepackage{nicefrac}
     - \usepackage[utf8]{inputenc}
+    # Footnotes
+    - \usepackage[hang]{footmisc}
+    # Fractions
+    - \usepackage{nicefrac}
+pdfauthor: Jon Cursi
+pdftitle: Cheddur White Paper
+unicode: true
 urlcolor: blue
 ---
 
@@ -327,14 +343,15 @@ decision-making around cryptocurrencies.
 # Cheddur 2.0
 
 To align the interests of review writers, review readers, cryptocurrency
-development teams, and Cheddur, CHDR tokens will be introduced in
-version 2.0 of the platform. The purpose of this token system is to:
+development teams, and the Cheddur team, Cheddur tokens (CHDR) will be
+introduced in version 2.0 of the platform. The purpose of this token system
+is to:
 
 * Establish a reputation system to delegate user influence in the network.
 * Determine the subjective quality of each user-generated review using the
 wisdom of the crowd.
 * Incentivize users to create and curate the highest-quality cryptocurrency
-reviews via financial rewards and network influence.
+reviews via rewards and network influence.
 * More accurately calculate the overall star rating (and popularity) of each
 cryptocurrency project by favoring reviews that are deemed to be high quality.
 * Minimize the effects of tribalism, astroturfing, review brigading, and other
@@ -343,14 +360,19 @@ forms of malicious activity.
 * Enable newcomers to the cryptocurrency ecosystem to *earn* their way into the
 market with little or no downside risk.
 
-## CHDR Tokens
+## CHDR Tokens (\text{\sout{U}})
 
-In order to achieve this, the CHDR currency will utilize industry-leading
-Proof of Brain[^fn19] properties pioneered by the [Steem](https://steem.io/)
-blockchain and made available through the
+In order to achieve this, the CHDR currency will utilize the industry-leading
+Proof of Brain[^fn19] properties that were pioneered by the
+[Steem](https://steem.io/) blockchain and made available through the
 [Smart Media Tokens](https://smt.steem.io/) (SMT) protocol.
 
-### SMT Parameters
+Each piece of user-generated content will be stored on the Steem blockchain and
+voted on by the Cheddur community in order to determine its social value, and
+therefore its payout in \text{\sout{U}}. Thanks to Steem's use of the Delegated
+Proof of Stake (DPos)[^fn20] consensus mechanism, zero-fee transactions, and low
+latency provided by 3-second block times, Cheddur users will be able to enjoy
+the benefits of the blockchain without having to realize they are using one.
 
 \begin{tabular}{| l | l |}
 
@@ -360,9 +382,15 @@ blockchain and made available through the
 
   Asset Name & Cheddur \\ \hline
 
-  Ticker Symbol & CHDR \\ \hline
+  Ticker & CHDR \\ \hline
 
-  Decimal Places & 4 \\ \hline
+  Symbol & \text{\sout{U}} \\ \hline
+
+  Blockchain & Steem \\ \hline
+
+  Protocol & SMT \\ \hline
+
+  Decimal Places & 6 \\ \hline
 
   \hline
 
@@ -370,24 +398,183 @@ blockchain and made available through the
 
 ### Monetary Policy
 
+Who pays for the rewards?
+
+Nobody has to pay for the rewards directly.
+
 * Starting supply: 100MM coins
 * Inflation rate:
   * 9.5% in Y1
-  * Decreases by 0.5% per year until we reach a minimum annual inflation of 1%
+  * Decreases by 0.5% per year until we reach a minimum annual inflation of 1% (year 17)
     * Continued into perpetuity
+
+\begin{center}
+
+  \begin{tikzpicture}
+
+    \begin{axis}[
+      grid style=dashed,
+      title={CHDR Annual Inflation Rate over Time},
+      xlabel={Time (Years)},
+      xmax=25,
+      xmin=0,
+      ylabel={Annual Inflation Rate (\%)},
+      ymajorgrids=true,
+      ymin=0,
+    ]
+
+      \addplot[
+        color=blue,
+      ]
+      coordinates {
+        (0, 9.5)
+        (1, 9.5)
+        (1, 9.0)
+        (2, 9.0)
+        (2, 8.5)
+        (3, 8.5)
+        (3, 8.0)
+        (4, 8.0)
+        (4, 7.5)
+        (5, 7.5)
+        (5, 7.0)
+        (6, 7.0)
+        (6, 6.5)
+        (7, 6.5)
+        (7, 6.0)
+        (8, 6.0)
+        (8, 5.5)
+        (9, 5.5)
+        (9, 5.0)
+        (10, 5.0)
+        (10, 4.5)
+        (11, 4.5)
+        (11, 4.0)
+        (12, 4.0)
+        (12, 3.5)
+        (13, 3.5)
+        (13, 3.0)
+        (14, 3.0)
+        (14, 2.5)
+        (15, 2.5)
+        (15, 2.0)
+        (16, 2.0)
+        (16, 1.5)
+        (17, 1.5)
+        (17, 1.0)
+        (18, 1.0)
+        (19, 1.0)
+        (20, 1.0)
+        (21, 1.0)
+        (22, 1.0)
+        (23, 1.0)
+        (24, 1.0)
+        (25, 1.0)
+      };
+
+    \end{axis}
+
+  \end{tikzpicture}
+
+\end{center}
+
+
+
+
+\begin{center}
+
+  \begin{tikzpicture}
+
+    \begin{axis}[
+      grid style=dashed,
+      title={CHDR Supply over Time},
+      xlabel={Time (Years)},
+      xmax=25,
+      xmin=0,
+      ylabel={Total Supply (MM \text{\sout{U}})},
+      ymajorgrids=true,
+      ymin=100,
+    ]
+
+      \addplot[
+        color=blue,
+        mark=square*,
+      ]
+      coordinates {
+        (0, 100.000000)
+        (1, 109.500000)
+        (2, 119.355000)
+        (3, 129.500175)
+        (4, 139.860189)
+        (5, 150.349703)
+        (6, 160.874182)
+        (7, 171.331004)
+        (8, 181.610865)
+        (9, 191.599462)
+        (10, 201.179435)
+        (11, 210.232510)
+        (12, 218.641810)
+        (13, 226.294273)
+        (14, 233.083102)
+        (15, 238.910179)
+        (16, 243.688383)
+        (17, 247.343709)
+        (18, 249.817146)
+        (19, 252.315317)
+        (20, 254.838470)
+        (21, 257.386855)
+        (22, 259.960724)
+        (23, 262.560331)
+        (24, 265.185934)
+        (25, 267.837793)
+      };
+
+    \end{axis}
+
+  \end{tikzpicture}
+
+\end{center}
 
 #### Inflation
 
-* Token inflation event / SMT emissions every 7 days
+* Token inflation event / SMT emissions every 3 seconds (match heartbeat of Steem blockchain)
   * 70% rewards pool
   * 15% holders of vested CHDR
   * 15% company (platform fee / beneficiary)
 
+\begin{center}
+
+  \begin{tikzpicture}
+
+   \pie[rotate = 180]{
+     70/Rewards Pool,
+     15/HODLers of Cheddur Power,
+     15/Cheddur Team
+   }
+
+  \end{tikzpicture}
+
+\end{center}
+
 ### Rewards Pool
 
+* Distribution happens 14 days after post (twice that of Steem)
 * Rewards Curve = linear (how rewards are divided among different reviews)
 * 80% author, 20% curators
   * Curation Curve = bounded (how rewards are divided among curators of the review)
+
+\begin{center}
+
+  \begin{tikzpicture}
+
+   \pie[rotate = 180]{
+     80/Author,
+     20/Curators
+   }
+
+  \end{tikzpicture}
+
+\end{center}
 
 ### Vesting / Staking
 
@@ -407,20 +594,38 @@ blockchain and made available through the
 
 * Algorithm for computing a project's overall star rating.
 
-### Advertising
+### Token Utility
 
-* As competition over the rewards pool grows, traffic will grow with it
-* Developers of these coins and apps will be able to advertise on the platform
-    * Only allowed to pay with Cheddur, or 50% discount?
-    * All coins earned through advertising will be destroyed (?)
-        * Increasing the portfolio value of everyone who participates in the system long-term, i.e. through HODLing / vesting.
-        * Helps fight excess inflation, good for price
+* Advertising
+  * As competition over the rewards pool grows, traffic will grow with it
+  * Developers of these coins and apps will be able to advertise on the platform
+      * Only allowed to pay with Cheddur, or 50% discount?
+      * All coins earned through advertising will be destroyed (?)
+          * Increasing the portfolio value of everyone who participates in the system long-term, i.e. through HODLing / vesting.
+          * Helps fight excess inflation, good for price
 
 ### ICO Parameters
 
 * Distribution of 100MM coins
   * Public distribution: 75M coins (75%)
   * Company reserve: 25M (25%)
+
+\begin{center}
+
+  \begin{tikzpicture}
+
+   \pie[rotate = 180]{
+     50/Token Sale,
+     30/Cheddur,
+     20/Private Sales
+   }
+
+  \end{tikzpicture}
+
+\end{center}
+
+
+
 
 \begin{tabular}{| l | l |}
 
@@ -449,6 +654,22 @@ blockchain and made available through the
 * How we intend to use:
     * Our 25M initial keep
     * Platform fee earnings over time
+
+\begin{center}
+
+  \begin{tikzpicture}
+
+   \pie[rotate = 180]{
+     50/Development,
+     25/Sales and Marketing,
+     10/Operations,
+     10/Legal,
+     5/Reserves
+   }
+
+  \end{tikzpicture}
+
+\end{center}
 
 ## Competition
 
@@ -609,3 +830,6 @@ https://retail.emarketer.com/article/surprise-most-consumers-look-reviews-before
 [^fn19]: Steemit, Inc., "Steem Bluepaper," 2017.
 \hfill\break
 https://steem.io/steem-bluepaper.pdf
+[^fn20]: Bitshares, "Delegated Proof of Stake."
+\hfill\break
+http://docs.bitshares.org/bitshares/dpos.html
