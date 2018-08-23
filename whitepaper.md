@@ -409,7 +409,7 @@ segment, and have made platforms like [Ethereum](https://ethereum.org/) a
 non-starter for our use case.
 
 For any rewards-based ÐApp, the most critical question to answer is: "Who pays
-for it?" In the case of Cheddur, the question is more specifically: *"Who pays
+the bill?" In the case of Cheddur, the question is more specifically: *"Who pays
 reviewers to produce high-quality reviews?"*
 
 In most ÐApps today (i.e. applications that are built on top of Ethereum), the
@@ -418,37 +418,108 @@ mechanics were to be used on Cheddur, then a review writer would need to pay a
 platform fee in order to post their cryptocurrency review and a review reader
 would need to pay the writer their reward (directly) in the form of an up-vote.
 
-In this scenario, the incentives are misaligned between each of the parties
+In this scenario, interests are misaligned between each of the parties
 involved. In order to boostrap the growth of the network, the Cheddur platform
 will need cryptocurrency reviews more than review writers will need to post
 them. If a transaction fee (or pay wall) is introduced in order for content to
-be posted on the network, less content will be posted on the network.
+be posted on the network, little or no content will be posted on the network.
 Furthermore, if review readers are responsible for rewarding review writers
 directly from their own wallets (another pay wall), users will need to maintain
-a minimum balance on their account in order to interact with the platform. More
-importantly, the incentive to curate content altogether will be diminished.
-In the absence of curation, writers will not be appropriately rewarded and
-high-quality content will become harder to find (and eventually cease to exist).
+a minimum balance on their account in order to interact with the platform.
+
+More importantly, the incentive to curate content will be diminished altogether
+because doing so comes at a cost to the user, rather than a benefit. In the
+absence of curation, writers will not be appropriately rewarded and high-quality
+content will become harder to find (and eventually cease to exist).
 
 ### Rewards
 
-For these reasons, we're taking a radically different approach with Cheddur.
-Rather than users having to pay rewards and fees directly, CHDR rewards will
-be paid out through a programmatic inflation of the money supply.
+For these reasons, we're taking a different approach to rewarding users within
+the Cheddur ecosystem. Rather than individual users having to pay rewards and
+fees directly, \text{\sout{U}} tokens will be awarded via the programmatic
+inflation of the CHDR supply. Inflation aligns the interests of each stakeholder
+as the *Cheddur community* as a whole---reviewers, readers, developers, and the
+Cheddur team---collectively pay for the creation and curation of high-quality
+content.
+
+In this scenario, review writers are able to post cryptocurrency reviews on the
+platform as frequently as they'd like and at *zero cost*---much like the
+mainstream social networks of today. This encourages the production of fresh
+cryptocurrency reviews, which is healthy for the growth of the platform.
+
+Review readers are able to cast votes on these reviews---also at no direct
+cost---which encourages the curation of this content. Reviews that are deemed by
+the community to be of high-quality (via up-votes) are rewarded in newly minted
+\text{\sout{U}} token. In addition to the author receiving a reward for their
+work, the curators who did the work of discovering and up-voting that content
+are also rewarded for their efforts.
+
+This creates a positive feedback loop between review writers and review readers
+as they are financially incentivized to *work together* to deliver the
+highest-quality content to the platform. Furthermore, each stakeholder in the
+system is incentivized to maximize the growth of the network in order to offset
+the downward effects of inflation on the price of their \text{\sout{U}}. As long
+as the rate of growth of the platform (e.g. users, profiles, and high-quality
+reviews) exceeds the rate of inflation, every stakeholder should benefit
+financially.
+
+#### Inflation
+
+* Token inflation event / SMT emissions every 3 seconds (match heartbeat of Steem blockchain)
+  * 70% rewards pool
+  * 15% holders of vested CHDR
+  * 15% company (platform fee / beneficiary)
+
+\begin{center}
+
+  \begin{tikzpicture}
+
+   \pie[rotate = 180]{
+     70/Rewards Pool,
+     15/HODLers of Cheddur Power,
+     15/Cheddur Team
+   }
+
+  \end{tikzpicture}
+
+\end{center}
+
+#### Rewards Pool
+
+* Distribution happens 14 days after post (twice that of Steem)
+* Rewards Curve = linear (how rewards are divided among different reviews)
+* 80% author, 20% curators
+  * Curation Curve = bounded (how rewards are divided among curators of the review)
+
+\begin{center}
+
+  \begin{tikzpicture}
+
+   \pie[rotate = 180]{
+     80/Author,
+     20/Curators
+   }
+
+  \end{tikzpicture}
+
+\end{center}
 
 
 
-In other words, the *community* foots the bill as a whole.
+
+
+
+
+
+
+
+
+
+
 
 
 
 ### Monetary Policy
-
-
-
-Who pays for the rewards?
-
-Nobody has to pay for the rewards directly.
 
 * Starting supply: 100MM coins
 * Inflation rate:
@@ -578,47 +649,6 @@ Nobody has to pay for the rewards directly.
       };
 
     \end{axis}
-
-  \end{tikzpicture}
-
-\end{center}
-
-#### Inflation
-
-* Token inflation event / SMT emissions every 3 seconds (match heartbeat of Steem blockchain)
-  * 70% rewards pool
-  * 15% holders of vested CHDR
-  * 15% company (platform fee / beneficiary)
-
-\begin{center}
-
-  \begin{tikzpicture}
-
-   \pie[rotate = 180]{
-     70/Rewards Pool,
-     15/HODLers of Cheddur Power,
-     15/Cheddur Team
-   }
-
-  \end{tikzpicture}
-
-\end{center}
-
-### Rewards Pool
-
-* Distribution happens 14 days after post (twice that of Steem)
-* Rewards Curve = linear (how rewards are divided among different reviews)
-* 80% author, 20% curators
-  * Curation Curve = bounded (how rewards are divided among curators of the review)
-
-\begin{center}
-
-  \begin{tikzpicture}
-
-   \pie[rotate = 180]{
-     80/Author,
-     20/Curators
-   }
 
   \end{tikzpicture}
 
