@@ -16,6 +16,7 @@ header-includes:
     - \usepackage[hang]{footmisc}
     - \usepackage[normalem]{ulem}
     - \usepackage{nicefrac}
+    - \usepackage[utf8]{inputenc}
 urlcolor: blue
 ---
 
@@ -325,64 +326,68 @@ decision-making around cryptocurrencies.
 
 # Cheddur 2.0
 
-Version 2.0 of the Cheddur platform will make use of its very own
-[Smart Media Token](https://smt.steem.io/) in order to:
+To align the interests of review writers, review readers, cryptocurrency
+development teams, and Cheddur, CHDR tokens will be introduced in
+version 2.0 of the platform. The purpose of this token system is to:
 
-* Incentivize users to create and curate high-quality cryptocurrency reviews
-through monetary rewards and influence within the network.
-* Allow newcomers to *earn* their way into the cryptocurrency market without
-ever having to pull out their wallet and make a purchase.
-* Align the financial interests of review writers, review readers,
-cryptocurrency development teams, and Cheddur.
+* Establish a reputation system to delegate user influence in the network.
+* Determine the subjective quality of each user-generated review using the
+wisdom of the crowd.
+* Incentivize users to create and curate the highest-quality cryptocurrency
+reviews via financial rewards and network influence.
 * More accurately calculate the overall star rating (and popularity) of each
-cryptocurrency project for a higher level of accountability.
+cryptocurrency project by favoring reviews that are deemed to be high quality.
 * Minimize the effects of tribalism, astroturfing, review brigading, and other
 forms of malicious activity.
 * Empower the Cheddur community to be self-policing and self-sustaining.
+* Enable newcomers to the cryptocurrency ecosystem to *earn* their way into the
+market with little or no downside risk.
 
-Version 2.0 of the platform is slated to launch on May 1, 2019.
+## CHDR Tokens
 
-## Cheddur Currency
-
-SMT
-utility token
+In order to achieve this, the CHDR currency will utilize industry-leading
+Proof of Brain[^fn19] properties pioneered by the [Steem](https://steem.io/)
+blockchain and made available through the
+[Smart Media Tokens](https://smt.steem.io/) (SMT) protocol.
 
 ### SMT Parameters
 
+\begin{tabular}{| l | l |}
 
+  \hline
 
+  \textbf{Parameter} & \textbf{Value} \\ \hline
 
+  Asset Name & Cheddur \\ \hline
 
+  Ticker Symbol & CHDR \\ \hline
 
+  Decimal Places & 4 \\ \hline
 
-* Launching our own cryptocurrency, called Cheddur:
-    * $CHDR (Ʉ)
-    * Earn CHDR on Cheddur
+  \hline
 
+\end{tabular}
 
-### Initial Supply
+### Monetary Policy
 
-* Total starting supply: 100M coins
-    * Public distribution: 75M coins (75%)
-    * Company reserve: 25M (25%)
+* Starting supply: 100MM coins
+* Inflation rate:
+  * 9.5% in Y1
+  * Decreases by 0.5% per year until we reach a minimum annual inflation of 1%
+    * Continued into perpetuity
 
-### Inflation
+#### Inflation
 
-* Predictable emission rate:
-    * 9.5% in Y1
-    * Decreases by 0.5% per year until we reach a minimum annual inflation of 1%
-* Distribution:
-    * 15% holders of Cheddur power
-    * 15% company (platform fee)
-    * 70% rewards pool
+* Token inflation event / SMT emissions every 7 days
+  * 70% rewards pool
+  * 15% holders of vested CHDR
+  * 15% company (platform fee / beneficiary)
 
 ### Rewards Pool
 
-* Every week (?), rewards are distributed to those who produce and curate the most valuable content
-* Distribution:
-    * 70% author?
-    * 30% curation?
-        * Does this change by the minute like Steem?
+* Rewards Curve = linear (how rewards are divided among different reviews)
+* 80% author, 20% curators
+  * Curation Curve = bounded (how rewards are divided among curators of the review)
 
 ### Vesting / Staking
 
@@ -390,6 +395,7 @@ utility token
     * Gain influence (voting power) on the platform
     * Get annual interest
     * Prevents users from selling rewards directly into the market (helps the price)
+* Voting enabled
 
 ### De-vesting / Un-staking
 
@@ -399,6 +405,8 @@ utility token
 
 ### Determining Overall Rating
 
+* Algorithm for computing a project's overall star rating.
+
 ### Advertising
 
 * As competition over the rewards pool grows, traffic will grow with it
@@ -407,6 +415,34 @@ utility token
     * All coins earned through advertising will be destroyed (?)
         * Increasing the portfolio value of everyone who participates in the system long-term, i.e. through HODLing / vesting.
         * Helps fight excess inflation, good for price
+
+### ICO Parameters
+
+* Distribution of 100MM coins
+  * Public distribution: 75M coins (75%)
+  * Company reserve: 25M (25%)
+
+\begin{tabular}{| l | l |}
+
+  \hline
+
+  \textbf{Parameter} & \textbf{Value} \\ \hline
+
+  Start Date & April 01, 2019 \\ \hline
+
+  End Date & April 30, 2019 \\ \hline
+
+  Minimum Contribution & 1 STEEM \\ \hline
+
+  Soft Cap & 2MM STEEM (~\$2MM USD) \\ \hline
+
+  Hard Cap & 12MM STEEM (~\$12MM USD) \\ \hline
+
+  Targeted Launch Date & May 01, 2019 \\ \hline
+
+  \hline
+
+\end{tabular}
 
 ### Use of Funds
 
@@ -440,9 +476,13 @@ utility token
   * Take down addresses?
   * Team members cannot upvote reviews of their projects (biased)
 
-# Roadmap
+## Roadmap
+
+Version 2.0 of the platform is slated to launch on May 1, 2019.
 
 Since the initial release of Cheddur in 2017, we've made continual progress:
+
+* Liquidity - STEEM dex
 
 * Q12018 - Managed Profiles (March)
 * Q22018 - Took on first investor; began Startup Acclerator (Desai)
@@ -486,10 +526,6 @@ Since the initial release of Cheddur in 2017, we've made continual progress:
 4. How to prevent the price from dumping from users immediately selling rewards?
     * Selling will exist, but will incentivize users to vest portion of their earnings
         * Interest and voting power given to those who vest
-
-# Conclusion
-
-Conclusion here.
 
 # TODO
 
@@ -570,3 +606,6 @@ https://en.wikipedia.org/wiki/Timing_attack
 [^fn18]: eMarketer Retail, Rimma Kats, "Surprise! Most Consumers Look at Reviews Before a Purchase," February 2018.
 \hfill\break
 https://retail.emarketer.com/article/surprise-most-consumers-look-reviews-before-purchase/5a94768debd4000744ae413e
+[^fn19]: Steemit, Inc., "Steem Bluepaper," 2017.
+\hfill\break
+https://steem.io/steem-bluepaper.pdf
