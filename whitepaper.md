@@ -19,6 +19,7 @@ header-includes:
     - \geometry{bottom=3.5cm, footnotesep=1.5\baselineskip, headheight=20pt, headsep=30pt, left=3.5cm, right=3cm, top=3cm}
     # Figures
     - \usepackage{./sty/pgf-pie}
+    - \usepackage{float}
     - \usepackage{pgfplots}
     - \pgfplotsset{width=10cm,compat=1.9}
     - \usepackage{wrapfig}
@@ -365,7 +366,7 @@ market with little or no downside risk.
 In order to achieve this, the CHDR currency will utilize the industry-leading
 Proof of Brain[^fn19] properties that were pioneered by the
 [Steem](https://steem.io/) blockchain and made available through the
-[Smart Media Tokens](https://smt.steem.io/) (SMT) protocol. Each piece of
+[Smart Media Token](https://smt.steem.io/) (SMT) protocol. Each piece of
 user-generated content will be stored on the Steem blockchain and voted on by
 the Cheddur community in order to determine its social value, and therefore its
 payout in \text{\sout{U}}.
@@ -408,6 +409,8 @@ These features are paramount in order to serve the crypto novice customer
 segment, and have made platforms like [Ethereum](https://ethereum.org/) a
 non-starter for our use case.
 
+#### Aligning Interests
+
 For any rewards-based ÐApp, the most critical question to answer is: "Who pays
 the bill?" In the case of Cheddur, the question is more specifically: *"Who pays
 reviewers to produce high-quality reviews?"*
@@ -422,8 +425,8 @@ In this scenario, interests are misaligned between each of the parties
 involved. In order to boostrap the growth of the network, the Cheddur platform
 will need cryptocurrency reviews more than review writers will need to post
 them. If a transaction fee (or pay wall) is introduced in order for content to
-be posted on the network, little or no content will be posted on the network.
-Furthermore, if review readers are responsible for rewarding review writers
+be posted on the network, little or no content will be posted on the network at
+all. Furthermore, if review readers are responsible for rewarding review writers
 directly from their own wallets (another pay wall), users will need to maintain
 a minimum balance on their account in order to interact with the platform.
 
@@ -460,52 +463,101 @@ highest-quality content to the platform. Furthermore, each stakeholder in the
 system is incentivized to maximize the growth of the network in order to offset
 the downward effects of inflation on the price of their own \text{\sout{U}}. So
 long as the rate of growth of the platform (e.g. high-quality reviews, profiles,
-and users) exceeds the rate of inflation, each stakeholder will benefit.
+and users) exceeds the rate of inflation, each stakeholder will benefit in the
+long run.
 
-### Inflation
+### Token Inflation Events
 
-* Token inflation event / SMT emissions every 3 seconds (match heartbeat of Steem blockchain)
-  * 70% rewards pool
-  * 15% holders of vested CHDR
-  * 15% company (platform fee / beneficiary)
+Every 3 seconds, a token inflation event will occur on the Steem blockchain
+that will introduce new \text{\sout{U}} tokens into circulation. The proceeds
+from each token inflation event will be distributed as follows:
 
-\begin{center}
+\begin{figure}[H]
+
+  \centering
 
   \begin{tikzpicture}
 
-   \pie[rotate = 180]{
+   \pie[
+    explode = 0.2,
+    rotate = 210,
+    text = pin
+   ]{
      70/Rewards Pool,
-     15/HODLers of Cheddur Power,
-     15/Cheddur Team
+     15/Vested \text{\sout{U}} Holders,
+     10/Cheddur,
+     5/Bounty Programs
    }
 
   \end{tikzpicture}
 
-\end{center}
+  \caption{Distribution of CHDR Inflation}
 
-#### Rewards Pool
+\end{figure}
 
-* Distribution happens 14 days after post (twice that of Steem)
-* Rewards Curve = linear (how rewards are divided among different reviews)
-* 80% author, 20% curators
-  * Curation Curve = bounded (how rewards are divided among curators of the review)
+### Rewards Pool
 
-\begin{center}
+User-generated content that is posted on the Cheddur platform will be eligible
+to earn \text{\sout{U}} tokens based upon the up-votes it receives from the
+community. Payouts will be funded from the rewards pool and will occur exactly
+7 days after each piece of content is posted. This one-week timeframe will
+incentivize authors to promote their Cheddur content in a timely fashion across
+other social networks. This distributed effort will bring traffic into the
+Cheddur platform and help bootstrap the growth of the network.
+
+Posting content on the Cheddur platform does not guarantee a payout in
+\text{\sout{U}}. Reviews that receive zero up-votes will not be deemed to have
+social value by the Steem blockchain and therefore will not receive a reward.
+Furthermore, each review must compete for rewards against the other reviews
+that are posted within a similar timeframe. Thus, it is possible that a review
+which only receives a small number of up-votes---especially from users of
+weak reputation---may not prove to have enough social value to earn a reward
+in comparison to other content.
+
+Payouts that are awarded to content of high social value will be divided between
+the author and the curators as follows:
+
+\begin{figure}[H]
+
+  \centering
 
   \begin{tikzpicture}
 
-   \pie[rotate = 180]{
-     80/Author,
-     20/Curators
+   \pie[
+    explode = 0.2,
+    rotate = 210,
+    text = pin
+   ]{
+     75/Author,
+     25/Curators
    }
 
   \end{tikzpicture}
 
-\end{center}
+  \caption{Distribution of \text{\sout{U}} Rewards}
 
+\end{figure}
 
+#### Rewards Curves
 
+As defined by the SMT protocol, the CHDR currency will use a `rc_linear` rewards
+curve to distribute \text{\sout{U}} tokens among each piece of content, and a
+`cc_sqrt` curation curve to divide rewards among the curators of an individual
+piece of content.
 
+### Vesting & Reputation
+
+* Tokens can be "vested":
+    * Gain influence (voting power) on the platform
+    * Get annual interest
+    * Prevents users from selling rewards directly into the market (helps the price)
+* Voting enabled
+
+### De-vesting / Un-staking
+
+* Coins are de-vested over a 13-week period
+    * Given out in 1-week increments
+    * Can be canceled at any time
 
 
 
@@ -652,20 +704,6 @@ and users) exceeds the rate of inflation, each stakeholder will benefit.
   \end{tikzpicture}
 
 \end{center}
-
-### Vesting / Staking
-
-* Tokens can be "vested":
-    * Gain influence (voting power) on the platform
-    * Get annual interest
-    * Prevents users from selling rewards directly into the market (helps the price)
-* Voting enabled
-
-### De-vesting / Un-staking
-
-* Coins are de-vested over a 13-week period
-    * Given out in 1-week increments
-    * Can be canceled at any time
 
 ### Determining Overall Rating
 
