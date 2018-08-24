@@ -377,19 +377,31 @@ payout in \text{\sout{U}}.
 
     \hline
 
-    \textbf{Parameter} & \textbf{Value} \\ \hline
+    \textbf{Parameter} & \textbf{Value} \\
 
-    Asset Name & Cheddur \\ \hline
+    \hline
 
-    Ticker & CHDR \\ \hline
+    Asset Name & Cheddur \\
 
-    Symbol & \text{\sout{U}} \\ \hline
+    \hline
 
-    Blockchain & Steem \\ \hline
+    Ticker & CHDR \\
 
-    Protocol & SMT \\ \hline
+    \hline
 
-    Decimal Places & 6 \\ \hline
+    Symbol & \text{\sout{U}} \\
+
+    \hline
+
+    Blockchain & Steem \\
+
+    \hline
+
+    Protocol & SMT \\
+
+    \hline
+
+    Decimal Places & 6 \\
 
     \hline
 
@@ -801,9 +813,9 @@ When a user is browsing through coins and crypto apps on the Cheddur platform,
 the results will be sorted based on $Popularity$ (highest to lowest) as the
 default.
 
-For $w$ number of "watchers" who have added coin C to their Cheddur Watchlist
-and $u$ number of users who have posted their public coin C addresses on
-Cheddur, the popularity of coin C will be calculated as follows:
+For $w$ number of "watchers" who have added Coin C to their Cheddur Watchlist
+and $u$ number of users who have posted their public Coin C addresses on
+Cheddur, the popularity of Coin C will be calculated as follows:
 
 \begin{equation}
   User Score_c = u * 3
@@ -814,36 +826,34 @@ Cheddur, the popularity of coin C will be calculated as follows:
 \end{equation}
 
 Being that users cannot add crypto apps to their Cheddur Watchlist or post coin
-addresses to crypto app pages, the popularity for crypto app A will simply be
+addresses to crypto app pages, the popularity of crypto App A will simply be
 calculated as:
 
 \begin{equation}
   Popularity_a = Total Review Score_a
 \end{equation}
 
-### Examples
-
-Consider the following example:
+### Coin Example
 
 \begin{table}[H]
 
-  \begin{tabular}{| l | l |}
+  \begin{tabular}{| l | c | c | c | c |}
 
     \hline
 
-    \textbf{Parameter} & \textbf{Value} \\ \hline
+    \multicolumn{5}{| c |}{\textbf{Coin C}} \\
 
-    Start Date & April 01, 2019 \\ \hline
+    \hline
 
-    End Date & April 30, 2019 \\ \hline
+    \textbf{Reviewer} & \textbf{Rating} & \textbf{Up-Votes} & \textbf{\text{\sout{U}} Payout} & \textbf{Review Score} \\
 
-    Minimum Contribution & 1 STEEM \\ \hline
+    \hline
 
-    Soft Cap & 2MM STEEM (~\$2MM USD) \\ \hline
+    Alice & 5 & 2 & 1.45 & 19 \\
 
-    Hard Cap & 12MM STEEM (~\$12MM USD) \\ \hline
+    \hline
 
-    Targeted Launch Date & May 01, 2019 \\ \hline
+    Bob & 1 & 1 & 0.5 & 7 \\
 
     \hline
 
@@ -851,14 +861,60 @@ Consider the following example:
 
 \end{table}
 
+Given that Coin C has 10 watchers and 4 users who have posted their public Coin
+C addresses, $Total Review Score_c = 26$, $Overall Rating_c = 3.92$, and
+$Popularity_c = 48$.
+
+### Crypto App Example
+
+\begin{table}[H]
+
+  \begin{tabular}{| l | c | c | c | c |}
+
+    \hline
+
+    \multicolumn{5}{| c |}{\textbf{App A}} \\
+
+    \hline
+
+    \textbf{Reviewer} & \textbf{Rating} & \textbf{Up-Votes} & \textbf{\text{\sout{U}} Payout} & \textbf{Review Score} \\
+
+    \hline
+
+    Alice & 1 & 2 & 1.45 & 19 \\
+
+    \hline
+
+    Bob & 5 & 1 & 0.5 & 7 \\
+
+    \hline
+
+  \end{tabular}
+
+\end{table}
+
+$Total Review Score_a = 26$, $Overall Rating_a = 2.08$, and
+$Popularity_a = 26$.
+
 ### Algorithm Upgrades
 
 Results from $Review Score$, $Overall Rating$, and $Popularity$ computations
-will be stored on Cheddur servers, outside of the consensus of the Steem
-blockchain. This will allow the Cheddur team to upgrade these algorithms over
+will be stored outside of the consensus of the Steem blockchain on Cheddur's
+own servers. This will allow the Cheddur team to upgrade these algorithms over
 time to better reflect the wisdom of the crowd.
 
-## Token Utility
+## CHDR Use Cases
+
+User speal.
+
+Advertiser speal.
+
+* \text{\sout{U}} tokens - backbone for legitimacy in the crypto space.
+* Receive As Rewards For Awesome Posts
+* Peer-To-Peer Payments - Send & Receive Within The App
+* Tipping/Donating To A User Beyond Just Giving An Upvote
+* Staking KARMA For A Stronger Upvote
+* When Cheddur Becomes A DAC - Voting On Community Propositions & Decisions
 
 * Advertising
   * As competition over the rewards pool grows, traffic will grow with it
@@ -895,19 +951,31 @@ time to better reflect the wisdom of the crowd.
 
   \hline
 
-  \textbf{Parameter} & \textbf{Value} \\ \hline
+  \textbf{Parameter} & \textbf{Value} \\
 
-  Start Date & April 01, 2019 \\ \hline
+  \hline
 
-  End Date & April 30, 2019 \\ \hline
+  Start Date & April 01, 2019 \\
 
-  Minimum Contribution & 1 STEEM \\ \hline
+  \hline
 
-  Soft Cap & 2MM STEEM (~\$2MM USD) \\ \hline
+  End Date & April 30, 2019 \\
 
-  Hard Cap & 12MM STEEM (~\$12MM USD) \\ \hline
+  \hline
 
-  Targeted Launch Date & May 01, 2019 \\ \hline
+  Minimum Contribution & 1 STEEM \\
+
+  \hline
+
+  Soft Cap & 2MM STEEM (~\$2MM USD) \\
+
+  \hline
+
+  Hard Cap & 12MM STEEM (~\$12MM USD) \\
+
+  \hline
+
+  Targeted Launch Date & May 01, 2019 \\
 
   \hline
 
