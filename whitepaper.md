@@ -466,6 +466,148 @@ long as the rate of growth of the platform (e.g. high-quality reviews, profiles,
 and users) exceeds the rate of inflation, each stakeholder will benefit in the
 long run.
 
+### Monetary Policy
+
+The CHDR currency will start with an initial supply of 100MM \text{\sout{U}}.
+To bootstrap early growth and participation in the Cheddur network, the CHDR
+supply will inflate at an initial rate of 9.5% annually. Every year, the annual
+inflation rate will decrease by 0.5% until an annual inflation rate of 1% is
+reached. This will occur in the year 2036 and from then on, a 1% annual
+inflation rate will be used into perpetuity.
+
+\begin{figure}[H]
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \begin{axis}[
+      grid style=dashed,
+      xlabel={Time (Years)},
+      xmax=25,
+      xmin=0,
+      ylabel={Annual Inflation Rate (\%)},
+      ymajorgrids=true,
+      ymin=0,
+    ]
+
+      \addplot[
+        color=blue,
+      ]
+      coordinates {
+        (0, 9.5)
+        (1, 9.5)
+        (1, 9.0)
+        (2, 9.0)
+        (2, 8.5)
+        (3, 8.5)
+        (3, 8.0)
+        (4, 8.0)
+        (4, 7.5)
+        (5, 7.5)
+        (5, 7.0)
+        (6, 7.0)
+        (6, 6.5)
+        (7, 6.5)
+        (7, 6.0)
+        (8, 6.0)
+        (8, 5.5)
+        (9, 5.5)
+        (9, 5.0)
+        (10, 5.0)
+        (10, 4.5)
+        (11, 4.5)
+        (11, 4.0)
+        (12, 4.0)
+        (12, 3.5)
+        (13, 3.5)
+        (13, 3.0)
+        (14, 3.0)
+        (14, 2.5)
+        (15, 2.5)
+        (15, 2.0)
+        (16, 2.0)
+        (16, 1.5)
+        (17, 1.5)
+        (17, 1.0)
+        (18, 1.0)
+        (19, 1.0)
+        (20, 1.0)
+        (21, 1.0)
+        (22, 1.0)
+        (23, 1.0)
+        (24, 1.0)
+        (25, 1.0)
+      };
+
+    \end{axis}
+
+  \end{tikzpicture}
+
+  \caption{CHDR Annual Inflation Rate over Time}
+
+\end{figure}
+
+Based on this starting supply and inflation curve, the overall supply of the
+CHDR currency will grow predictably over time as follows:
+
+\begin{figure}[H]
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \begin{axis}[
+      grid style=dashed,
+      xlabel={Time (Years)},
+      xmax=25,
+      xmin=0,
+      ylabel={Total Supply (MM \text{\sout{U}})},
+      ymajorgrids=true,
+      ymin=100,
+    ]
+
+      \addplot[
+        color=blue,
+        mark=square*,
+      ]
+      coordinates {
+        (0, 100.000000)
+        (1, 109.500000)
+        (2, 119.355000)
+        (3, 129.500175)
+        (4, 139.860189)
+        (5, 150.349703)
+        (6, 160.874182)
+        (7, 171.331004)
+        (8, 181.610865)
+        (9, 191.599462)
+        (10, 201.179435)
+        (11, 210.232510)
+        (12, 218.641810)
+        (13, 226.294273)
+        (14, 233.083102)
+        (15, 238.910179)
+        (16, 243.688383)
+        (17, 247.343709)
+        (18, 249.817146)
+        (19, 252.315317)
+        (20, 254.838470)
+        (21, 257.386855)
+        (22, 259.960724)
+        (23, 262.560331)
+        (24, 265.185934)
+        (25, 267.837793)
+      };
+
+    \end{axis}
+
+  \end{tikzpicture}
+
+  \caption{CHDR Supply over Time}
+
+\end{figure}
+
 ### Token Inflation Events
 
 Every 3 seconds, a token inflation event will occur on the Steem blockchain
@@ -601,151 +743,10 @@ maximum, 10 votes tomorrow.
 Seth Tomlinson concisely explains the mechanics of Steem's voting power
 [here](https://www.youtube.com/watch?v=FLsPI65HzPI).
 
-### Monetary Policy
-
-The CHDR currency will start with an initial supply of 100MM \text{\sout{U}}.
-To bootstrap early growth and participation in the Cheddur network, the CHDR
-supply will inflate at an initial rate of 9.5% annually. Every year, the annual
-inflation rate will decrease by 0.5% until an annual inflation rate of 1% is
-reached. This will occur in the year 2036 and from then on, a 1% annual
-inflation rate will be used into perpetuity.
-
-\begin{figure}[H]
-
-  \centering
-
-  \begin{tikzpicture}
-
-    \begin{axis}[
-      grid style=dashed,
-      xlabel={Time (Years)},
-      xmax=25,
-      xmin=0,
-      ylabel={Annual Inflation Rate (\%)},
-      ymajorgrids=true,
-      ymin=0,
-    ]
-
-      \addplot[
-        color=blue,
-      ]
-      coordinates {
-        (0, 9.5)
-        (1, 9.5)
-        (1, 9.0)
-        (2, 9.0)
-        (2, 8.5)
-        (3, 8.5)
-        (3, 8.0)
-        (4, 8.0)
-        (4, 7.5)
-        (5, 7.5)
-        (5, 7.0)
-        (6, 7.0)
-        (6, 6.5)
-        (7, 6.5)
-        (7, 6.0)
-        (8, 6.0)
-        (8, 5.5)
-        (9, 5.5)
-        (9, 5.0)
-        (10, 5.0)
-        (10, 4.5)
-        (11, 4.5)
-        (11, 4.0)
-        (12, 4.0)
-        (12, 3.5)
-        (13, 3.5)
-        (13, 3.0)
-        (14, 3.0)
-        (14, 2.5)
-        (15, 2.5)
-        (15, 2.0)
-        (16, 2.0)
-        (16, 1.5)
-        (17, 1.5)
-        (17, 1.0)
-        (18, 1.0)
-        (19, 1.0)
-        (20, 1.0)
-        (21, 1.0)
-        (22, 1.0)
-        (23, 1.0)
-        (24, 1.0)
-        (25, 1.0)
-      };
-
-    \end{axis}
-
-  \end{tikzpicture}
-
-  \caption{CHDR Annual Inflation Rate over Time}
-
-\end{figure}
-
-Based on this starting supply and inflation curve, the overall supply of the
-CHDR currency will grow over time as follows:
-
-\begin{figure}[H]
-
-  \centering
-
-  \begin{tikzpicture}
-
-    \begin{axis}[
-      grid style=dashed,
-      xlabel={Time (Years)},
-      xmax=25,
-      xmin=0,
-      ylabel={Total Supply (MM \text{\sout{U}})},
-      ymajorgrids=true,
-      ymin=100,
-    ]
-
-      \addplot[
-        color=blue,
-        mark=square*,
-      ]
-      coordinates {
-        (0, 100.000000)
-        (1, 109.500000)
-        (2, 119.355000)
-        (3, 129.500175)
-        (4, 139.860189)
-        (5, 150.349703)
-        (6, 160.874182)
-        (7, 171.331004)
-        (8, 181.610865)
-        (9, 191.599462)
-        (10, 201.179435)
-        (11, 210.232510)
-        (12, 218.641810)
-        (13, 226.294273)
-        (14, 233.083102)
-        (15, 238.910179)
-        (16, 243.688383)
-        (17, 247.343709)
-        (18, 249.817146)
-        (19, 252.315317)
-        (20, 254.838470)
-        (21, 257.386855)
-        (22, 259.960724)
-        (23, 262.560331)
-        (24, 265.185934)
-        (25, 267.837793)
-      };
-
-    \end{axis}
-
-  \end{tikzpicture}
-
-  \caption{CHDR Supply over Time}
-
-\end{figure}
-
 ## Determining Overall Rating
 
 * Algorithm for computing a project's overall star rating.
+* Popularity algo?
 
 ## Token Utility
 
