@@ -528,8 +528,8 @@ the author and the curators as follows:
     rotate = 210,
     text = pin
    ]{
-     75/Author,
-     25/Curators
+     80/Author,
+     20/Curators
    }
 
   \end{tikzpicture}
@@ -540,35 +540,66 @@ the author and the curators as follows:
 
 #### Rewards Curves
 
-As defined by the SMT protocol, the CHDR currency will use a `rc_linear` rewards
-curve to distribute \text{\sout{U}} tokens among each piece of content, and a
-`cc_sqrt` curation curve to divide rewards among the curators of an individual
-piece of content.
+As defined within the SMT protocol, the CHDR currency will use a `rc_linear`
+rewards curve to distribute \text{\sout{U}} rewards among each piece of content,
+and a `cc_sqrt` curation curve to divide \text{\sout{U}} rewards among the
+curators of an individual piece of content.
 
-### Vesting & Reputation
+### "Powering Up"
 
-* Tokens can be "vested":
-    * Gain influence (voting power) on the platform
-    * Get annual interest
-    * Prevents users from selling rewards directly into the market (helps the price)
-* Voting enabled
+To encourage users to invest in the long-term success of the Cheddur platform
+(rather than panic selling all of their \text{\sout{U}} rewards),
+\text{\sout{U}} tokens can be vested (or "staked") in a user's account in order
+to increase their reputation in the network and to earn interest. This process
+is referred to as "powering up" your \text{\sout{U}} tokens because it
+increases your overall influence within the network.
 
-### De-vesting / Un-staking
+15% of all \text{\sout{U}} tokens generated through inflation are earmarked for
+vested token holders. The amount of \text{\sout{U}} tokens that each vested
+token holder will receive is proportional to the amount of \text{\sout{U}}
+tokens that are staked in their account.
 
-* Coins are de-vested over a 13-week period
-    * Given out in 1-week increments
-    * Can be canceled at any time
+### Influence
 
+"One account, one vote" reputation systems can easily be undermined through
+Sybil attacks, astroturfing, and vote brigading. Therefore, influence within the
+Cheddur network will instead be determined under a *"one token, one vote"*
+policy based on the amount of vested \text{\sout{U}} tokens each user has in
+their account.
 
+This will favorably skew influence over the network towards users who have
+skin in the game---through earning or buying---and are vested in the long-term
+uccess of the platform.
 
+### "Powering Down"
 
+While the process of powering up one's \text{\sout{U}} tokens happens
+instantaneously, the inverse---or "powering down" one's \text{\sout{U}}
+tokens---will occur over a 13-week period. This is a safeguard to prevent a
+malicious user from powering up their tokens, using their increased influence to
+adversely affect the system, and then immediately selling their \text{\sout{U}}
+tokens on the open market before the price of CHDR has a chance to reflect any
+potential damage.
 
+Over the course of this 13-week period, vested \text{\sout{U}} tokens will
+be converted back into normal \text{\sout{U}} tokens in weekly amounts of
+\nicefrac{1}{13}. The process of powering down \text{\sout{U}} tokens can be
+canceled at any time.
 
+### Voting Power
 
+To prevent users from spamming the network with up-votes, each user will be able
+to cast a maximum of 50 up-votes per every 5 days, or ~10 up-votes per day.
 
+You can think of a user's "voting power" as a mana bar that fills from 0% to
+100%. Each up-vote that a user casts will expend 2% of his or her voting power.
+This means that if a user starts at 100% voting power, they can cast, at a
+maximum, 50 up-votes in a single day. Voting power will recharge at a rate of
+20% per day, so a user who has 0% voting power today will be able to cast, at a
+maximum, 10 votes tomorrow.
 
-
-
+Seth Tomlinson concisely explains the mechanics of Steem's voting power
+[here](https://www.youtube.com/watch?v=FLsPI65HzPI).
 
 ### Monetary Policy
 
@@ -705,11 +736,11 @@ piece of content.
 
 \end{center}
 
-### Determining Overall Rating
+## Determining Overall Rating
 
 * Algorithm for computing a project's overall star rating.
 
-### Token Utility
+## Token Utility
 
 * Advertising
   * As competition over the rewards pool grows, traffic will grow with it
@@ -719,7 +750,7 @@ piece of content.
           * Increasing the portfolio value of everyone who participates in the system long-term, i.e. through HODLing / vesting.
           * Helps fight excess inflation, good for price
 
-### ICO Parameters
+## Initial Coin Offering
 
 * Distribution of 100MM coins
   * Public distribution: 75M coins (75%)
@@ -764,7 +795,7 @@ piece of content.
 
 \end{tabular}
 
-### Use of Funds
+## Use of Funds
 
 * How we intend to use:
     * Our 25M initial keep
@@ -785,6 +816,8 @@ piece of content.
   \end{tikzpicture}
 
 \end{center}
+
+### Bounty Programs
 
 ## Competition
 
