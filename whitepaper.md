@@ -708,7 +708,7 @@ curators of an individual piece of content.
 ### "Powering Up"
 
 To encourage users to invest in the long-term success of the Cheddur platform
-(rather than panic selling all of their \text{\sout{U}} rewards),
+(rather than panic selling 100% of their \text{\sout{U}} rewards),
 \text{\sout{U}} tokens can be vested (or "staked") in a user's account in order
 to increase their reputation in the network and to earn interest. This process
 is referred to as "powering up" your \text{\sout{U}} tokens because it
@@ -914,6 +914,8 @@ Once the Cheddur 2.0 platform goes live, users will only be able to acquire
 
   \item Earning them through the production of high-quality reviews.
 
+  \item Earning them by completing bounties.
+
   \item Buying them on the open market.
 
   \item Powering them up within their user accounts in order to earn interest.
@@ -921,11 +923,13 @@ Once the Cheddur 2.0 platform goes live, users will only be able to acquire
 \end{enumerate}
 
 In scenario (A), more high-quality reviews will be added to the Cheddur
-platform which is likely to attract more users and growth. In scenarios (B) and
-(C), \text{\sout{U}} tokens will be purchased on the open market and/or locked
-away, thereby reducing the circulating supply of the CHDR currency. Each of
-these outcomes are favorable for the Cheddur platform and will increase the
-value that gets accrued to the token.
+platform which is likely to attract more users and growth. In scenario (B),
+more users and engagement will be brought to the Cheddur platform which will
+also spur growth. In scenarios (C) and (D), \text{\sout{U}} tokens will be
+purchased on the open market and/or locked away, thereby reducing the
+circulating supply of the CHDR currency. Each of these outcomes are favorable
+for the Cheddur platform and will increase the value that gets accrued to the
+token.
 
 ### Advertising
 
@@ -938,7 +942,41 @@ or indirectly), and all \text{\sout{U}} tokens that are collected from in-app
 advertising will be **burned** by the Cheddur team. This will further reduce the
 circulating supply of the CHDR currency and will help offset inflation.
 
-## Bounty Programs
+## Bounty Program
+
+Users will be able to earn additional \text{\sout{U}} tokens by completing
+valuable bounties. 15% of all \text{\sout{U}} tokens generated through inflation
+are earmarked for bounties in order to accelerate the adoption of Cheddur.
+
+### First to Review Bounty
+
+To encourage users to try out and review new (or lesser-known) cryptocurrency
+projects, the first user to review each project will receive 3x the normal
+payout of \text{\sout{U}} tokens.
+
+### Profile Listing Bounty
+
+To encourage cryptocurrency development teams to self-list their projects on the
+Cheddur platform, \text{\sout{U}}50 will be awarded to the submitter of a
+[new coin](https://www.cheddur.com/coin) or a
+[new app](https://www.cheddur.com/app). This \text{\sout{U}}50 reward can be
+applied by cryptocurrency development teams towards their first in-app
+advertisement.
+
+All submissions will be reviewed by Cheddur moderators for quality purposes.
+
+### Profile Claiming Bounty
+
+To encourage cryptocurrency development teams to claim their free Cheddur
+profiles, \text{\sout{U}}50 will be awarded to the team member who successfully
+claims a profile using our automated verification system or manual verification.
+This \text{\sout{U}}50 reward can also be applied towards in-app advertising.
+
+### Referral Program
+
+When a new user signs up for Cheddur using an existing user's referral link,
+both the new user and the referrer will earn \text{\sout{U}}25. This will
+encourage users to bring their friends and followers to Cheddur.
 
 ## Initial Coin Offering
 
@@ -1095,6 +1133,9 @@ Since the initial release of Cheddur in 2017, we've made continual progress:
 4. How to prevent the price from dumping from users immediately selling rewards?
     * Selling will exist, but will incentivize users to vest portion of their earnings
         * Interest and voting power given to those who vest
+5. bad profile submission.
+  * still get bounty?
+  * users listing projects prematurely to scoop the rewards?
 
 # TODO
 
@@ -1120,6 +1161,7 @@ Since the initial release of Cheddur in 2017, we've made continual progress:
         * Platform fee, but burn ad coins up to a certain extent (e.g. BNB Coin)?
 * Migration strategy
 * Roadmap dates and features
+* should bounty rewards be a fixed amount or fixed amount per day divided among, with max (Steemhunt)
 
 [^fn1]: Medium, Chris McCann, "12 Graphs That Show Just How Early The Cryptocurrency Market Is," May 2018.
 \hfill\break
