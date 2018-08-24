@@ -371,27 +371,31 @@ user-generated content will be stored on the Steem blockchain and voted on by
 the Cheddur community in order to determine its social value, and therefore its
 payout in \text{\sout{U}}.
 
-\begin{tabular}{| l | l |}
+\begin{table}[H]
 
-  \hline
+  \begin{tabular}{| l | l |}
 
-  \textbf{Parameter} & \textbf{Value} \\ \hline
+    \hline
 
-  Asset Name & Cheddur \\ \hline
+    \textbf{Parameter} & \textbf{Value} \\ \hline
 
-  Ticker & CHDR \\ \hline
+    Asset Name & Cheddur \\ \hline
 
-  Symbol & \text{\sout{U}} \\ \hline
+    Ticker & CHDR \\ \hline
 
-  Blockchain & Steem \\ \hline
+    Symbol & \text{\sout{U}} \\ \hline
 
-  Protocol & SMT \\ \hline
+    Blockchain & Steem \\ \hline
 
-  Decimal Places & 6 \\ \hline
+    Protocol & SMT \\ \hline
 
-  \hline
+    Decimal Places & 6 \\ \hline
 
-\end{tabular}
+    \hline
+
+  \end{tabular}
+
+\end{table}
 
 ### Why Steem?
 
@@ -682,9 +686,9 @@ the author and the curators as follows:
 
 #### Rewards Curves
 
-As defined within the SMT protocol, the CHDR currency will use a `rc_linear`
+As defined within the SMT protocol, the CHDR currency will use a $rc_linear$
 rewards curve to distribute \text{\sout{U}} rewards among each piece of content,
-and a `cc_sqrt` curation curve to divide \text{\sout{U}} rewards among the
+and a $cc_sqrt$ curation curve to divide \text{\sout{U}} rewards among the
 curators of an individual piece of content.
 
 ### "Powering Up"
@@ -743,10 +747,116 @@ maximum, 10 votes tomorrow.
 Seth Tomlinson concisely explains the mechanics of Steem's voting power
 [here](https://www.youtube.com/watch?v=FLsPI65HzPI).
 
-## Determining Overall Rating
+## Rating & Review Algorithms
 
-* Algorithm for computing a project's overall star rating.
-* Popularity algo?
+By using the Steem blockchain to calculate the social value of each
+cryptocurrency review, we can be more intelligent about how the overall star
+rating of each cryptocurrency project is calculated. Rather than every review
+carrying an equal weight towards the overall star rating of a project (as exists
+today in Cheddur 1.0), we will implement new algorithms to skew the overall
+rating towards reviews that are deemed by the community to be of high quality.
+
+### Review Score
+
+First, we will calculate a $Review Score$ for every review in order to determine
+how much weight each should have on the target's overall rating. For a review of
+$v$ number of up-votes and $u$ number of \text{\sout{U}} rewards, the review
+score will be calculated as follows:
+
+\begin{equation}
+  Vote Points = v * 2
+\end{equation}
+
+\begin{equation}
+  Reward Points = u * 10
+\end{equation}
+
+\begin{equation}
+  Review Score = Vote Points + Reward Points
+\end{equation}
+
+**Note:** Reviews that accrue 0 votes ($v = 0$ and $u = 0$) will result in
+$Review Score = 0$ and will not factor into the overall rating. Review scores
+will be rounded to the nearest integer.
+
+### Overall Rating
+
+The review score for each cryptocurrency review will be used to determine how
+much weight each individual rating should have on the project's
+$Overall Rating$. The higher a review's score, the more impact its rating will
+have on the overall---and vice versa. For $n$ number of reviews, the overall
+rating will be calculated as follows:
+
+\begin{equation}
+  Total Review Score = \sum_k^n(Review Score_k)
+\end{equation}
+
+\begin{equation}
+  Overall Rating = \frac{\sum_k^n(Review Score_k * Review Rating_k)}{Total Review Score}
+\end{equation}
+
+### Popularity
+
+When a user is browsing through coins and crypto apps on the Cheddur platform,
+the results will be sorted based on $Popularity$ (highest to lowest) as the
+default.
+
+For $w$ number of "watchers" who have added coin C to their Cheddur Watchlist
+and $u$ number of users who have posted their public coin C addresses on
+Cheddur, the popularity of coin C will be calculated as follows:
+
+\begin{equation}
+  User Score_c = u * 3
+\end{equation}
+
+\begin{equation}
+  Popularity_c = Total Review Score_c + User Score_c + w
+\end{equation}
+
+Being that users cannot add crypto apps to their Cheddur Watchlist or post coin
+addresses to crypto app pages, the popularity for crypto app A will simply be
+calculated as:
+
+\begin{equation}
+  Popularity_a = Total Review Score_a
+\end{equation}
+
+### Examples
+
+Consider the following example:
+
+\begin{table}[H]
+
+  \begin{tabular}{| l | l |}
+
+    \hline
+
+    \textbf{Parameter} & \textbf{Value} \\ \hline
+
+    Start Date & April 01, 2019 \\ \hline
+
+    End Date & April 30, 2019 \\ \hline
+
+    Minimum Contribution & 1 STEEM \\ \hline
+
+    Soft Cap & 2MM STEEM (~\$2MM USD) \\ \hline
+
+    Hard Cap & 12MM STEEM (~\$12MM USD) \\ \hline
+
+    Targeted Launch Date & May 01, 2019 \\ \hline
+
+    \hline
+
+  \end{tabular}
+
+\end{table}
+
+### Algorithm Upgrades
+
+Results from $Review Score$, $Overall Rating$, and $Popularity$ computations
+will be stored on Cheddur servers, outside of the consensus of the Steem
+blockchain. This will allow the Cheddur team to upgrade these algorithms over
+time to better reflect the wisdom of the crowd.
 
 ## Token Utility
 
