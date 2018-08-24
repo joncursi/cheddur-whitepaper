@@ -31,6 +31,8 @@ header-includes:
     - \usepackage[hang]{footmisc}
     # Fractions
     - \usepackage{nicefrac}
+    # Lists
+    - \usepackage{enumitem}
 pdfauthor: Jon Cursi
 pdftitle: Cheddur White Paper
 unicode: true
@@ -903,26 +905,36 @@ will be stored outside of the consensus of the Steem blockchain on Cheddur's
 own servers. This will allow the Cheddur team to upgrade these algorithms over
 time to better reflect the wisdom of the crowd.
 
-## CHDR Use Cases
+## CHDR Dimensions of Value
 
-User speal.
+Once the Cheddur 2.0 platform goes live, users will only be able to acquire
+\text{\sout{U}} tokens by:
 
-Advertiser speal.
+\begin{enumerate}[label=(\Alph*)]
 
-* \text{\sout{U}} tokens - backbone for legitimacy in the crypto space.
-* Receive As Rewards For Awesome Posts
-* Peer-To-Peer Payments - Send & Receive Within The App
-* Tipping/Donating To A User Beyond Just Giving An Upvote
-* Staking KARMA For A Stronger Upvote
-* When Cheddur Becomes A DAC - Voting On Community Propositions & Decisions
+  \item Earning them by producing high-quality reviews, or
 
-* Advertising
-  * As competition over the rewards pool grows, traffic will grow with it
-  * Developers of these coins and apps will be able to advertise on the platform
-      * Only allowed to pay with Cheddur, or 50% discount?
-      * All coins earned through advertising will be destroyed (?)
-          * Increasing the portfolio value of everyone who participates in the system long-term, i.e. through HODLing / vesting.
-          * Helps fight excess inflation, good for price
+  \item Buying them on the open market, or
+
+  \item Powering them up within their user accounts to earn interest.
+
+\end{enumerate}
+
+In scenario (A), more high-quality reviews will be added to the Cheddur
+platform which is likely to attract more users and growth. In scenarios (B) and
+(C), \text{\sout{U}} tokens will be purchased on the open market and/or locked
+away, thereby reducing the circulating supply of the CHDR currency. Each of
+these outcomes are favorable for the Cheddur platform and will increase the
+value that gets accrued to the token.
+
+As competition over the rewards pool grows, user traffic will grow with it.
+Upon claiming their free Cheddur profiles, coin and crypto app developers will
+be able to pay for targeted advertising on the platform using a
+[pay-per-click (PPC)](https://en.wikipedia.org/wiki/Pay-per-click) model. All
+advertisements will be funded using \text{\sout{U}} tokens (either directly
+or indirectly), and all \text{\sout{U}} tokens that are collected from in-app
+advertising will be **burned** by the Cheddur team. This will further reduce the
+circulating supply of the CHDR currency and help offset inflation.
 
 ## Initial Coin Offering
 
