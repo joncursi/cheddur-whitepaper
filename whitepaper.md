@@ -867,7 +867,7 @@ Given that Coin C has 10 watchers and 4 users who have posted their public Coin
 C addresses, $Total Review Score_c = 26$, $Overall Rating_c = 3.92$, and
 $Popularity_c = 48$.
 
-### Crypto App Example
+### App Example
 
 \begin{table}[H]
 
@@ -912,11 +912,11 @@ Once the Cheddur 2.0 platform goes live, users will only be able to acquire
 
 \begin{enumerate}[label=(\Alph*)]
 
-  \item Earning them by producing high-quality reviews, or
+  \item Earning them through the production of high-quality reviews.
 
-  \item Buying them on the open market, or
+  \item Buying them on the open market.
 
-  \item Powering them up within their user accounts to earn interest.
+  \item Powering them up within their user accounts in order to earn interest.
 
 \end{enumerate}
 
@@ -927,6 +927,8 @@ away, thereby reducing the circulating supply of the CHDR currency. Each of
 these outcomes are favorable for the Cheddur platform and will increase the
 value that gets accrued to the token.
 
+### Advertising
+
 As competition over the rewards pool grows, user traffic will grow with it.
 Upon claiming their free Cheddur profiles, coin and crypto app developers will
 be able to pay for targeted advertising on the platform using a
@@ -934,7 +936,9 @@ be able to pay for targeted advertising on the platform using a
 advertisements will be funded using \text{\sout{U}} tokens (either directly
 or indirectly), and all \text{\sout{U}} tokens that are collected from in-app
 advertising will be **burned** by the Cheddur team. This will further reduce the
-circulating supply of the CHDR currency and help offset inflation.
+circulating supply of the CHDR currency and will help offset inflation.
+
+## Bounty Programs
 
 ## Initial Coin Offering
 
@@ -993,7 +997,7 @@ circulating supply of the CHDR currency and help offset inflation.
 
 \end{tabular}
 
-## Use of Funds
+### Use of Funds
 
 * How we intend to use:
     * Our 25M initial keep
@@ -1014,8 +1018,6 @@ circulating supply of the CHDR currency and help offset inflation.
   \end{tikzpicture}
 
 \end{center}
-
-### Bounty Programs
 
 ## Competition
 
