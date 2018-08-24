@@ -603,19 +603,21 @@ Seth Tomlinson concisely explains the mechanics of Steem's voting power
 
 ### Monetary Policy
 
-* Starting supply: 100MM coins
-* Inflation rate:
-  * 9.5% in Y1
-  * Decreases by 0.5% per year until we reach a minimum annual inflation of 1% (year 17)
-    * Continued into perpetuity
+The CHDR currency will start with an initial supply of 100MM \text{\sout{U}}.
+To bootstrap early growth and participation in the Cheddur network, the CHDR
+supply will inflate at an initial rate of 9.5% annually. Every year, the annual
+inflation rate will decrease by 0.5% until an annual inflation rate of 1% is
+reached. This will occur in the year 2036 and from then on, a 1% annual
+inflation rate will be used into perpetuity.
 
-\begin{center}
+\begin{figure}[H]
+
+  \centering
 
   \begin{tikzpicture}
 
     \begin{axis}[
       grid style=dashed,
-      title={CHDR Annual Inflation Rate over Time},
       xlabel={Time (Years)},
       xmax=25,
       xmin=0,
@@ -677,18 +679,21 @@ Seth Tomlinson concisely explains the mechanics of Steem's voting power
 
   \end{tikzpicture}
 
-\end{center}
+  \caption{CHDR Annual Inflation Rate over Time}
 
+\end{figure}
 
+Based on this starting supply and inflation curve, the overall supply of the
+CHDR currency will grow over time as follows:
 
+\begin{figure}[H]
 
-\begin{center}
+  \centering
 
   \begin{tikzpicture}
 
     \begin{axis}[
       grid style=dashed,
-      title={CHDR Supply over Time},
       xlabel={Time (Years)},
       xmax=25,
       xmin=0,
@@ -734,7 +739,9 @@ Seth Tomlinson concisely explains the mechanics of Steem's voting power
 
   \end{tikzpicture}
 
-\end{center}
+  \caption{CHDR Supply over Time}
+
+\end{figure}
 
 ## Determining Overall Rating
 
