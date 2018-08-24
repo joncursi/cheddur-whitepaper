@@ -1,11 +1,11 @@
-# Cheddur White Paper
+# Cheddur 2.0 White Paper
 
 Copyright © 2018 Cheddur, Inc.  All rights reserved.
 
 ## CHDR Tokens (Ʉ)
 
 This repository contains the [LaTeX](https://www.latex-project.org/)
-source code for the Cheddur white paper. To build the PDF version, clone the
+source code for the Cheddur 2.0 white paper. To build the PDF version, clone the
 repository and follow the instructions below.
 
 Pull requests to update the white paper will gladly be accepted upon review.

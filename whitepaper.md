@@ -51,7 +51,7 @@ urlcolor: blue
 
     \begin{center}
 
-      {\Huge \textbf{Cheddur}}
+      {\Huge \textbf{Cheddur 2.0}}
 
       \vspace{5mm}
 
@@ -978,7 +978,7 @@ When a new user signs up for Cheddur using an existing user's referral link,
 both the new user and the referrer will earn \text{\sout{U}}25. This will
 encourage users to bring their friends and followers to Cheddur.
 
-## Initial Coin Offering
+# Initial Coin Offering
 
 * Distribution of 100MM coins
   * Public distribution: 75M coins (75%)
@@ -1035,7 +1035,7 @@ encourage users to bring their friends and followers to Cheddur.
 
 \end{tabular}
 
-### Use of Funds
+## Use of Funds
 
 * How we intend to use:
     * Our 25M initial keep
@@ -1057,7 +1057,7 @@ encourage users to bring their friends and followers to Cheddur.
 
 \end{center}
 
-## Competition
+# Competition
 
 * Compare versus:
     * Revain
@@ -1072,7 +1072,7 @@ encourage users to bring their friends and followers to Cheddur.
     * How much raised in ICO
     * Filtration (auto vs crowd)
 
-## Migration
+# Migrating to 2.0
 
 * How will we migrate from v1 to v2?
     * User accounts
@@ -1083,7 +1083,7 @@ encourage users to bring their friends and followers to Cheddur.
   * Take down addresses?
   * Team members cannot upvote reviews of their projects (biased)
 
-## Roadmap
+# Roadmap
 
 Version 2.0 of the platform is slated to launch on May 1, 2019.
 
