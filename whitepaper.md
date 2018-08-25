@@ -1148,37 +1148,53 @@ content.
 
 # Migrating to 2.0
 
-* How will we migrate from v1 to v2?
-    * User accounts
-    * Existing reviews
-    * User addresses
-    * Possible removal from App Store
-* Changes
-  * Take down addresses?
-  * Team members cannot upvote reviews of their projects (biased)
+We will do everything we can to maintain (and improve upon) Cheddur's current
+degree of user experience. Our mission in the 2.0 migration is to ensure that
+our users do not have to realize they are using a blockchain.
+
+Being that the SMT protocol is in the early stages of development, it is
+difficult to anticipate every major change that will be needed to migrate from
+Cheddur 1.0 to Cheddur 2.0. A non-exhaustive list of items is presented below.
+
+## Authentication
+
+In order to allow our users to store their \text{\sout{U}} tokens under their
+primary Steem account, we will add the ability to sign up and sign in to Cheddur
+using your Steem account. This will be done using the
+[SteemConnect](https://steemconnect.com/) identity layer.
+
+Users with a pre-existing Cheddur 1.0 account will be able to link their Steem
+account as a secondary step within the Cheddur 2.0 account settings.
+
+## Existing Reviews
+
+After the Cheddur ICO is completed, \text{\sout{U}} tokens will be airdropped
+from the Bounty Program fund to users who posted reviews in the Cheddur 1.0
+architecture. We will post more details on how we intend to reward our early
+contributors as we approach the Cheddur 2.0 launch date.
 
 # Roadmap
 
-Version 2.0 of the platform is slated to launch on May 1, 2019.
+Cheddur 2.0 is slated to launch on May 01, 2019.
 
-Since the initial release of Cheddur in 2017, we've made continual progress:
-
-* Liquidity - STEEM dex
-
-* Q12018 - Managed Profiles (March)
-* Q22018 - Took on first investor; began Startup Acclerator (Desai)
-* Q32018 - Release of Website, tokenization progress, in discussion with investors (June...)
-
-* Version 2.0:
-    * ICO / Airdrop dates
-    * Launch date
-* Future features:
-    * News
-    * Chat
-    * Q&A
-    * Portfolio
-    * Price Alerts
-    * Tailored recommendations based on preferences, interests, risk tolerance
+* **Q42017:** Cheddur 1.0 is released on
+[iOS](https://itunes.apple.com/us/app/id1269377156) and [Android](https://play.google.com/store/apps/details?id=com.cheddur)!
+* **Q12018:**
+[Managed Profiles](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
+feature is released!
+* **Q22018:** Deal signed with first private investor! Cheddur team relocates to
+the [Desai Startup Accelerator](https://desaiaccelerator.umich.edu/).
+* **Q32018:** [Cheddur.com](https://www.cheddur.com/) website is released!
+Cheddur undergoes a
+[re-brand](https://blog.cheddur.com/were-re-branding-acae61cd3dd4).
+* **Q42018:** Deals signed with private investors in a seed round. Cheddur team
+is expanded.
+* **Q12019:** Cheddur 2.0 Alpha and Beta versions are released on the SMT
+test-net. Marketing begins for the Cheddur ICO.
+* **Q22019:** Cheddur ICO is conducted. CHDR tokens are listed on exchanges.
+Cheddur 2.0 launches!
+* **Q32019 - Q42019:** Additional tokenized content types are added! (Chat,
+News, Q&A)
 
 # FAQ
 
