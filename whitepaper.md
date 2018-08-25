@@ -913,7 +913,7 @@ Once the Cheddur 2.0 platform goes live, users will only be able to acquire
 
   \item Earning them through the production of high-quality reviews.
 
-  \item Earning them by completing bounties.
+  \item Earning them by completing valuable bounties.
 
   \item Buying them on the open market.
 
