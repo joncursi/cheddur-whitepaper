@@ -1275,10 +1275,10 @@ for free, and review readers to cast votes for free.
   inflation rate of 1\% is reached.
 
   \item As users acquire influence in the network, \text{\sout{U}} tokens
-  will be powered up and removed from circulation.
+  will be powered up and therefore removed from circulation.
 
   \item As cryptocurrency development teams run in-app advertisements,
-  \text{\sout{U}} tokens will be burned from circulation forever.
+  \text{\sout{U}} tokens will be burned (removed from circulation forever).
 
 \end{enumerate}
 
