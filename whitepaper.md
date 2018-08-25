@@ -55,11 +55,19 @@ urlcolor: blue
 
       \vspace{5mm}
 
-      {\Large A monetized version of Yelp for the cryptocurrency community.}
+      {\Large A monetized Yelp for the cryptocurrency ecosystem.}
 
       \vspace{15mm}
 
-      \textcolor{Grey}{\mydate\today}
+      {\large \textcolor{Grey}{Jon Cursi, Founder and CEO}}
+
+      \vspace{1mm}
+
+      {\large \textcolor{Grey}{jon@cheddur.com}}
+
+      \vspace{15mm}
+
+      {\normalsize \textcolor{Grey}{\mydate\today}}
 
     \end{center}
 
@@ -327,7 +335,7 @@ and enabling consumers to easily distinguish between high-quality and
 low-quality projects.
 
 Based on the findings from the Cheddur user study above, we have been able to
-make the following conclusions:
+draw the following conclusions:
 
 1. High-quality reviews ought to carry more weight towards determining a
 cryptocurrency project's overall star rating then should spammy, low-quality
@@ -376,8 +384,6 @@ forms of malicious activity.
 * Empower the Cheddur community to be self-policing and self-sustaining.
 * Enable newcomers to the cryptocurrency ecosystem to *earn* their way into the
 market with little or no downside risk.
-
-The targeted launch date for the Cheddur 2.0 platform is May 01, 2019.
 
 ## CHDR Tokens (\text{\sout{U}})
 
@@ -687,9 +693,9 @@ the author and the curators as follows:
 
 #### Rewards Curves
 
-As defined within the SMT protocol, the CHDR currency will use a $rc_linear$
+As defined within the SMT protocol, the CHDR currency will use a $rc\_linear$
 rewards curve to distribute \text{\sout{U}} rewards among each piece of content,
-and a $cc_sqrt$ curation curve to divide \text{\sout{U}} rewards among the
+and a $cc\_sqrt$ curation curve to divide \text{\sout{U}} rewards among the
 curators of an individual piece of content.
 
 ### "Powering Up"
@@ -925,8 +931,8 @@ Upon claiming their free Cheddur profiles, coin and crypto app developers will
 be able to pay for targeted advertising on the platform using a
 [pay-per-click (PPC)](https://en.wikipedia.org/wiki/Pay-per-click) model. All
 advertisements will be funded using \text{\sout{U}} tokens (either directly
-or indirectly), and all \text{\sout{U}} tokens that are collected from in-app
-advertising will be **burned** by the Cheddur team. This will further reduce the
+or indirectly), and **all \text{\sout{U}} tokens that are collected from in-app
+advertising will be burned** by the Cheddur team. This will further reduce the
 circulating supply of the CHDR currency and will help offset inflation.
 
 ## Bounty Program
@@ -1108,15 +1114,15 @@ content.
 
     \hline
 
-    Supply & 100MM & 1,000MM & 216MM \\
+    Overall Supply & 100MM & 1,000MM & 216MM \\
 
     \hline
 
-    Peak Market Cap (USD) & & 610MM & 6.5MM \\
+    Peak Market Cap (USD) & N/A & 610MM & 6.5MM \\
 
     \hline
 
-    Current Market Cap (USD) & & 25MM & 0.75MM \\
+    Current Market Cap (USD) & N/A & 25MM & 0.75MM \\
 
     \hline
 
