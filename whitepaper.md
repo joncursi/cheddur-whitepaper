@@ -363,6 +363,8 @@ forms of malicious activity.
 * Enable newcomers to the cryptocurrency ecosystem to *earn* their way into the
 market with little or no downside risk.
 
+The targeted launch date for the Cheddur 2.0 platform is May 01, 2019.
+
 ## CHDR Tokens (\text{\sout{U}})
 
 In order to achieve this, the CHDR currency will utilize the industry-leading
@@ -645,7 +647,7 @@ from each token inflation event will be distributed as follows:
    ]{
      70/Rewards Pool,
      15/Vested \text{\sout{U}} Holders,
-     10/Cheddur,
+     10/Company Holdings,
      5/Bounty Programs
    }
 
@@ -948,6 +950,9 @@ Users will be able to earn additional \text{\sout{U}} tokens by completing
 valuable bounties. 15% of all \text{\sout{U}} tokens generated through inflation
 are earmarked for bounties in order to accelerate the adoption of Cheddur.
 
+Bounties will be run outside of the consensus of the Steem blockchain, which
+will new bounties to be tested and existing bounties to be tweaked over time.
+
 ### First to Review Bounty
 
 To encourage users to try out and review new (or lesser-known) cryptocurrency
@@ -980,26 +985,10 @@ encourage users to bring their friends and followers to Cheddur.
 
 # Initial Coin Offering
 
-* Distribution of 100MM coins
-  * Public distribution: 75M coins (75%)
-  * Company reserve: 25M (25%)
-
-\begin{center}
-
-  \begin{tikzpicture}
-
-   \pie[rotate = 180]{
-     50/Token Sale,
-     30/Cheddur,
-     20/Private Sales
-   }
-
-  \end{tikzpicture}
-
-\end{center}
-
-
-
+Capital has been raised from private investors in order to fund the development
+of Cheddur 2.0. In order to distribute CHDR tokens to STEEM holders and to raise
+capital for the ongoing development of the platform, we will be conducting an
+ICO using the built-in capabilities of the SMT protocol.
 
 \begin{tabular}{| l | l |}
 
@@ -1017,35 +1006,62 @@ encourage users to bring their friends and followers to Cheddur.
 
   \hline
 
+  Currencies Accepted & STEEM \\
+
+  \hline
+
   Minimum Contribution & 1 STEEM \\
 
   \hline
 
-  Soft Cap & 2MM STEEM (~\$2MM USD) \\
-
-  \hline
-
-  Hard Cap & 12MM STEEM (~\$12MM USD) \\
-
-  \hline
-
-  Targeted Launch Date & May 01, 2019 \\
+  Hard Cap & 20MM USD \\
 
   \hline
 
 \end{tabular}
 
-## Use of Funds
+The targeted launch date for the Cheddur 2.0 platform is May 01, 2019---the day
+after the ICO concludes.
 
-* How we intend to use:
-    * Our 25M initial keep
-    * Platform fee earnings over time
+## Token Distribution
+
+The initial supply of 100MM \text{\sout{U}} tokens will be distributed as
+follows:
 
 \begin{center}
 
   \begin{tikzpicture}
 
-   \pie[rotate = 180]{
+   \pie[
+     explode = 0.2,
+     rotate = 90,
+     text = pin
+   ]{
+     55/Token Sale,
+     15/Company Holdings,
+     15/Team and Advisors,
+     10/Private Sales,
+     5/Bounty Program
+   }
+
+  \end{tikzpicture}
+
+\end{center}
+
+## Use of Funds
+
+The 15MM \text{\sout{U}} tokens that will be in the company's possession will
+be utilized as follows:
+
+\begin{center}
+
+  \begin{tikzpicture}
+
+   \pie[
+   explode = 0.2,
+   rotate = 90,
+   text = pin
+   ]{
      50/Development,
      25/Sales and Marketing,
      10/Operations,
