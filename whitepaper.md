@@ -94,17 +94,23 @@ urlcolor: blue
 
     \vspace{5mm}
 
-    {\centering{}Abstract goes here. Will write it once the contents of the white paper are complete.}
+    {\centering{}Cheddur 2.0 is a Yelp-like social network that aligns the
+      interests of review writers, review readers, and cryptocurrency
+      development teams to create and curate high-quality cryptocurrency reviews
+      and other forms of user-generated content. This is done by introducing a
+      new utility token, CHDR (\text{\sout{U}}), which utilizes industry-leading
+      "Proof of Brain" properties to accurately and transparently reward
+      individuals who make subjective contributions to the platform. Cheddur 2.0
+      will be the first platform to apply this technology to reviews, and in
+      doing so, seeks to bring safety, legitimacy, and accountability to the
+      cryptocurrency ecosystem.
+    }
 
   \end{minipage}
 
   \vspace{\stretch{3}}
 
 \clearpage
-
-<!--
-Cheddur is a social network that rewards its users for rating and reviewing cryptocurrency projects, applications, and businesses.
--->
 
 <!-- Table of Contents -------------------------------------------------------->
 
