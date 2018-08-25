@@ -429,46 +429,17 @@ These features are paramount in order to serve the crypto novice customer
 segment, and have made platforms like [Ethereum](https://ethereum.org/) a
 non-starter for our use case.
 
-#### Aligning Interests
-
-For any rewards-based ÐApp, the most critical question to answer is: "Who pays
-the bill?" In the case of Cheddur, the question is more specifically: *"Who pays
-reviewers to produce high-quality reviews?"*
-
-In most ÐApps today (i.e. applications that are built on top of Ethereum), the
-person who initiates the transaction generally has to foot the bill. If these
-mechanics were to be used on Cheddur, then a review writer would need to pay a
-platform fee in order to post their cryptocurrency review and a review reader
-would need to pay the writer their reward (directly) in the form of an up-vote.
-
-In this scenario, interests are misaligned between each of the parties
-involved. In order to boostrap the growth of the network, the Cheddur platform
-will need cryptocurrency reviews more than review writers will need to post
-them. If a transaction fee (or pay wall) is introduced in order for content to
-be posted on the network, little or no content will be posted on the network at
-all. Furthermore, if review readers are responsible for rewarding review writers
-directly from their own wallets (another pay wall), users will need to maintain
-a minimum balance on their account in order to interact with the platform.
-
-More importantly, the incentive to curate content will be diminished altogether
-because doing so comes at a cost to the user, rather than a benefit. In the
-absence of curation, writers will not be appropriately rewarded and high-quality
-content will become harder to find (and eventually cease to exist).
-
 ### Rewards
 
-For these reasons, we're taking a different approach to rewarding users within
-the Cheddur ecosystem. Rather than individual users having to pay rewards and
-fees directly, \text{\sout{U}} tokens will be awarded via the programmatic
-inflation of the CHDR supply. Inflation aligns the interests of each stakeholder
-as the *Cheddur community as a whole*---reviewers, readers, developers, and the
-Cheddur team---collectively pay for the creation and curation of high-quality
-content.
+\text{\sout{U}} tokens will be awarded via the programmatic inflation of the
+CHDR supply. Inflation aligns the interests of each stakeholder as the *Cheddur
+community as a whole*---reviewers, readers, developers, and the Cheddur
+team---collectively pay for the creation and curation of high-quality content.
 
-In this scenario, review writers are able to post cryptocurrency reviews on the
-platform as frequently as they'd like and at *zero cost*---much like the
-mainstream social networks of today. This encourages the production of fresh
-cryptocurrency reviews, which is healthy for the growth of the platform.
+Review writers are able to post cryptocurrency reviews on the platform as
+frequently as they'd like and at *zero cost*---much like the mainstream social
+networks of today. This encourages the production of fresh cryptocurrency
+reviews, which is healthy for the growth of the platform.
 
 Review readers are able to cast votes on these reviews---also at no direct
 cost---which encourages the curation of content. Reviews that are deemed by
@@ -990,35 +961,39 @@ of Cheddur 2.0. In order to distribute CHDR tokens to STEEM holders and to raise
 capital for the ongoing development of the platform, we will be conducting an
 ICO using the built-in capabilities of the SMT protocol.
 
-\begin{tabular}{| l | l |}
+\begin{table}[H]
 
-  \hline
+  \begin{tabular}{| l | l |}
 
-  \textbf{Parameter} & \textbf{Value} \\
+    \hline
 
-  \hline
+    \textbf{Parameter} & \textbf{Value} \\
 
-  Start Date & April 01, 2019 \\
+    \hline
 
-  \hline
+    Start Date & April 01, 2019 \\
 
-  End Date & April 30, 2019 \\
+    \hline
 
-  \hline
+    End Date & April 30, 2019 \\
 
-  Currencies Accepted & STEEM \\
+    \hline
 
-  \hline
+    Currencies Accepted & STEEM \\
 
-  Minimum Contribution & 1 STEEM \\
+    \hline
 
-  \hline
+    Minimum Contribution & 1 STEEM \\
 
-  Hard Cap & 20MM USD \\
+    \hline
 
-  \hline
+    Hard Cap & 20MM USD \\
 
-\end{tabular}
+    \hline
+
+  \end{tabular}
+
+\end{table}
 
 The targeted launch date for the Cheddur 2.0 platform is May 01, 2019---the day
 after the ICO concludes.
@@ -1075,18 +1050,101 @@ be utilized as follows:
 
 # Competition
 
-* Compare versus:
-    * Revain
-    * Review.Network
-    * Utrum
-    * ICOBox's "expert reviews"
-* Metrics
-    * Beginner friendly
-    * Incentivized
-    * Who pays?
-    * Platform
-    * How much raised in ICO
-    * Filtration (auto vs crowd)
+For any rewards-based ÐApp, the most critical question to answer is: "Who pays
+the bill?" In the case of Cheddur, the question is more specifically: *"Who pays
+reviewers to produce high-quality reviews?"*
+
+**Our competitors have gotten this wrong.**
+
+In most ÐApps today (i.e. applications that are built on top of Ethereum), the
+person who initiates the transaction generally has to foot the bill. If these
+mechanics were to be used on Cheddur, then a review writer would need to pay a
+platform fee in order to post their cryptocurrency review and a review reader
+would need to pay the writer their reward (directly) in the form of an up-vote.
+
+In this scenario, interests are misaligned between each of the parties
+involved. In order to boostrap the growth of the network, the Cheddur platform
+will need cryptocurrency reviews more than review writers will need to post
+them. If a transaction fee (or pay wall) is introduced in order for content to
+be posted on the network, little or no content will be posted on the network at
+all. Furthermore, if review readers are responsible for rewarding review writers
+directly from their own wallets (another pay wall), users will need to maintain
+a minimum balance on their account in order to interact with the platform.
+
+More importantly, the incentive to curate content will be diminished altogether
+because doing so comes at a cost to the user, rather than a benefit. In the
+absence of curation, writers will not be appropriately rewarded and high-quality
+content will become harder to find (and eventually cease to exist).
+
+For these reasons, we've taken a different approach to rewarding users within
+the Cheddur ecosystem. Rather than individual users having to pay rewards and
+fees directly, \text{\sout{U}} tokens will be awarded via the programmatic
+inflation of the CHDR supply. Inflation aligns the interests of each stakeholder
+as the *Cheddur community as a whole*---reviewers, readers, developers, and the
+Cheddur team---collectively pay for the creation and curation of high-quality
+content.
+
+\begin{table}[H]
+
+  \begin{tabular}{| l | c | c | c |}
+
+    \hline
+
+    \textbf{Metric} & \textbf{Cheddur} & \textbf{Revain} & \textbf{Utrum} \\
+
+    \hline
+
+    Supply & 100MM & 1,000MM & 216MM \\
+
+    \hline
+
+    Peak Market Cap (USD) & & 610MM & 6.5MM \\
+
+    \hline
+
+    Current Market Cap (USD) & & 25MM & 0.75MM \\
+
+    \hline
+
+    Platform & Steem & Ethereum & Komodo \\
+
+    \hline
+
+    Reward Payer & Community & Developers & Company \\
+
+    \hline
+
+    Live & Yes & Sort of & No \\
+
+    \hline
+
+    Aligned Interests & Yes & No & No \\
+
+    \hline
+
+    Comprehensive & Yes & No & Maybe? \\
+
+    \hline
+
+    Beginner Friendly & Yes & No & No \\
+
+    \hline
+
+    Mobile Apps & Yes & No & No \\
+
+    \hline
+
+    Claimable Profiles & Yes & No & No \\
+
+    \hline
+
+    Crowdsourced Content & Yes & No & No \\
+
+    \hline
+
+  \end{tabular}
+
+\end{table}
 
 # Migrating to 2.0
 
