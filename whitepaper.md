@@ -132,10 +132,24 @@ over 20M users[^fn3]. And [Binance](https://www.binance.com/), one of the
 industry's leading exchanges, has acquired over 9M users within its first year
 of operation[^fn4]. Estimating that there are ~30M unique cryptocurrency users
 worldwide (as of August 2018), we are currently in the year 1996 when compared
-to the Internet. The Internet surpassed 1 billion users just 9 years later
-(December, 2005), and based on growth comparisons above, it is
-reasonable to estimate that **~1 billion people will enter the cryptocurrency
-market by the year 2027[^fn5]**.
+to the Internet.
+
+The Internet surpassed 1 billion users just 9 years later (December, 2005), and
+based on growth comparisons above, it is reasonable to estimate that **~1
+billion people will enter the cryptocurrency market by the year 2027[^fn5]**.
+
+### Venture Capital Funding
+
+In 2017, $900MM USD of venture capital funding was injected into blockchain
+startups globally. According to current growth trends, venture capital funding
+of blockchain startups in 2018 is expected to exceed $3.2B USD (~3.5x)[^fn21].
+
+### Number of Tokens
+
+As of August 2018, the Ethereum platform alone is host to over 110,000 tokens
+according to [data provided by Etherscan](http://etherscan.io/tokens). Our
+internal forecasts predict that there will be over 1,000,000 cryptocurrency
+tokens by the year 2020.
 
 ## Barriers to Entry
 
@@ -1196,62 +1210,74 @@ Cheddur 2.0 launches!
 * **Q32019 - Q42019:** Additional tokenized content types are added! (Chat,
 News, Q&A)
 
-# FAQ
+# Frequently Asked Questions
 
-0. Scam projects?
-  * Not our decision. Our goal is to be factually complete. We focus on listing
-  new and interesting cryptocurrency projects based on user demand and the
-  *facts* that we find on the Internet. It is up to the Cheddur community to
-  decide.
-0. Sybil attack?
-    * Even if restrictions are enacted at the account level to prevent a user
-    from reviewing the same project more than once, these restrictions can generally
-    be overcome through Sybil attacks.
-1. How to prevent malicious voting?
-    * Your votes have minimum weight by default
-    * Voting power is based on the balance of vested coins in your account
-        * More vested coins = more power, and visa versa
-    * If you have high voting power (high stake) and you vote maliciously, you are hurting
-    yourself because your coins are staked and you can't immediately sell them
-    * This method of assigning power has been battle-tested on Steem
-2. How will introducing the Cheddur currency grow the system?
-    * Higher rate of inflation in the early days to incentivize early adoption
-    * More users -> more competition -> review quality increases over time -> price goes up
-        * More traffic -> more advertising -> more coins are burned -> price goes up
-3. How to control inflation?
-    * Burn advertising coins
-4. How to prevent the price from dumping from users immediately selling rewards?
-    * Selling will exist, but will incentivize users to vest portion of their earnings
-        * Interest and voting power given to those who vest
-5. bad profile submission.
-  * still get bounty?
-  * users listing projects prematurely to scoop the rewards?
+#### Can a malicious user game the reward system by creating multiple, fake accounts?
 
-# TODO
+While it is difficult to stop a malicious user from creating multiple accounts,
+the creation of these accounts will not affect the distribution of
+\text{\sout{U}} rewards. This is because the CHDR token system uses a
+"one token, one vote" policy, not a "one account, one vote" policy.
 
-* market size: talk about VC investment, number of projects in 2020...
-* Flush out scope of work:
-    * Should profile submissions and edits be tokenized, too?
-    * Can listings be tokenized later, or does this have to be set on day 1?
-* Platform to build on?
-    * Steem (SMT)
-    * Steem (direct)
-    * EOS
-    * Ethereum
-* ICO or Airdrop?
-    * Use of funds
-* Flush out all parameters of the monetary policy
-    * Initial supply, distribution
-    * Inflation curve
-    * Rewards pool, distribution
-    * Vesting / de-vesting
-    * Platform fee vs. burning coins from the ad network:
-        * No platform fee, but keep coins spent on advertising?
-        * Platform fee, but burn all ad coins?
-        * Platform fee, but burn ad coins up to a certain extent (e.g. BNB Coin)?
-* Migration strategy
-* Roadmap dates and features
-* should bounty rewards be a fixed amount or fixed amount per day divided among, with max (Steemhunt)
+#### Can a malicious group of users game the reward system by voting for each other's posts?
+
+While coordinated voting (or "vote brigading") is difficult to prevent
+altogether, the token economics of Cheddur 2.0 discourage this type of activity
+from happening. In order for any of the coordinated votes to carry enough weight
+to yield a substantial reward, the users who cast the votes must "power up" a
+substantial amount of \text{\sout{U}} tokens inside their accounts. Thus, in
+order for these users to gain enough influence to carry out the attack, they
+must first establish a long position and lock up \text{\sout{U}} tokens.
+
+By proceeding with the attack, any short-term gains will be simultaneously
+undermined by longer-term losses. In other words, attacking the system will
+require a user to attack themselves.
+
+#### What will stop a user from abusing their influence in the network and then immediately selling their \text{\sout{U}} tokens before the markets can react?
+
+Influence in the Cheddur network takes a substantial amount of time to
+liquidate. The process of "powering down" vested \text{\sout{U}} tokens occurs
+over a 13-week time period, which gives the markets plenty of time to react.
+Therefore, the attacker will again be attacking themselves.
+
+#### Can users just up-vote everything in order to maximize their curation rewards?
+
+No. To prevent users from spamming the network with up-votes, each user will be
+only be able to cast a maximum of 50 up-votes per every 5 days, or ~10 up-votes
+per day. In order to maximize curation rewards, you'll need to spend those votes
+wisely.
+
+#### Why does the CHDR currency have inflation?
+
+Inflation aligns the interests of each stakeholder as the *Cheddur community as
+a whole*---reviewers, readers, developers, and the Cheddur team---collectively
+pay for the creation and curation of high-quality content. Paying for rewards
+through inflation also allows review writers to post reviews on the platform
+for free, and review readers to cast votes for free.
+
+#### How will inflation be controlled?
+
+\begin{enumerate}[label=(\Alph*)]
+
+  \item Every year, the annual inflation rate will drop by 0.5\% until an annual
+  inflation rate of 1\% is reached.
+
+  \item As users acquire influence in the network, \text{\sout{U}} tokens
+  will be powered up and removed from circulation.
+
+  \item As cryptocurrency development teams run in-app advertisements,
+  \text{\sout{U}} tokens will be burned from circulation forever.
+
+\end{enumerate}
+
+<!-- TODO ----------------------------------------------------------------------
+
+* Should bounty rewards be paid in a fixed amount of CHDR, or should it be
+  dynamic like Steemhunt?
+
+* If a user submits a poor quality profile, do they still earn the bounty?
+
+------------------------------------------------------------------------------->
 
 [^fn1]: Medium, Chris McCann, "12 Graphs That Show Just How Early The Cryptocurrency Market Is," May 2018.
 \hfill\break
@@ -1313,3 +1339,5 @@ https://steem.io/steem-bluepaper.pdf
 [^fn20]: Bitshares, "Delegated Proof of Stake."
 \hfill\break
 http://docs.bitshares.org/bitshares/dpos.html
+[^fn21]: TechCrunch, Jason Rowley, "With at least $1.3 billion invested globally in 2018, VC funding for blockchain blows past 2017 totals," May 2018.
+https://techcrunch.com/2018/05/20/with-at-least-1-3-billion-invested-globally-in-2018-vc-funding-for-blockchain-blows-past-2017-totals/
