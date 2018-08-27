@@ -330,8 +330,7 @@ platform.
 reliant they tend to be on the opinions (reviews) of others.
 4. Generally speaking, the experts and innovators in the cryptocurrency
 space---those with the wisdom and experience to produce the highest-quality,
-most unbiased reviews---have not been properly incentivized in order for them to
-spend the time and energy doing so.
+most unbiased reviews---have not been properly incentivized to do so.
 
 ## Conclusions
 
@@ -727,7 +726,7 @@ policy based on the amount of vested \text{\sout{U}} tokens each user has in
 their account.
 
 This will favorably skew influence over the network towards users who have
-skin in the game---through earning or buying---and are vested in the long-term
+skin in the game---by earning in or buying in---and are vested in the long-term
 uccess of the platform.
 
 ### "Powering Down"
@@ -944,7 +943,7 @@ circulating supply of the CHDR currency and will help offset inflation.
 ## Bounty Program
 
 Users will be able to earn additional \text{\sout{U}} tokens by completing
-valuable bounties. 15% of all \text{\sout{U}} tokens generated through inflation
+valuable bounties. 5% of all \text{\sout{U}} tokens generated through inflation
 are earmarked for bounties in order to accelerate the adoption of Cheddur.
 
 Bounties will be run outside of the consensus of the Steem blockchain, which
@@ -977,12 +976,12 @@ This \text{\sout{U}}50 reward can also be applied towards in-app advertising.
 ### Referral Program
 
 When a new user signs up for Cheddur using an existing user's referral link,
-both the new user and the referrer will earn \text{\sout{U}}25. This will
+both the new user and the referrer will earn \text{\sout{U}}15. This will
 encourage users to bring their friends and followers to Cheddur.
 
 # Initial Coin Offering
 
-Capital has been raised from private investors in order to fund the development
+Capital is being raised from private investors in order to fund the development
 of Cheddur 2.0. In order to distribute CHDR tokens to STEEM holders and to raise
 capital for the ongoing development of the platform, we will be conducting an
 ICO using the built-in capabilities of the SMT protocol.
@@ -1082,11 +1081,13 @@ reviewers to produce high-quality reviews?"*
 
 **Our competitors have gotten this wrong.**
 
+## Misaligned Incentives
+
 In most ÐApps today (i.e. applications that are built on top of Ethereum), the
 person who initiates the transaction generally has to foot the bill. If these
 mechanics were to be used on Cheddur, then a review writer would need to pay a
 platform fee in order to post their cryptocurrency review and a review reader
-would need to pay the writer their reward (directly) in the form of an up-vote.
+would need to pay the writer their reward (directly) when they up-vote.
 
 In this scenario, interests are misaligned between each of the parties
 involved. In order to boostrap the growth of the network, the Cheddur platform
@@ -1094,13 +1095,21 @@ will need cryptocurrency reviews more than review writers will need to post
 them. If a transaction fee (or pay wall) is introduced in order for content to
 be posted on the network, little or no content will be posted on the network at
 all. Furthermore, if review readers are responsible for rewarding review writers
-directly from their own wallets (another pay wall), users will need to maintain
-a minimum balance on their account in order to interact with the platform.
+directly from their own wallets (another pay wall), then:
 
-More importantly, the incentive to curate content will be diminished altogether
-because doing so comes at a cost to the user, rather than a benefit. In the
-absence of curation, writers will not be appropriately rewarded and high-quality
-content will become harder to find (and eventually cease to exist).
+\begin{enumerate}[label=(\Alph*)]
+
+  \item Users will need to maintain a minimum balance on their account in order
+  to interact with the platform.
+
+  \item The incentive to curate content will be greatly diminished because doing
+  so comes at a cost to the user, rather than a benefit. In the absence of
+  curation, writers will not be appropriately rewarded and high-quality content
+  will become harder to find on the platform (and eventually cease to exist).
+
+\end{enumerate}
+
+## Cheddur's Approach
 
 For these reasons, we've taken a different approach to rewarding users within
 the Cheddur ecosystem. Rather than individual users having to pay rewards and
@@ -1109,6 +1118,8 @@ inflation of the CHDR supply. Inflation aligns the interests of each stakeholder
 as the *Cheddur community as a whole*---reviewers, readers, developers, and the
 Cheddur team---collectively pay for the creation and curation of high-quality
 content.
+
+## Comparison Table
 
 \begin{table}[H]
 
@@ -1174,9 +1185,9 @@ content.
 
 # Migrating to 2.0
 
-We will do everything we can to maintain (and improve upon) Cheddur's current
-degree of user experience. Our mission in the 2.0 migration is to ensure that
-our users do not have to realize they are using a blockchain.
+Our mission in the 2.0 migration is to ensure that our users do not have to
+realize they are using a blockchain. We will do everything we can to maintain
+(and improve upon) Cheddur's current level of user experience.
 
 Being that the SMT protocol is in the early stages of development, it is
 difficult to anticipate every major change that will be needed to migrate from
@@ -1203,6 +1214,8 @@ contributors as we approach the Cheddur 2.0 launch date.
 
 Cheddur 2.0 is slated to launch on May 01, 2019.
 
+## Historical
+
 * **Q42017:** Cheddur 1.0 is released on
 [iOS](https://itunes.apple.com/us/app/id1269377156) and [Android](https://play.google.com/store/apps/details?id=com.cheddur)!
 * **Q12018:**
@@ -1213,6 +1226,9 @@ the [Desai Startup Accelerator](https://desaiaccelerator.umich.edu/).
 * **Q32018:** [Cheddur.com](https://www.cheddur.com/) website is released!
 Cheddur undergoes a
 [re-brand](https://blog.cheddur.com/were-re-branding-acae61cd3dd4).
+
+## Upcoming
+
 * **Q42018:** Deals signed with private investors in a seed round. Cheddur team
 is expanded.
 * **Q12019:** Cheddur 2.0 Alpha and Beta versions are released on the SMT
@@ -1288,6 +1304,9 @@ for free, and review readers to cast votes for free.
   dynamic like Steemhunt?
 
 * If a user submits a poor quality profile, do they still earn the bounty?
+
+* Referral program can be sybil attacked. How to safeguard?
+"To prevent Sybil attacks, the new user must verify their email address."
 
 ------------------------------------------------------------------------------->
 
