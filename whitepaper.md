@@ -27,10 +27,17 @@ header-includes:
     - \fontsize{13pt}{13pt}
     - \usepackage[normalem]{ulem}
     - \usepackage[utf8]{inputenc}
-    # Footnotes
-    - \usepackage[hang]{footmisc}
     # Fractions
     - \usepackage{nicefrac}
+    # Header & Footer
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \fancyhead{}
+    - \renewcommand{\headrulewidth}{0pt}
+    - \fancyfoot{}
+    - \fancyfoot[LE,RO]{\thepage}
+    - \fancyfoot[RE,LO]{Copyright © 2018 Cheddur, Inc. All rights reserved.}
+    - \usepackage[hang]{footmisc}
     # Lists
     - \usepackage{enumitem}
 pdfauthor: Jon Cursi
