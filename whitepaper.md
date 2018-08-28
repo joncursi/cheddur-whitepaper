@@ -168,8 +168,8 @@ of blockchain startups in 2018 is expected to exceed $3.2B USD (~3.5x)[^fn21].
 ### Number of Tokens
 
 As of August 2018, the Ethereum platform alone is host to over 110,000 tokens
-according to [data provided by Etherscan](http://etherscan.io/tokens). Our
-internal forecasts predict that there will be over 1,000,000 cryptocurrency
+according to [data provided by Etherscan](http://etherscan.io/tokens).
+Our internal forecasts predict that there will be over 1,000,000 cryptocurrency
 tokens by the year 2020.
 
 ## Barriers to Entry
@@ -734,7 +734,7 @@ their account.
 
 This will favorably skew influence over the network towards users who have
 skin in the game---by earning in or buying in---and are vested in the long-term
-uccess of the platform.
+success of the platform.
 
 ### "Powering Down"
 
@@ -1019,6 +1019,10 @@ ICO using the built-in capabilities of the SMT protocol.
 
     \hline
 
+    Soft Cap & 1MM USD \\
+
+    \hline
+
     Hard Cap & 20MM USD \\
 
     \hline
@@ -1223,26 +1227,26 @@ Cheddur 2.0 is slated to launch on May 01, 2019.
 
 ## Historical
 
-* **Q42017:** Cheddur 1.0 is released on
+* **Q4-2017:** Cheddur 1.0 is released on
 [iOS](https://itunes.apple.com/us/app/id1269377156) and [Android](https://play.google.com/store/apps/details?id=com.cheddur)!
-* **Q12018:**
+* **Q1-2018:**
 [Managed Profiles](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
 feature is released!
-* **Q22018:** Deal signed with first private investor! Cheddur team relocates to
+* **Q2-2018:** Deal signed with first private investor! Cheddur team relocates to
 the [Desai Startup Accelerator](https://desaiaccelerator.umich.edu/).
-* **Q32018:** [Cheddur.com](https://www.cheddur.com/) website is released!
+* **Q3-2018:** [Cheddur.com](https://www.cheddur.com/) website is released!
 Cheddur undergoes a
 [re-brand](https://blog.cheddur.com/were-re-branding-acae61cd3dd4).
 
 ## Upcoming
 
-* **Q42018:** Deals signed with private investors in a seed round. Cheddur team
+* **Q4-2018:** Deals signed with private investors in a seed round. Cheddur team
 is expanded.
-* **Q12019:** Cheddur 2.0 Alpha and Beta versions are released on the SMT
+* **Q1-2019:** Cheddur 2.0 Alpha and Beta versions are released on the SMT
 test-net. Marketing begins for the Cheddur ICO.
-* **Q22019:** Cheddur ICO is conducted. CHDR tokens are listed on exchanges.
+* **Q2-2019:** Cheddur ICO is conducted. CHDR tokens are listed on exchanges.
 Cheddur 2.0 launches!
-* **Q32019 - Q42019:** Additional tokenized content types are added! (Chat,
+* **Q3-2019 to Q4-2019:** Additional tokenized content types are added! (Chat,
 News, Q&A)
 
 # Frequently Asked Questions
@@ -1307,13 +1311,49 @@ for free, and review readers to cast votes for free.
 
 <!-- TODO ----------------------------------------------------------------------
 
-* Should bounty rewards be paid in a fixed amount of CHDR, or should it be
-  dynamic like Steemhunt?
-
 * If a user submits a poor quality profile, do they still earn the bounty?
 
-* Referral program can be sybil attacked. How to safeguard?
-"To prevent Sybil attacks, the new user must verify their email address."
+* Bounties
+  * Referral program can be sybil attacked. How to safeguard?
+  "To prevent Sybil attacks, the new user must verify their email address."
+  * First to review -> first review > 0 payout (to prevent squatters)
+  * Should bounty rewards be paid in a fixed amount of CHDR, or should it be
+    dynamic like Steemhunt?
+
+* ICO
+  * Opening price? Undetermined price or fixed price?
+    * https://hackernoon.com/top-8-tips-for-launching-a-successful-ico-15d0a4435a8
+    * undetermined price:
+      * $0.02 per U if soft cap reached
+      * $0.36 per U if hard cap reached
+    * fixed price:
+      if $0.12 per U, then 55M U * $0.12 = $6.6M hard cap
+  * If soft cap not reached, funds returned?
+
+* Sources
+  * No wikipedia sources
+
+* More methodology on how we found conclusions from challenges (few more sentences)
+
+* Legitimize user study by showing questions that were asked
+
+* Definitions sections
+  * name customer segments (e.g. developers)
+  * vesting & staking
+  * rc_linear cc_sqrt -> reference in SMT whitepaper
+
+* Roadmap:
+  * Open-source the platform?
+
+* Legal advice needed:
+  * Which countries blocked, if any? (US, Canada, China)
+  * Tax
+    * ICO itself, concerns?
+    * Advertisers paying in Cheddur tokens, creates tax headache for them?
+
+* Existing reviews
+  * Snapshot database, build claim UI (requires you to link you Steem account
+    to claim)
 
 ------------------------------------------------------------------------------->
 
