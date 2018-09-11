@@ -62,7 +62,7 @@ urlcolor: blue
 
       \vspace{5mm}
 
-      {\Large A monetized Yelp for the cryptocurrency ecosystem.}
+      {\Large Yelp, for the cryptocurrency ecosystem.}
 
       \vspace{15mm}
 
@@ -101,17 +101,18 @@ urlcolor: blue
 
     \vspace{5mm}
 
-    {\centering{}Cheddur 2.0 is a Yelp-like social network that aligns the
-      interests of cryptocurrency beginners, cryptocurrency experts, and
-      cryptocurrency companies. Users are rewarded for creating and
-      curating high-quality cryptocurrency reviews and other forms of
-      user-generated content on the platform. This is done by introducing a new
-      utility token, CHDR (\text{\sout{U}}), which utilizes industry-leading
-      "Proof of Brain" properties to accurately and transparently reward
-      individuals who make subjective contributions to our community. Cheddur
-      2.0 will be the first platform to apply this technology to reviews, and in
-      doing so, aims to bring safety, order, and accountability to the
-      cryptocurrency ecosystem.
+    {\centering{}Cheddur 2.0 is a Yelp-like social network for all things crypto
+      that aligns the interests of cryptocurrency beginners, cryptocurrency
+      experts, and crypto companies (coins, tokens, and ÐApps). This is done by
+      introducing a new utility token, CHDR (\text{\sout{U}}), which utilizes
+      industry-leading "Proof of Brain" properties to accurately and
+      transparently reward individuals who make subjective contributions to the
+      Cheddur community. Users earn \text{\sout{U}} tokens for creating and
+      curating high-quality content on the platform, and crypto companies spend
+      \text{\sout{U}} tokens on the platform to grow their communities of users
+      and investors. Cheddur 2.0 will be the first platform to apply this
+      technology to reviews, and in doing so, aims to bring safety, order, and
+      accountability to the cryptocurrency ecosystem.
     }
 
   \end{minipage}
