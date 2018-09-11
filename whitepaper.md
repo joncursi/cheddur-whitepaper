@@ -110,7 +110,7 @@ urlcolor: blue
       "Proof of Brain" properties to accurately and transparently reward
       individuals who make subjective contributions to our community. Cheddur
       2.0 will be the first platform to apply this technology to reviews, and in
-      doing so, seeks to bring safety, order, and accountability to the
+      doing so, aims to bring safety, order, and accountability to the
       cryptocurrency ecosystem.
     }
 
@@ -145,7 +145,7 @@ cryptocurrency between 2014-17 also tracks closely to the number of people who
 bought a modem and connected to the Internet for the first time between
 1991-95[^fn1].
 
-## Market Size
+## Crypto Market Size
 
 [Blockchain](https://www.blockchain.com/)---one of the industry's leading
 wallet providers---has over 27M users as of August 2018[^fn2].
@@ -157,8 +157,8 @@ worldwide (as of August 2018), we are currently in the year 1996 when compared
 to the Internet.
 
 The Internet surpassed 1 billion users just 9 years later (December, 2005), and
-based on growth comparisons above, it is reasonable to estimate that **~1
-billion people will enter the cryptocurrency market by the year 2027[^fn5]**.
+based on growth comparisons above, it is fair to estimate that **~1 billion
+people will enter the cryptocurrency market by the year 2027[^fn5]**.
 
 ### Venture Capital Funding
 
@@ -268,20 +268,21 @@ In 2018, however, the barrier to entry into the cryptocurrency market is still
 very high.
 
 * Most consumers are unfamiliar with cryptocurrency as an asset class. As a
-result, they have lots of questions, doubts, and uncertainties about
+result, they have many questions, doubts, and uncertainties about
 cryptocurrency, and it currently takes too much time, energy, and experience
 to get answers.
 
 * Most cryptocurrency tools, wallets, and applications are still extremely
-technical and, to beginners especially, it can feel as though you need a Ph.D.
-in computer science just to get started.
+technical. To beginners, it can feel as though you need a Ph.D. in computer
+science just to get started.
 
 * The fiat-to-crypto "on-ramps"---platforms like
 [Coinbase](https://www.coinbase.com/), [Gemini](https://gemini.com/), and
-[Bittrex](https://bittrex.com/)---are greatly simplifying the purchasing
-process, but have neglected the educational components that are needed to help
-their users understand *what* it is that they are buying so that they can make
-informed investment decisions.
+[Bittrex](https://bittrex.com/)---greatly simplify the purchasing process.
+However, these platforms have neglected the educational components that are
+needed to help their users understand *what* it is that they are buying. Without
+these educational components, users are less likely to make informed investment
+decisions.
 
 * According to
 [CoinSchedule](https://www.coinschedule.com), ~25 new ICOs have launched per
@@ -300,31 +301,30 @@ that **more than 80% of ICOs that were conducted in 2017 were scams**[^fn8].
 The cryptocurrency industry in 2018 is still the Wild West and, similar to the
 comparisons made above, this too is much like the early days of the Internet.
 In 1996, cybercriminals---skilled, organized, and motivated by financial
-gain---were busy sending spam email, orchestrating phishing attacks, defacing
-websites, and stealing private information[^fn9]. New dot-com companies were
-being launched every single day, but their resources were focused on
-"fast-tracking to IPO, without adequate emphasis on a viable business plan,
-solid mission, and inspiring vision"[^fn10]. Furthermore,
+gain---sent spam email, orchestrated phishing attacks, defaced websites, and
+stole private information[^fn9]. New dot-com companies launched every day, but
+with their resources focused on "fast-tracking to IPO, without adequate emphasis
+on a viable business plan, solid mission, and inspiring vision"[^fn10].
+Furthermore,
 [few investors truly understood the technology](https://www.youtube.com/watch?v=UlJku_CSyNg),
 nor the companies they were investing in.
 
 This was the recipe for the dot-com collapse of 2000, of which only 48% of
 Internet companies survived and many investors lost their life savings[^fn11].
 Today, we're seeing the same ingredients coalesce in the cryptocurrency market
-as uneducated investors are beginning to enter the market, scammers are
-preying on newcomers through
+as less educated investors enter the market, scammers prey on newcomers through
 [fake Twitter accounts](https://www.coindesk.com/6-outrageous-moments-crypto-twitter-scam-history/)
 and
 [cryptocurrency "giveaways"](https://www.proofpoint.com/us/threat-insight/post/money-nothing-cryptocurrency-giveaways-net-thousands-scammers-0),
 hackers are
 [stealing from exchanges and smart contracts](https://blockgeeks.com/guides/cryptocurrency-hacks/),
 and
-[ICO fever](https://news.bitcoin.com/despite-falling-revenue-ico-fever-remains-high/)
+["ICO fever"](https://news.bitcoin.com/despite-falling-revenue-ico-fever-remains-high/)
 continues to grow.
 
 ## Problems
 
-In order to get involved in the cryptocurrency market, most beginners need the
+To get involved in the cryptocurrency market, most beginners need the
 help of a "trusted expert"---someone who can guide them to safely enter the
 market and navigate the ecosystem. However, most consumers do not have a
 trusted expert in their life, which puts cryptocurrency out of the reach of the
@@ -365,17 +365,17 @@ cryptocurrency companies (as of August 2018) seeking to:
 
 ## Traction
 
-Despite the bear market of 2018, our community of users and companies has been
-growing steadily. As of August 2018:
+Despite the bear market of 2018, our community of users and companies has grown
+steadily. As of August 2018, Cheddur has:
 
-* 50,000+ beginners have been guided.
-* 10,000+ accounts have been registered.
-* 2,500+ cryptocurrency reviews have been written.
-* 2,000+ coin addresses have been posted.
-* 2,000+ [coins](https://www.cheddur.com/coins) and
-[crypto apps](https://www.cheddur.com/apps) have been listed.
-* 200+
-[partnerships have been established](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
+* Guided 50,000+ beginners.
+* Registered 10,000+ accounts.
+* Amassed 2,500+ cryptocurrency reviews.
+* Amassed 2,000+ coin addresses.
+* Listed 2,000+ [coins](https://www.cheddur.com/coins) and
+[crypto apps](https://www.cheddur.com/apps).
+* Established 200+
+[partnerships](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
 with cryptocurrency companies across the globe.
 
 We've also received an overwhelming amount of positive feedback over the past
@@ -389,14 +389,14 @@ and our
 # Cryptocurrency Reviews
 
 We recognize that in 2018, a significant portion of the cryptocurrencies
-on the market may be of low quality, or may even be outright scams. While it is
+on the market may be low quality, or even outright scams. While it is
 important to identify these currencies as such, deciding *which* of these are
-scams and which of these are not is often a highly subjective process---at least
-before any acts of crime have been committed.
+scams is often a highly subjective process---at least before any acts of crime
+have been committed.
 
 ## Using the Wisdom of the Crowd
 
-As a company, we believe that it is best to neither be the judge nor jury over
+As a company, we believe that it is best to be neither the judge nor jury over
 these subjective decisions. When it comes to listing new coins and crypto apps
 on Cheddur, our goal is to instead be *factually complete* and to list new and
 interesting projects based on user demand and the facts that are available on
@@ -416,7 +416,7 @@ identify several important challenges with user-generated reviews:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
 to be overly positive in their reviews of coins that they hold (5 stars), or
-overly negative in their reviews of "rival" companies (one star)[^fn13].
+overly negative in their reviews of "rival" companies (1 star)[^fn13].
 2. Companies are not permitted to remove user reviews of their coin or crypto
 app, so long as those reviews abide by the
 [Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
@@ -432,9 +432,8 @@ most unbiased reviews---have not been properly incentivized to do so.
 ## Conclusions
 
 Maintaining the integrity of the Cheddur review system is critical towards
-holding cryptocurrency companies accountable for their actions (or lack thereof)
-and enabling beginners to easily distinguish between high-quality and
-low-quality companies.
+holding cryptocurrency companies accountable for their actions and enabling
+beginners to easily distinguish between high-quality and low-quality companies.
 
 Based on the findings from the Cheddur user study above, we have been able to
 draw the following conclusions:
@@ -455,8 +454,8 @@ user---either financial, or in the form of sweat equity[^fn16].
 easily transferred or sold.
 6. Rewards are needed to encourage users to acquire (and compete for)
 reputation and influence in the network via the creation and curation of
-high-quality content. By the same token, penalties are needed to discourage
-users of influence from abusing it.
+high-quality content. At the same time, penalties are needed to discourage users
+of influence from abusing it.
 
 ## The High Quality Review
 
@@ -478,7 +477,7 @@ of the platform. The purpose of this token system is to:
 wisdom of the crowd.
 * Incentivize users to create and curate the highest-quality cryptocurrency
 reviews via rewards and network influence.
-* More accurately calculate the overall star rating (and popularity) of each
+* More accurately calculate the overall star rating and popularity of each
 cryptocurrency company by favoring reviews that are deemed to be high quality.
 * Minimize the effects of tribalism, astroturfing, review brigading, and other
 forms of malicious activity.
@@ -562,12 +561,12 @@ frequently as they'd like and at *zero cost*---much like the mainstream social
 networks of today. This encourages the production of fresh cryptocurrency
 reviews, which is healthy for the growth of the platform.
 
-Users are able to cast votes on these reviews---also at no direct
-cost---which encourages the curation of content. Reviews that are deemed by
-the community to be of the highest quality (via up-votes) are rewarded in newly
-minted \text{\sout{U}} tokens. In addition to the review author receiving a
-reward for their work, the curators who did the work of discovering and
-up-voting the author's review are also rewarded for their efforts.
+Users are able to cast votes on these reviews---also at no  cost---which
+encourages the curation of content. Reviews that are deemed by the community to
+be of the highest quality (via up-votes) are rewarded in newly minted
+\text{\sout{U}} tokens. In addition to the review author receiving a reward for
+their work, the curators who did the work of discovering and up-voting the
+author's review are also rewarded for their efforts.
 
 This creates a positive feedback loop between review writers (experts) and
 review readers (beginners) as they are financially incentivized to
@@ -921,7 +920,7 @@ Cheddur, the popularity of Coin C will be calculated as follows:
   Popularity_c = Total Review Score_c + User Score_c + w
 \end{equation}
 
-Being that users cannot add crypto apps to their Cheddur Watchlist or post coin
+Since users cannot add crypto apps to their Cheddur Watchlist or post coin
 addresses to crypto app pages, the popularity of crypto App A will simply be
 calculated as:
 
@@ -1054,8 +1053,9 @@ Targeted advertisements will take the form of:
 ## Bounty Program
 
 Users will be able to earn additional \text{\sout{U}} tokens by completing
-valuable bounties. 5% of all \text{\sout{U}} tokens generated through inflation
-are earmarked for bounties in order to accelerate the adoption of Cheddur.
+valuable "bounties" (activities) on the platform. 5% of all \text{\sout{U}}
+tokens generated through inflation are earmarked for bounties in order to
+accelerate the adoption of Cheddur.
 
 Bounties will be run outside of the consensus of the Steem blockchain, which
 will allow new bounties to be tested and existing bounties to be tweaked over
@@ -1083,7 +1083,7 @@ Cheddur platform, \text{\sout{U}}25 will be awarded to the submitter of a
 in-app advertisement.
 
 All submissions will be reviewed by Cheddur moderators for quality purposes,
-and we reserve the right to deny low-quality submissions and/or duplicates.
+as we reserve the right to deny low-quality submissions and/or duplicates.
 
 ### Profile Claiming Bounty
 
@@ -1210,14 +1210,14 @@ mechanics were to be used on Cheddur, then a review writer would need to pay a
 platform fee in order to post their cryptocurrency review and a review reader
 would need to pay the writer their reward (directly) when they up-vote.
 
-In this scenario, interests are misaligned between each of the parties
-involved. In order to boostrap the growth of the network, the Cheddur platform
-will need cryptocurrency reviews more than experts will need to write them.
-If a transaction fee (or pay wall) is introduced in order for content to
-be posted on the network, little or no content will be posted on the network at
-all. Furthermore, if the review readers (beginners) are responsible for
-rewarding the review writers (experts) directly from their own wallets
-(another pay wall), then:
+In this scenario, interests are misaligned between the parties. In order to
+boostrap the growth of the network, the Cheddur platform will need
+cryptocurrency reviews more than experts will need to write them. If a
+transaction fee (or pay wall) is introduced in order for content to be posted on
+the network, little or no content will be posted on the network at all.
+Furthermore, if the review readers (beginners) are responsible for rewarding the
+review writers (experts) directly from their own wallets (another pay wall),
+then:
 
 \begin{enumerate}[label=(\Alph*)]
 
@@ -1307,9 +1307,9 @@ content.
 
 # Migrating to 2.0
 
-Our mission in the 2.0 migration is to ensure that our users do not have to
-realize they are using a blockchain. We will do everything we can to maintain
-(and improve upon) Cheddur's current level of user experience.
+We will do everything we in the 2.0 migration to maintain (and improve upon)
+Cheddur's current level of user experience. Our goal is for our users to not
+have to realize they are even using a blockchain.
 
 Being that the SMT protocol is in the early stages of development, it is
 difficult to anticipate every major change that will be needed to migrate from
