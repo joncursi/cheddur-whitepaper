@@ -171,9 +171,9 @@ capital funding in crypto startups is expected to exceed $3.2B USD in 2018
 
 As of August 2018, the Ethereum platform alone is host to over 110,000 tokens
 according to [data provided by Etherscan](http://etherscan.io/tokens).
-Our forecasts predict that there will be over 1M cryptocurrencies by the end of
-2020, and ~5% of them will be marketed by their issuer as an investment
-opportunity.
+Using Etherscan's data as a baseline, our forecasts predict that there will be
+over 1M cryptocurrencies by the end of 2020, and ~5% of them will be marketed by
+their issuer as an investment opportunity.
 
 \begin{figure}[H]
 
@@ -327,7 +327,7 @@ continues to grow.
 To get involved in the cryptocurrency market, most beginners need the
 help of a "trusted expert"---someone who can guide them to safely enter the
 market and navigate the ecosystem. However, most consumers do not have a
-trusted expert in their life, which puts cryptocurrency out of the reach of the
+trusted expert in their life, which puts cryptocurrency out of reach for the
 mainstream.
 
 Furthermore, cryptocurrency companies need to grow their communities
@@ -391,8 +391,8 @@ and our
 We recognize that in 2018, a significant portion of the cryptocurrencies
 on the market may be low quality, or even outright scams. While it is
 important to identify these currencies as such, deciding *which* of these are
-scams is often a highly subjective process---at least before any acts of crime
-have been committed.
+scams is often a highly subjective process---at least before the issuer has
+publicly committed fraud.
 
 ## Using the Wisdom of the Crowd
 
@@ -416,7 +416,7 @@ identify several important challenges with user-generated reviews:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
 to be overly positive in their reviews of coins that they hold (5 stars), or
-overly negative in their reviews of "rival" companies (1 star)[^fn13].
+overly negative in their reviews of "rival" projects (1 star)[^fn13].
 2. Companies are not permitted to remove user reviews of their coin or crypto
 app, so long as those reviews abide by the
 [Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
@@ -424,10 +424,10 @@ result, companies may resort to astroturfing[^fn14] or vote brigading[^fn15] in
 order to drown out critical reviews and/or fake their popularity on the
 platform.
 3. The less familiar a user is with cryptocurrency, the exponentially more
-reliant they tend to be on the opinions (reviews) of others.
+reliant they tend to be on the opinions of others.
 4. Generally speaking, the experts and innovators in the cryptocurrency
-space---those with the wisdom and experience to produce the highest-quality,
-most unbiased reviews---have not been properly incentivized to do so.
+space---those with the wisdom and experience to produce the highest-quality
+reviews---have not been properly incentivized to do so.
 
 ## Conclusions
 
@@ -472,7 +472,7 @@ To align the interests of cryptocurrency beginners, experts, crypto companies,
 and the Cheddur team, Cheddur tokens (CHDR) will be introduced in version 2.0
 of the platform. The purpose of this token system is to:
 
-* Establish a reputation system to delegate user influence in the network.
+* Establish a reputation system to designate user influence in the network.
 * Determine the subjective quality of each user-generated review using the
 wisdom of the crowd.
 * Incentivize users to create and curate the highest-quality cryptocurrency
@@ -558,7 +558,7 @@ team---collectively pay for the creation and curation of high-quality content.
 
 Users are able to post cryptocurrency reviews on the platform as
 frequently as they'd like and at *zero cost*---much like the mainstream social
-networks of today. This encourages the production of fresh cryptocurrency
+networks of today. This fosters the production of fresh cryptocurrency
 reviews, which is healthy for the growth of the platform.
 
 Users are able to cast votes on these reviews---also at no  cost---which
@@ -570,7 +570,8 @@ author's review are also rewarded for their efforts.
 
 This creates a positive feedback loop between review writers (experts) and
 review readers (beginners) as they are financially incentivized to
-*work together* to deliver the highest-quality content to the platform.
+*work together* to deliver the highest-quality content to the platform. (Refer
+to the FAQ section for more information on preventing coordinated attacks.)
 Furthermore, each stakeholder in the system is incentivized to maximize the
 growth of the network in order to offset the downward effects of inflation on
 the price of their own \text{\sout{U}}. So long as the rate of growth of the
@@ -584,7 +585,7 @@ To bootstrap early growth and participation in the Cheddur network, the CHDR
 supply will inflate at an initial rate of 9.5% annually. Every year, the annual
 inflation rate will decrease by 0.5% until an annual inflation rate of 1% is
 reached. This will occur in the year 2036 and from then on, a 1% annual
-inflation rate will be used into perpetuity.
+inflation rate will be used in perpetuity.
 
 \begin{figure}[H]
 
@@ -1032,9 +1033,9 @@ for page upgrades and targeted advertising on the platform (using a
 [CPM](https://en.wikipedia.org/wiki/Cost_per_impression) and
 [CPA](https://en.wikipedia.org/wiki/Cost_per_action) model). All
 page upgrades and advertisements will be funded using US dollars or
-\text{\sout{U}} tokens, and a (currently undecided) percentage of platform
-profits may be burned each quarter by the Cheddur team to further reduce the
-circulating supply of the CHDR currency and help offset inflation.
+\text{\sout{U}} tokens. Each quarter, a (currently undecided) percentage of
+platform profits may be used to "burn" (forcibly remove from circulation) CHDR
+tokens to help offset the inflation.
 
 Page upgrades will include the ability for crypto companies to remove competitor
 ads from their page and to add a custom Call to Action button on web and mobile.
@@ -1102,10 +1103,10 @@ content.
 
 # Initial Coin Offering
 
-Capital is being raised from private investors in order to fund the development
-of Cheddur 2.0. In order to distribute CHDR tokens to STEEM holders and to raise
-capital for the ongoing development of the platform, we will be conducting an
-ICO using the built-in capabilities of the SMT protocol.
+Cheddur, Inc. is currently raising capital from private investors to fund the
+development of Cheddur 2.0. In order to distribute CHDR tokens to STEEM holders
+and to raise capital for the ongoing development of the platform, we will be
+conducting an ICO using the built-in capabilities of the SMT protocol.
 
 \begin{table}[H]
 
@@ -1307,13 +1308,19 @@ content.
 
 # Migrating to 2.0
 
-We will do everything we in the 2.0 migration to maintain (and improve upon)
-Cheddur's current level of user experience. Our goal is for our users to not
-have to realize they are even using a blockchain.
+We will do everything we can in the 2.0 migration to maintain (and improve upon)
+Cheddur's current level of user experience. Cheddur users should not have to
+realize they are using a blockchain, and the user experience should align
+closely to the mainstream social media applications that beginners are used to.
 
 Being that the SMT protocol is in the early stages of development, it is
 difficult to anticipate every major change that will be needed to migrate from
 Cheddur 1.0 to Cheddur 2.0. A non-exhaustive list of items is presented below.
+
+
+Remove the hurdles associated with blockchain to make it so that
+
+General Comment: You want them to know they are using blockchain, but feel like using it is seamless.
 
 ## Authentication
 
