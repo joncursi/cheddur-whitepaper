@@ -1060,24 +1060,26 @@ accelerate the adoption of Cheddur.
 
 Bounties will be run outside of the consensus of the Steem blockchain, which
 will allow new bounties to be tested and existing bounties to be tweaked over
-time.
+time. The amount of \text{\sout{U}} tokens awarded for the completion of each
+bounty will be subject to change based on the reserves available in the bounty
+program.
 
 ### First to Review Bounty
 
 To encourage users to try out and review new (or lesser-known) coins and crypto
-apps, the first user to review each company will receive 3x the normal
+apps, the first user to review each company will receive 2x the normal
 payout of \text{\sout{U}} tokens. If such a review is deemed by the Steem
 blockchain to have low social value and does not earn a payout, this bounty
 will have no effect, as:
 
 \begin{equation}
-  0\text{\sout{U}} (Reward) * 3 (Bounty Multiplier) = 0\text{\sout{U}}
+  0\text{\sout{U}} (Reward) * 2 (Bounty Multiplier) = 0\text{\sout{U}}
 \end{equation}
 
 ### Profile Listing Bounty
 
 To encourage cryptocurrency companies to list themselves on the
-Cheddur platform, \text{\sout{U}}25 will be awarded to the submitter of a
+Cheddur platform, \text{\sout{U}}10 will be awarded to the submitter of a
 [new coin](https://www.cheddur.com/coin) or a
 [new app](https://www.cheddur.com/app) that is listed on Cheddur. This
 \text{\sout{U}}25 reward can be applied by crypto companies towards their first
@@ -1089,15 +1091,15 @@ as we reserve the right to deny low-quality submissions and/or duplicates.
 ### Profile Claiming Bounty
 
 To encourage cryptocurrency companies to claim their free Cheddur
-profiles, \text{\sout{U}}25 will be awarded to the team member who successfully
+profiles, \text{\sout{U}}5 will be awarded to the team member who successfully
 claims a profile using our automated verification system or manual verification.
-This \text{\sout{U}}25 reward can also be applied towards in-app advertising.
+This \text{\sout{U}}5 reward can also be applied towards in-app advertising.
 
 ### Referral Program
 
 If a new user signs up for Cheddur using an existing user's referral link and
 writes a review within 180 days of opening their account, both the new user and
-the referrer will earn \text{\sout{U}}10. This will encourage existing users to
+the referrer will earn \text{\sout{U}}5. This will encourage existing users to
 bring their friends and followers to Cheddur and for new users to contribute
 content.
 
