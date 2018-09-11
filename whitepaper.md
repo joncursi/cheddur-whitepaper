@@ -102,14 +102,15 @@ urlcolor: blue
     \vspace{5mm}
 
     {\centering{}Cheddur 2.0 is a Yelp-like social network that aligns the
-      interests of review writers, review readers, and cryptocurrency
-      development teams to create and curate high-quality cryptocurrency reviews
-      and other forms of user-generated content. This is done by introducing a
-      new utility token, CHDR (\text{\sout{U}}), which utilizes industry-leading
+      interests of cryptocurrency beginners, cryptocurrency experts, and
+      cryptocurrency companies. Users are rewarded for creating and
+      curating high-quality cryptocurrency reviews and other forms of
+      user-generated content on the platform. This is done by introducing a new
+      utility token, CHDR (\text{\sout{U}}), which utilizes industry-leading
       "Proof of Brain" properties to accurately and transparently reward
-      individuals who make subjective contributions to the platform. Cheddur 2.0
-      will be the first platform to apply this technology to reviews, and in
-      doing so, seeks to bring safety, legitimacy, and accountability to the
+      individuals who make subjective contributions to our community. Cheddur
+      2.0 will be the first platform to apply this technology to reviews, and in
+      doing so, seeks to bring safety, order, and accountability to the
       cryptocurrency ecosystem.
     }
 
@@ -129,9 +130,9 @@ urlcolor: blue
 
 # Introduction
 
-Blockchain technology is currently modeling the same exponential growth that
-the Internet did in the 1990s. The number of cryptocurrency projects (coins,
-tokens, and
+Blockchain technology is currently modeling the same exponential growth and
+network effects that the Internet did in the 1990s. The number of cryptocurrency
+companies (coins, tokens, and
 [ÐApps](https://www.coindesk.com/information/what-is-a-decentralized-application-dapp/))
 that were launched between 2014-17 tracks closely to the number of websites
 that were launched on the Internet between 1991-95. The number of
@@ -161,16 +162,105 @@ billion people will enter the cryptocurrency market by the year 2027[^fn5]**.
 
 ### Venture Capital Funding
 
-In 2017, $900MM USD of venture capital funding was injected into blockchain
-startups globally. According to current growth trends, venture capital funding
-of blockchain startups in 2018 is expected to exceed $3.2B USD (~3.5x)[^fn21].
+In 2017, $900M USD of venture capital funding was injected into blockchain and
+cryptocurrency startups globally. According to current growth trends, venture
+capital funding in crypto startups is expected to exceed $3.2B USD in 2018
+(~3.5x)[^fn21].
 
 ### Number of Tokens
 
 As of August 2018, the Ethereum platform alone is host to over 110,000 tokens
 according to [data provided by Etherscan](http://etherscan.io/tokens).
-Our internal forecasts predict that there will be over 1,000,000 cryptocurrency
-tokens by the year 2020.
+Our forecasts predict that there will be over 1M cryptocurrencies by the end of
+2020, and ~5% of them will be marketed by their issuer as an investment
+opportunity.
+
+\begin{figure}[H]
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \begin{axis}[
+      grid style=dashed,
+      xlabel={Year},
+      xmax=25,
+      xmin=18,
+      ylabel={Cryptocurrencies (M)},
+      ymajorgrids=true,
+      ymin=0,
+    ]
+
+      \addplot[
+        color=blue,
+        mark=square*,
+      ]
+      coordinates {
+        (18, 0.015169)
+        (19, 0.207438)
+        (20, 0.546491)
+        (21, 1.039413)
+        (22, 1.686204)
+        (23, 2.486864)
+        (24, 3.441394)
+        (25, 4.549793)
+      };
+
+    \end{axis}
+
+  \end{tikzpicture}
+
+  \caption{Total Number of Cryptocurrencies over Time}
+
+\end{figure}
+
+### Digital Advertising
+
+Digital advertising by cryptocurrency companies is expected to exceed $10B
+annually within the next 5 years.
+
+Many of the tech giants like Facebook, Google, and Twitter are restricting the
+ability for cryptocurrency companies to advertise[^fn22], which is leading them
+to seek out other platforms.
+
+\begin{figure}[H]
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \begin{axis}[
+      grid style=dashed,
+      xlabel={Year},
+      xmax=24,
+      xmin=17,
+      ylabel={USD (B)},
+      ymajorgrids=true,
+      ymin=0,
+    ]
+
+      \addplot[
+        color=blue,
+        mark=square*,
+      ]
+      coordinates {
+        (17, 0.038424567)
+        (18, 0.525445666)
+        (19, 1.384276747)
+        (20, 2.632862982)
+        (21, 4.271204369)
+        (22, 6.299300911)
+        (23, 8.717152606)
+        (24, 11.524759454)
+      };
+
+    \end{axis}
+
+  \end{tikzpicture}
+
+  \caption{Annual Digital Ads Spending by Crypto Companies}
+
+\end{figure}
 
 ## Barriers to Entry
 
@@ -183,7 +273,7 @@ cryptocurrency, and it currently takes too much time, energy, and experience
 to get answers.
 
 * Most cryptocurrency tools, wallets, and applications are still extremely
-technical and, to newcomers especially, it can feel as though you need a Ph.D.
+technical and, to beginners especially, it can feel as though you need a Ph.D.
 in computer science just to get started.
 
 * The fiat-to-crypto "on-ramps"---platforms like
@@ -202,7 +292,7 @@ floodgates are just starting to open, keeping up is already a full-time job.
 * There's very little (helpful) regulation in the space and, as a result,
 scammers are running rampant. A
 [recent study](https://research.bloomberg.com/pub/res/d28giW28tf6G7T_Wr77aU0gDgFQ)
-from the [Statis Group](http://satisgroup.io/) (an ICO advisory firm) suggests
+from the [Satis Group](http://satisgroup.io/) (an ICO advisory firm) suggests
 that **more than 80% of ICOs that were conducted in 2017 were scams**[^fn8].
 
 ## Parallels to the Internet
@@ -234,16 +324,16 @@ continues to grow.
 
 ## Problems
 
-In order to get involved in the cryptocurrency market, most \uline{consumers}
-need the help of a "trusted expert"---someone who can guide them to safely enter
-the market and navigate the ecosystem. However, most consumers do not have a
+In order to get involved in the cryptocurrency market, most beginners need the
+help of a "trusted expert"---someone who can guide them to safely enter the
+market and navigate the ecosystem. However, most consumers do not have a
 trusted expert in their life, which puts cryptocurrency out of the reach of the
 mainstream.
 
-Furthermore, the \uline{developers} of cryptocurrency projects need to grow
-their communities of users and investors in order to survive, and this is
-becoming increasingly difficult (and expensive) as competition floods the
-market.
+Furthermore, cryptocurrency companies need to grow their communities
+of users and investors in order to survive, but this is becoming increasingly
+difficult (and expensive) as competition floods the market and existing social
+media channels continue to clamp down on cryptocurrency advertising.
 
 # Cheddur 1.0
 
@@ -253,7 +343,7 @@ was launched
 and
 [on Google Play](https://play.google.com/store/apps/details?id=com.cheddur)
 to address these problems. Since then, Cheddur has served as the trusted
-expert for over 50,000 consumers (as of August 2018) aiming to:
+expert for over 50,000 users (as of August 2018) aiming to:
 
 * Learn the basics of cryptocurrency.
 * Find the best coins and ICOs to invest in.
@@ -262,31 +352,31 @@ store, secure, and trade those coins.
 * Read and write cryptocurrency reviews.
 * Send and receive tips, payments, and donations in any cryptocurrency to other
 users.
-* Connect with friends, developers, and other cryptocurrency users.
+* Connect with friends, crypto companies, and other cryptocurrency users.
 
 In parallel, Cheddur has also served as an invaluable tool for over 2,000
-cryptocurrency development teams (as of August 2018) seeking to:
+cryptocurrency companies (as of August 2018) seeking to:
 
 * Share their mission and vision with the cryptocurrency community.
 * Get discovered by---and connect with---new users and investors.
 * Solicit (and respond to) user feedback in the form of ratings and reviews.
-* Advertise their projects on the platform to increase their exposure.
+* Advertise their companies on the platform to increase their exposure.
 * Grow their individual communities.
 
 ## Traction
 
-Despite the bear market of 2018, our community of users and developers has been
+Despite the bear market of 2018, our community of users and companies has been
 growing steadily. As of August 2018:
 
-* Over 50,000 consumers have been guided.
-* Over 10,000 accounts have been registered.
-* Over 2,500 cryptocurrency reviews have been written.
-* Over 2,000 coin addresses have been posted.
-* Over 2,000 [coins](https://www.cheddur.com/coins) and
+* 50,000+ beginners have been guided.
+* 10,000+ accounts have been registered.
+* 2,500+ cryptocurrency reviews have been written.
+* 2,000+ coin addresses have been posted.
+* 2,000+ [coins](https://www.cheddur.com/coins) and
 [crypto apps](https://www.cheddur.com/apps) have been listed.
-* Over 200
+* 200+
 [partnerships have been established](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
-with cryptocurrency development teams across the globe.
+with cryptocurrency companies across the globe.
 
 We've also received an overwhelming amount of positive feedback over the past
 few months, as evidenced by our
@@ -298,10 +388,10 @@ and our
 
 # Cryptocurrency Reviews
 
-We recognize that in 2018, a significant portion of the cryptocurrency projects
+We recognize that in 2018, a significant portion of the cryptocurrencies
 on the market may be of low quality, or may even be outright scams. While it is
-important to identify these projects as such, deciding *which* projects are
-scams and which projects are not is often a highly subjective process---at least
+important to identify these currencies as such, deciding *which* of these are
+scams and which of these are not is often a highly subjective process---at least
 before any acts of crime have been committed.
 
 ## Using the Wisdom of the Crowd
@@ -314,9 +404,9 @@ the Internet.
 
 We believe that it is the responsibility of the cryptocurrency community as a
 whole---rather than a central authority---to collectively determine the quality
-of each project. This is commonly referred to as the "wisdom of the crowd"
-principle[^fn12], and is currently being accomplished on Cheddur in the form of
-user-generated cryptocurrency reviews.
+of each crypto company. This is commonly referred to as the "wisdom of the
+crowd" principle[^fn12], and is currently being accomplished on Cheddur in the
+form of user-generated cryptocurrency reviews.
 
 ## Challenges
 
@@ -326,11 +416,11 @@ identify several important challenges with user-generated reviews:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
 to be overly positive in their reviews of coins that they hold (5 stars), or
-overly negative in their reviews of "rival" projects (one star)[^fn13].
-2. The developers of a cryptocurrency project are not permitted to remove user
-reviews of their project, so long as those reviews abide by the
+overly negative in their reviews of "rival" companies (one star)[^fn13].
+2. Companies are not permitted to remove user reviews of their coin or crypto
+app, so long as those reviews abide by the
 [Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
-result, developers may resort to astroturfing[^fn14] or vote brigading[^fn15] in
+result, companies may resort to astroturfing[^fn14] or vote brigading[^fn15] in
 order to drown out critical reviews and/or fake their popularity on the
 platform.
 3. The less familiar a user is with cryptocurrency, the exponentially more
@@ -342,15 +432,15 @@ most unbiased reviews---have not been properly incentivized to do so.
 ## Conclusions
 
 Maintaining the integrity of the Cheddur review system is critical towards
-holding cryptocurrency projects accountable for their actions (or lack thereof)
-and enabling consumers to easily distinguish between high-quality and
-low-quality projects.
+holding cryptocurrency companies accountable for their actions (or lack thereof)
+and enabling beginners to easily distinguish between high-quality and
+low-quality companies.
 
 Based on the findings from the Cheddur user study above, we have been able to
 draw the following conclusions:
 
 1. High-quality reviews ought to carry more weight towards determining a
-cryptocurrency project's overall star rating then should spammy, low-quality
+cryptocurrency company's overall star rating then should spammy, low-quality
 reviews.
 2. If the quality of a review can be determined through the up-votes (or lack
 thereof) that it receives, the *quality* of the users who casted the up-votes is
@@ -379,10 +469,9 @@ decision-making around cryptocurrencies.
 
 # Cheddur 2.0
 
-To align the interests of review writers, review readers, cryptocurrency
-development teams, and the Cheddur team, Cheddur tokens (CHDR) will be
-introduced in version 2.0 of the platform. The purpose of this token system
-is to:
+To align the interests of cryptocurrency beginners, experts, crypto companies,
+and the Cheddur team, Cheddur tokens (CHDR) will be introduced in version 2.0
+of the platform. The purpose of this token system is to:
 
 * Establish a reputation system to delegate user influence in the network.
 * Determine the subjective quality of each user-generated review using the
@@ -390,12 +479,12 @@ wisdom of the crowd.
 * Incentivize users to create and curate the highest-quality cryptocurrency
 reviews via rewards and network influence.
 * More accurately calculate the overall star rating (and popularity) of each
-cryptocurrency project by favoring reviews that are deemed to be high quality.
+cryptocurrency company by favoring reviews that are deemed to be high quality.
 * Minimize the effects of tribalism, astroturfing, review brigading, and other
 forms of malicious activity.
 * Empower the Cheddur community to be self-policing and self-sustaining.
-* Enable newcomers to the cryptocurrency ecosystem to *earn* their way into the
-market with little or no downside risk.
+* Enable beginners to *earn* their way into the market with little or no
+downside risk.
 
 ## CHDR Tokens (\text{\sout{U}})
 
@@ -465,33 +554,33 @@ non-starter for our use case.
 
 \text{\sout{U}} tokens will be awarded via the programmatic inflation of the
 CHDR supply. Inflation aligns the interests of each stakeholder as the *Cheddur
-community as a whole*---reviewers, readers, developers, and the Cheddur
+community as a whole*---beginners, experts, companies, and the Cheddur
 team---collectively pay for the creation and curation of high-quality content.
 
-Review writers are able to post cryptocurrency reviews on the platform as
+Users are able to post cryptocurrency reviews on the platform as
 frequently as they'd like and at *zero cost*---much like the mainstream social
 networks of today. This encourages the production of fresh cryptocurrency
 reviews, which is healthy for the growth of the platform.
 
-Review readers are able to cast votes on these reviews---also at no direct
+Users are able to cast votes on these reviews---also at no direct
 cost---which encourages the curation of content. Reviews that are deemed by
 the community to be of the highest quality (via up-votes) are rewarded in newly
-minted \text{\sout{U}} tokens. In addition to the author receiving a reward for
-their work, the curators who did the work of discovering and up-voting the
-author's content are also rewarded for their efforts.
+minted \text{\sout{U}} tokens. In addition to the review author receiving a
+reward for their work, the curators who did the work of discovering and
+up-voting the author's review are also rewarded for their efforts.
 
-This creates a positive feedback loop between review writers and review readers
-as they are financially incentivized to *work together* to deliver the
-highest-quality content to the platform. Furthermore, each stakeholder in the
-system is incentivized to maximize the growth of the network in order to offset
-the downward effects of inflation on the price of their own \text{\sout{U}}. So
-long as the rate of growth of the platform (e.g. high-quality reviews, profiles,
-and users) exceeds the rate of inflation, each stakeholder will benefit in the
-long run.
+This creates a positive feedback loop between review writers (experts) and
+review readers (beginners) as they are financially incentivized to
+*work together* to deliver the highest-quality content to the platform.
+Furthermore, each stakeholder in the system is incentivized to maximize the
+growth of the network in order to offset the downward effects of inflation on
+the price of their own \text{\sout{U}}. So long as the rate of growth of the
+platform (e.g. high-quality reviews, company profiles, and users) exceeds the
+rate of inflation, each stakeholder will benefit in the long run.
 
 ### Monetary Policy
 
-The CHDR currency will start with an initial supply of 100MM \text{\sout{U}}.
+The CHDR currency will start with an initial supply of 100M \text{\sout{U}}.
 To bootstrap early growth and participation in the Cheddur network, the CHDR
 supply will inflate at an initial rate of 9.5% annually. Every year, the annual
 inflation rate will decrease by 0.5% until an annual inflation rate of 1% is
@@ -585,7 +674,7 @@ CHDR currency will grow predictably over time as follows:
       xlabel={Time (Years)},
       xmax=25,
       xmin=0,
-      ylabel={Total Supply (MM \text{\sout{U}})},
+      ylabel={Total Supply (M \text{\sout{U}})},
       ymajorgrids=true,
       ymin=100,
     ]
@@ -650,7 +739,7 @@ from each token inflation event will be distributed as follows:
    ]{
      70/Rewards Pool,
      15/Vested \text{\sout{U}} Holders,
-     10/Company Holdings,
+     10/Cheddur Holdings,
      5/Bounty Programs
    }
 
@@ -770,16 +859,16 @@ Seth Tomlinson concisely explains the mechanics of Steem's voting power
 
 By using the Steem blockchain to calculate the social value of each
 cryptocurrency review, we can be more intelligent about how the overall star
-rating of each cryptocurrency project is calculated. Rather than every review
-carrying an equal weight towards the overall star rating of a project (as exists
+rating of each cryptocurrency company is calculated. Rather than every review
+carrying an equal weight towards the overall star rating of a company (as exists
 today in Cheddur 1.0), we will implement new algorithms to skew the overall
 rating towards reviews that are deemed by the community to be of high quality.
 
 ### Review Score
 
 First, we will calculate a $Review Score$ for every review in order to determine
-how much weight each should have on the target's overall rating. For a review of
-$v$ number of up-votes and $u$ number of \text{\sout{U}} rewards, the review
+how much weight each should have on the company's overall rating. For a review
+of $v$ number of up-votes and $u$ number of \text{\sout{U}} rewards, the review
 score will be calculated as follows:
 
 \begin{equation}
@@ -801,7 +890,7 @@ will be rounded to the nearest integer.
 ### Overall Rating
 
 The review score for each cryptocurrency review will be used to determine how
-much weight each individual rating should have on the project's
+much weight each individual rating should have on the company's
 $Overall Rating$. The higher a review's score, the more impact its rating will
 have on the overall---and vice versa. For $n$ number of reviews, the overall
 rating will be calculated as follows:
@@ -936,16 +1025,31 @@ circulating supply of the CHDR currency. Each of these outcomes are favorable
 for the Cheddur platform and will increase the value that gets accrued to the
 token.
 
-### Advertising
+### Page Upgrades & Advertising
 
 As competition over the rewards pool grows, user traffic will grow with it.
-Upon claiming their free Cheddur profiles, coin and crypto app developers will
-be able to pay for targeted advertising on the platform using a
-[pay-per-click (PPC)](https://en.wikipedia.org/wiki/Pay-per-click) model. All
-advertisements will be funded using \text{\sout{U}} tokens (either directly
-or indirectly), and **all \text{\sout{U}} tokens that are collected from in-app
-advertising will be burned** by the Cheddur team. This will further reduce the
-circulating supply of the CHDR currency and will help offset inflation.
+Upon claiming their free Cheddur profiles, crypto companies will be able to pay
+for page upgrades and targeted advertising on the platform (using a
+[CPM](https://en.wikipedia.org/wiki/Cost_per_impression) and
+[CPA](https://en.wikipedia.org/wiki/Cost_per_action) model). All
+page upgrades and advertisements will be funded using US dollars or
+\text{\sout{U}} tokens, and a (currently undecided) percentage of platform
+profits may be burned each quarter by the Cheddur team to further reduce the
+circulating supply of the CHDR currency and help offset inflation.
+
+Page upgrades will include the ability for crypto companies to remove competitor
+ads from their page and to add a custom Call to Action button on web and mobile.
+Targeted advertisements will take the form of:
+
+\begin{enumerate}[label=(\Alph*)]
+
+  \item Sponsored listings in relevant search results.
+
+  \item Being recommended as an alternative on competitor pages.
+
+  \item Appearing at the top of other searchable lists, such as an exchange's supported coins list.
+
+\end{enumerate}
 
 ## Bounty Program
 
@@ -954,37 +1058,47 @@ valuable bounties. 5% of all \text{\sout{U}} tokens generated through inflation
 are earmarked for bounties in order to accelerate the adoption of Cheddur.
 
 Bounties will be run outside of the consensus of the Steem blockchain, which
-will new bounties to be tested and existing bounties to be tweaked over time.
+will allow new bounties to be tested and existing bounties to be tweaked over
+time.
 
 ### First to Review Bounty
 
-To encourage users to try out and review new (or lesser-known) cryptocurrency
-projects, the first user to review each project will receive 3x the normal
-payout of \text{\sout{U}} tokens.
+To encourage users to try out and review new (or lesser-known) coins and crypto
+apps, the first user to review each company will receive 3x the normal
+payout of \text{\sout{U}} tokens. If such a review is deemed by the Steem
+blockchain to have low social value and does not earn a payout, this bounty
+will have no effect, as:
+
+\begin{equation}
+  0\text{\sout{U}} (Reward) * 3 (Bounty Multiplier) = 0\text{\sout{U}}
+\end{equation}
 
 ### Profile Listing Bounty
 
-To encourage cryptocurrency development teams to self-list their projects on the
-Cheddur platform, \text{\sout{U}}50 will be awarded to the submitter of a
+To encourage cryptocurrency companies to list themselves on the
+Cheddur platform, \text{\sout{U}}25 will be awarded to the submitter of a
 [new coin](https://www.cheddur.com/coin) or a
-[new app](https://www.cheddur.com/app). This \text{\sout{U}}50 reward can be
-applied by cryptocurrency development teams towards their first in-app
-advertisement.
+[new app](https://www.cheddur.com/app) that is listed on Cheddur. This
+\text{\sout{U}}25 reward can be applied by crypto companies towards their first
+in-app advertisement.
 
-All submissions will be reviewed by Cheddur moderators for quality purposes.
+All submissions will be reviewed by Cheddur moderators for quality purposes,
+and we reserve the right to deny low-quality submissions and/or duplicates.
 
 ### Profile Claiming Bounty
 
-To encourage cryptocurrency development teams to claim their free Cheddur
-profiles, \text{\sout{U}}50 will be awarded to the team member who successfully
+To encourage cryptocurrency companies to claim their free Cheddur
+profiles, \text{\sout{U}}25 will be awarded to the team member who successfully
 claims a profile using our automated verification system or manual verification.
-This \text{\sout{U}}50 reward can also be applied towards in-app advertising.
+This \text{\sout{U}}25 reward can also be applied towards in-app advertising.
 
 ### Referral Program
 
-When a new user signs up for Cheddur using an existing user's referral link,
-both the new user and the referrer will earn \text{\sout{U}}15. This will
-encourage users to bring their friends and followers to Cheddur.
+If a new user signs up for Cheddur using an existing user's referral link and
+writes a review within 180 days of opening their account, both the new user and
+the referrer will earn \text{\sout{U}}10. This will encourage existing users to
+bring their friends and followers to Cheddur and for new users to contribute
+content.
 
 # Initial Coin Offering
 
@@ -1019,11 +1133,7 @@ ICO using the built-in capabilities of the SMT protocol.
 
     \hline
 
-    Soft Cap & 1MM USD \\
-
-    \hline
-
-    Hard Cap & 20MM USD \\
+    Hard Cap & 20M USD \\
 
     \hline
 
@@ -1036,7 +1146,7 @@ after the ICO concludes.
 
 ## Token Distribution
 
-The initial supply of 100MM \text{\sout{U}} tokens will be distributed as
+The initial supply of 100M \text{\sout{U}} tokens will be distributed as
 follows:
 
 \begin{center}
@@ -1049,7 +1159,7 @@ follows:
      text = pin
    ]{
      55/Token Sale,
-     15/Company Holdings,
+     15/Cheddur Holdings,
      15/Team and Advisors,
      10/Private Sales,
      5/Bounty Program
@@ -1061,8 +1171,8 @@ follows:
 
 ## Use of Funds
 
-The 15MM \text{\sout{U}} tokens that will be in the company's possession will
-be utilized as follows:
+The 15M \text{\sout{U}} tokens that will be in the Cheddur team's possession
+will be utilized as follows:
 
 \begin{center}
 
@@ -1073,9 +1183,9 @@ be utilized as follows:
    rotate = 90,
    text = pin
    ]{
-     50/Development,
-     25/Sales and Marketing,
-     10/Operations,
+     35/Development,
+     35/Sales and Marketing,
+     15/Operations and Exchange Listings,
      10/Legal,
      5/Reserves
    }
@@ -1102,15 +1212,16 @@ would need to pay the writer their reward (directly) when they up-vote.
 
 In this scenario, interests are misaligned between each of the parties
 involved. In order to boostrap the growth of the network, the Cheddur platform
-will need cryptocurrency reviews more than review writers will need to post
-them. If a transaction fee (or pay wall) is introduced in order for content to
+will need cryptocurrency reviews more than experts will need to write them.
+If a transaction fee (or pay wall) is introduced in order for content to
 be posted on the network, little or no content will be posted on the network at
-all. Furthermore, if review readers are responsible for rewarding review writers
-directly from their own wallets (another pay wall), then:
+all. Furthermore, if the review readers (beginners) are responsible for
+rewarding the review writers (experts) directly from their own wallets
+(another pay wall), then:
 
 \begin{enumerate}[label=(\Alph*)]
 
-  \item Users will need to maintain a minimum balance on their account in order
+  \item Every user will need to maintain a minimum balance on their account in order
   to interact with the platform.
 
   \item The incentive to curate content will be greatly diminished because doing
@@ -1126,7 +1237,7 @@ For these reasons, we've taken a different approach to rewarding users within
 the Cheddur ecosystem. Rather than individual users having to pay rewards and
 fees directly, \text{\sout{U}} tokens will be awarded via the programmatic
 inflation of the CHDR supply. Inflation aligns the interests of each stakeholder
-as the *Cheddur community as a whole*---reviewers, readers, developers, and the
+as the *Cheddur community as a whole*---beginners, experts, companies, and the
 Cheddur team---collectively pay for the creation and curation of high-quality
 content.
 
@@ -1142,15 +1253,15 @@ content.
 
     \hline
 
-    Overall Supply & 100MM & 1,000MM & 216MM \\
+    Overall Supply & 100M & 1,000M & 216M \\
 
     \hline
 
-    Peak Market Cap (USD) & N/A & 610MM & 6.5MM \\
+    Peak Market Cap (USD) & N/A & 610M & 6.5M \\
 
     \hline
 
-    Current Market Cap (USD) & N/A & 25MM & 0.75MM \\
+    Current Market Cap (USD) & N/A & 25M & 0.75M \\
 
     \hline
 
@@ -1158,7 +1269,7 @@ content.
 
     \hline
 
-    Reward Payer & Community & Developers & Company \\
+    Reward Payer & Community & Companies & Utrum \\
 
     \hline
 
@@ -1216,10 +1327,11 @@ account as a secondary step within the Cheddur 2.0 account settings.
 
 ## Existing Reviews
 
-After the Cheddur ICO is completed, \text{\sout{U}} tokens will be airdropped
-from the Bounty Program fund to users who posted reviews in the Cheddur 1.0
-architecture. We will post more details on how we intend to reward our early
-contributors as we approach the Cheddur 2.0 launch date.
+After the Cheddur ICO is completed, each user who posted a review in the Cheddur
+1.0 architecture will be able to claim a special reward after linking their
+Steem account to their Cheddur profile. We will post more details on how we
+intend to reward our early contributors as we approach the Cheddur 2.0 launch
+date.
 
 # Roadmap
 
@@ -1246,8 +1358,10 @@ is expanded.
 test-net. Marketing begins for the Cheddur ICO.
 * **Q2-2019:** Cheddur ICO is conducted. CHDR tokens are listed on exchanges.
 Cheddur 2.0 launches!
-* **Q3-2019 to Q4-2019:** Additional tokenized content types are added! (Chat,
-News, Q&A)
+* **Q3-2019:** Additional tokenized content types are added (Chat,
+News, Q&A)!
+* **Q4-2019:** Users are able to buy a select number of coins on the platform
+using a credit card!
 
 # Frequently Asked Questions
 
@@ -1289,10 +1403,10 @@ wisely.
 #### Why does the CHDR currency have inflation?
 
 Inflation aligns the interests of each stakeholder as the *Cheddur community as
-a whole*---reviewers, readers, developers, and the Cheddur team---collectively
+a whole*---beginners, experts, companies, and the Cheddur team---collectively
 pay for the creation and curation of high-quality content. Paying for rewards
-through inflation also allows review writers to post reviews on the platform
-for free, and review readers to cast votes for free.
+through inflation also allows review writers (experts) to post reviews on the
+platform for free, and review readers (beginners) to cast votes for free.
 
 #### How will inflation be controlled?
 
@@ -1304,23 +1418,31 @@ for free, and review readers to cast votes for free.
   \item As users acquire influence in the network, \text{\sout{U}} tokens
   will be powered up and therefore removed from circulation.
 
-  \item As cryptocurrency development teams run in-app advertisements,
-  \text{\sout{U}} tokens will be burned (removed from circulation forever).
+  \item An undecided percentage of Cheddur profits may be burned (removed from
+  circulation) each quarter. We are currently seeking feedback from the
+  community on this.
 
 \end{enumerate}
 
 <!-- TODO ----------------------------------------------------------------------
 
-* If a user submits a poor quality profile, do they still earn the bounty?
+* Add "Attack Vectors" section
 
-* Bounties
-  * Referral program can be sybil attacked. How to safeguard?
-  "To prevent Sybil attacks, the new user must verify their email address."
-  * First to review -> first review > 0 payout (to prevent squatters)
-  * Should bounty rewards be paid in a fixed amount of CHDR, or should it be
-    dynamic like Steemhunt?
+* Mention downvoting / flagging
 
-* ICO
+------------------------------------------------------------------------------->
+
+<!-- IDEAS ---------------------------------------------------------------------
+
+* Revenue model:
+  * Users pay to "promote" news? (e.g. Phil from Exodus?)
+  * Coins and apps pay to show up in user's feeds.
+
+------------------------------------------------------------------------------->
+
+<!-- QUESTIONS -----------------------------------------------------------------
+
+* ICO:
   * Opening price? Undetermined price or fixed price?
     * https://hackernoon.com/top-8-tips-for-launching-a-successful-ico-15d0a4435a8
     * undetermined price:
@@ -1328,32 +1450,29 @@ for free, and review readers to cast votes for free.
       * $0.36 per U if hard cap reached
     * fixed price:
       if $0.12 per U, then 55M U * $0.12 = $6.6M hard cap
-  * If soft cap not reached, funds returned?
+  * Soft cap?
+  * If soft cap not reached, then what?
+  * Legal advice needed:
+    * Which countries blocked, if any? (US, Canada, China)
+    * Tax
+      * ICO itself, concerns?
+      * Advertisers paying in Cheddur tokens, creates tax headache for them?
+  * How to prevent whales? Negative effects of this?
 
-* Sources
-  * No wikipedia sources
+* Airdrop benefits:
+  * wide distribution, biggest STEEM holders = most knowledgeable on crypto
+  * start from 0, can only go up from there
+  * good story
 
-* More methodology on how we found conclusions from challenges (few more sentences)
+* ICO benefits:
+  * market carries the risk
 
-* Legitimize user study by showing questions that were asked
+* ICO downsides:
+  * supply exceeds demand in early days?
+  * low token holders (potentially 1 guy owns 55%), low participants
+  ** Must put soft cap on to prevent this **
 
-* Definitions sections
-  * name customer segments (e.g. developers)
-  * vesting & staking
-  * rc_linear cc_sqrt -> reference in SMT whitepaper
-
-* Roadmap:
-  * Open-source the platform?
-
-* Legal advice needed:
-  * Which countries blocked, if any? (US, Canada, China)
-  * Tax
-    * ICO itself, concerns?
-    * Advertisers paying in Cheddur tokens, creates tax headache for them?
-
-* Existing reviews
-  * Snapshot database, build claim UI (requires you to link you Steem account
-    to claim)
+* Should company holdings on ICO and TIE be the same (currently 15% and 10%)?
 
 ------------------------------------------------------------------------------->
 
@@ -1378,7 +1497,7 @@ https://www.coinschedule.com/stats.html?year=2018
 [^fn7]: CoinSchedule, "Cryptocurrency ICO Stats 2017."
 \hfill\break
 https://www.coinschedule.com/stats.html?year=2017
-[^fn8]: Statis Group, "Cryptoasset Market Coverage Initiation: Network Creation," July 2018.
+[^fn8]: Satis Group, "Cryptoasset Market Coverage Initiation: Network Creation," July 2018.
 \hfill\break
 https://research.bloomberg.com/pub/res/d28giW28tf6G7T_Wr77aU0gDgFQ
 [^fn9]: Diesel Cafe, Kelly White, "Cybercrime in the 1990s," January 2014.
@@ -1419,3 +1538,7 @@ https://steem.io/steem-bluepaper.pdf
 http://docs.bitshares.org/bitshares/dpos.html
 [^fn21]: TechCrunch, Jason Rowley, "With at least $1.3 billion invested globally in 2018, VC funding for blockchain blows past 2017 totals," May 2018.
 https://techcrunch.com/2018/05/20/with-at-least-1-3-billion-invested-globally-in-2018-vc-funding-for-blockchain-blows-past-2017-totals/
+\hfill\break
+[^fn22]: Blockonomi, Carlos Terenzi, "Tech Giants Ban Cryptocurrency Advertising – What Does it Mean?," April 2018.
+https://blockonomi.com/cryptocurrency-advertising-ban/
+\hfill\break
