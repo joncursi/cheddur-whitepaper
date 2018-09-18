@@ -447,14 +447,14 @@ thereof) that it receives, the *quality* of the users who casted the up-votes is
 arguably more important than the *quantity* of users who casted votes.
 3. In order to properly calculate the quality of each user, a reputation system
 is needed. A user's reputation should dictate the amount of influence that user
-has within the network.
-4. Reputation cannot be an abundant resource that is freely available within the
-network. Increasing a user's reputation must come at a cost to that
+has on the platform.
+4. Reputation cannot be an abundant resource that is freely available on the
+platform. Increasing a user's reputation must come at a cost to that
 user---either financial, or in the form of sweat equity[^fn16].
-5. To prevent timing attacks[^fn17], reputation within the network should not be
+5. To prevent timing attacks[^fn17], reputation on the platform should not be
 easily transferred or sold.
 6. Rewards are needed to encourage users to acquire (and compete for)
-reputation and influence in the network via the creation and curation of
+reputation and influence on the platform via the creation and curation of
 high-quality content. At the same time, penalties are needed to discourage users
 of influence from abusing it.
 
@@ -473,11 +473,11 @@ To align the interests of cryptocurrency beginners, experts, crypto companies,
 and the Cheddur team, Cheddur tokens (CHDR) will be introduced in version 2.0
 of the platform. The purpose of this token system is to:
 
-* Establish a reputation system to designate user influence in the network.
+* Establish a reputation system to designate user influence on the platform.
 * Determine the subjective quality of each user-generated review using the
 wisdom of the crowd.
 * Incentivize users to create and curate the highest-quality cryptocurrency
-reviews via rewards and network influence.
+reviews via rewards and platform influence.
 * More accurately calculate the overall star rating and popularity of each
 cryptocurrency company by favoring reviews that are deemed to be high quality.
 * Minimize the effects of tribalism, astroturfing, review brigading, and other
@@ -574,18 +574,18 @@ review readers (beginners) as they are financially incentivized to
 *work together* to deliver the highest-quality content to the platform. (Refer
 to the FAQ section for more information on preventing coordinated attacks.)
 Furthermore, each stakeholder in the system is incentivized to maximize the
-growth of the network in order to offset the downward effects of inflation on
+growth of the platform in order to offset the downward effects of inflation on
 the price of their own \text{\sout{U}}. So long as the rate of growth of the
 platform (e.g. high-quality reviews, company profiles, and users) exceeds the
 rate of inflation, each stakeholder will benefit in the long run.
 
 ### Monetary Policy
 
-The CHDR currency will start with an initial supply of 100M \text{\sout{U}}.
-To bootstrap early growth and participation in the Cheddur network, the CHDR
-supply will inflate at an initial rate of 4% annually. Every year, the annual
-inflation rate will decrease by 0.5% until an annual inflation rate of 1% is
-reached. This will occur in the year 2025 and from then on, a 1% annual
+The CHDR currency will start with an initial supply of 5M \text{\sout{U}}.
+To bootstrap early growth and participation in the Cheddur platform, the CHDR
+supply will inflate at an initial rate of 20% annually. Every year, the annual
+inflation rate will decrease by 2% until an annual inflation rate of 1% is
+reached. This will occur in the year 2029 and from then on, a 1% annual
 inflation rate will be used in perpetuity.
 
 \begin{figure}[H]
@@ -608,49 +608,49 @@ inflation rate will be used in perpetuity.
         color=blue,
       ]
       coordinates {
-        (0, 4)
-        (1, 4)
-        (1, 3.5)
-        (2, 3.5)
-        (2, 3.0)
-        (3, 3.0)
-        (3, 2.5)
-        (4, 2.5)
-        (4, 2.0)
-        (5, 2.0)
-        (5, 1.5)
-        (6, 1.5)
-        (6, 1.0)
-        (7, 1.0)
-        (7, 1.0)
-        (8, 1.0)
-        (8, 1.0)
-        (9, 1.0)
-        (9, 1.0)
-        (10, 1.0)
-        (10, 1.0)
-        (11, 1.0)
-        (11, 1.0)
-        (12, 1.0)
-        (12, 1.0)
-        (13, 1.0)
-        (13, 1.0)
-        (14, 1.0)
-        (14, 1.0)
-        (15, 1.0)
-        (15, 1.0)
-        (16, 1.0)
-        (16, 1.0)
-        (17, 1.0)
-        (17, 1.0)
-        (18, 1.0)
-        (19, 1.0)
-        (20, 1.0)
-        (21, 1.0)
-        (22, 1.0)
-        (23, 1.0)
-        (24, 1.0)
-        (25, 1.0)
+        (0, 20)
+        (1, 20)
+        (1, 18)
+        (2, 18)
+        (2, 16)
+        (3, 16)
+        (3, 14)
+        (4, 14)
+        (4, 12)
+        (5, 12)
+        (5, 10)
+        (6, 10)
+        (6, 8)
+        (7, 8)
+        (7, 6)
+        (8, 6)
+        (8, 4)
+        (9, 4)
+        (9, 2)
+        (10, 2)
+        (10, 1)
+        (11, 1)
+        (11, 1)
+        (12, 1)
+        (12, 1)
+        (13, 1)
+        (13, 1)
+        (14, 1)
+        (14, 1)
+        (15, 1)
+        (15, 1)
+        (16, 1)
+        (16, 1)
+        (17, 1)
+        (17, 1)
+        (18, 1)
+        (19, 1)
+        (20, 1)
+        (21, 1)
+        (22, 1)
+        (23, 1)
+        (24, 1)
+        (25, 1)
       };
 
     \end{axis}
@@ -677,7 +677,7 @@ CHDR currency will grow predictably over time as follows:
       xmin=0,
       ylabel={Total Supply (M \text{\sout{U}})},
       ymajorgrids=true,
-      ymin=100,
+      ymin=0,
     ]
 
       \addplot[
@@ -685,32 +685,32 @@ CHDR currency will grow predictably over time as follows:
         mark=square*,
       ]
       coordinates {
-        (0, 100.000000)
-        (1, 104.000000)
-        (2, 107.640000)
-        (3, 110.869200)
-        (4, 113.640930)
-        (5, 115.913749)
-        (6, 117.652455)
-        (7, 118.828979)
-        (8, 120.017269)
-        (9, 121.217442)
-        (10, 122.429616)
-        (11, 123.653912)
-        (12, 124.890452)
-        (13, 126.139356)
-        (14, 127.400750)
-        (15, 128.674757)
-        (16, 129.961505)
-        (17, 131.261120)
-        (18, 132.573731)
-        (19, 133.899468)
-        (20, 135.238463)
-        (21, 136.590848)
-        (22, 137.956756)
-        (23, 139.336324)
-        (24, 140.729687)
-        (25, 142.136984)
+        (0, 5.000000)
+        (1, 6.000000)
+        (2, 7.080000)
+        (3, 8.212800)
+        (4, 9.362592)
+        (5, 10.486103)
+        (6, 11.534713)
+        (7, 12.457490)
+        (8, 13.204940)
+        (9, 13.733137)
+        (10, 14.007800)
+        (11, 14.147878)
+        (12, 14.289357)
+        (13, 14.432251)
+        (14, 14.576573)
+        (15, 14.722339)
+        (16, 14.869562)
+        (17, 15.018258)
+        (18, 15.168440)
+        (19, 15.320125)
+        (20, 15.473326)
+        (21, 15.628059)
+        (22, 15.784340)
+        (23, 15.942183)
+        (24, 16.101605)
+        (25, 16.262621)
       };
 
     \end{axis}
@@ -738,10 +738,10 @@ from each token inflation event will be distributed as follows:
     rotate = 210,
     text = pin
    ]{
-     70/Rewards Pool,
+     60/Rewards Pool,
      15/Vested \text{\sout{U}} Holders,
-     10/Cheddur Holdings,
-     5/Bounty Programs
+     15/Bounty Program,
+     10/Cheddur Holdings
    }
 
   \end{tikzpicture}
@@ -757,8 +757,8 @@ to earn \text{\sout{U}} tokens based upon the up-votes it receives from the
 community. Payouts will be funded from the rewards pool and will occur exactly
 7 days after each piece of content is posted. This one-week timeframe will
 incentivize authors to promote their Cheddur content in a timely fashion across
-other social networks. This distributed effort will bring traffic into the
-Cheddur platform and help bootstrap the growth of the network.
+other social networks. This distributed effort will bring traffic to Cheddur and
+help bootstrap the growth of the platform.
 
 Posting content on the Cheddur platform does not guarantee a payout in
 \text{\sout{U}}. Reviews that receive zero up-votes will not be deemed to have
@@ -783,8 +783,8 @@ the author and the curators as follows:
     rotate = 210,
     text = pin
    ]{
-     80/Author,
-     20/Curators
+     60/Author,
+     40/Curators
    }
 
   \end{tikzpicture}
@@ -805,9 +805,9 @@ curators of an individual piece of content.
 To encourage users to invest in the long-term success of the Cheddur platform
 (rather than panic selling 100% of their \text{\sout{U}} rewards),
 \text{\sout{U}} tokens can be vested (or "staked") in a user's account in order
-to increase their reputation in the network and to earn interest. This process
+to increase their reputation on the platform and to earn interest. This process
 is referred to as "powering up" your \text{\sout{U}} tokens because it
-increases your overall influence within the network.
+increases your overall influence on the platform.
 
 15% of all \text{\sout{U}} tokens generated through inflation are earmarked for
 vested token holders. The amount of \text{\sout{U}} tokens that each vested
@@ -818,11 +818,11 @@ tokens that are staked in their account.
 
 "One account, one vote" reputation systems can easily be undermined through
 Sybil attacks, astroturfing, and vote brigading. Therefore, influence within the
-Cheddur network will instead be determined under a *"one token, one vote"*
+Cheddur platform will instead be determined under a *"one token, one vote"*
 policy based on the amount of vested \text{\sout{U}} tokens each user has in
 their account.
 
-This will favorably skew influence over the network towards users who have
+This will favorably skew influence within the platform towards users who have
 skin in the game---by earning in or buying in---and are vested in the long-term
 success of the platform.
 
@@ -843,8 +843,8 @@ canceled at any time.
 
 ### Voting Power
 
-To prevent users from spamming the network with up-votes, each user will be able
-to cast a maximum of 50 up-votes per every 5 days, or ~10 up-votes per day.
+To prevent users from spamming the platform with up-votes, each user will be
+able to cast a maximum of 50 up-votes per every 5 days, or ~10 up-votes per day.
 
 You can think of a user's "voting power" as a mana bar that fills from 0% to
 100%. Each up-vote that a user casts will expend 2% of his or her voting power.
@@ -1055,7 +1055,7 @@ Targeted advertisements will take the form of:
 ## Bounty Program
 
 Users will be able to earn additional \text{\sout{U}} tokens by completing
-valuable "bounties" (activities) on the platform. 5% of all \text{\sout{U}}
+valuable "bounties" (activities) on the platform. 15% of all \text{\sout{U}}
 tokens generated through inflation are earmarked for bounties in order to
 accelerate the adoption of Cheddur.
 
@@ -1080,11 +1080,10 @@ will have no effect, as:
 ### Profile Listing Bounty
 
 To encourage cryptocurrency companies to list themselves on the
-Cheddur platform, \text{\sout{U}}10 will be awarded to the submitter of a
+Cheddur platform, \text{\sout{U}}5 will be awarded to the submitter of a
 [new coin](https://www.cheddur.com/coin) or a
-[new app](https://www.cheddur.com/app) that is listed on Cheddur. This
-\text{\sout{U}}25 reward can be applied by crypto companies towards their first
-in-app advertisement.
+[new app](https://www.cheddur.com/app) that is listed on Cheddur. This reward
+can be applied by crypto companies towards their first in-app advertisement.
 
 All submissions will be reviewed by Cheddur moderators for quality purposes,
 as we reserve the right to deny low-quality submissions and/or duplicates.
@@ -1092,65 +1091,36 @@ as we reserve the right to deny low-quality submissions and/or duplicates.
 ### Profile Claiming Bounty
 
 To encourage cryptocurrency companies to claim their free Cheddur
-profiles, \text{\sout{U}}5 will be awarded to the team member who successfully
+profiles, \text{\sout{U}}3 will be awarded to the team member who successfully
 claims a profile using our automated verification system or manual verification.
-This \text{\sout{U}}5 reward can also be applied towards in-app advertising.
+This reward can also be applied towards in-app advertising.
 
 ### Referral Program
 
 If a new user signs up for Cheddur using an existing user's referral link and
 writes a review within 180 days of opening their account, both the new user and
-the referrer will earn \text{\sout{U}}5. This will encourage existing users to
+the referrer will earn \text{\sout{U}}3. This will encourage existing users to
 bring their friends and followers to Cheddur and for new users to contribute
 content.
 
-# Initial Coin Offering
+# Token Distribution
 
 Cheddur, Inc. is currently raising capital from private investors to fund the
-development of Cheddur 2.0. In order to distribute CHDR tokens to STEEM holders
-and to raise capital for the ongoing development of the platform, we will be
-conducting an ICO using the built-in capabilities of the SMT protocol.
+development of Cheddur 2.0. We will not be conducting an ICO. Instead, CHDR
+tokens will be distributed to the Cheddur community on a merit basis, strictly
+by:
 
-\begin{table}[H]
+\begin{enumerate}[label=(\Alph*)]
 
-  \begin{tabular}{| l | l |}
+  \item Creating and curating high-quality content on the platform.
 
-    \hline
+  \item Completing valuable bounties.
 
-    \textbf{Parameter} & \textbf{Value} \\
+\end{enumerate}
 
-    \hline
+## Initial Allocation
 
-    Start Date & April 01, 2019 \\
-
-    \hline
-
-    End Date & April 30, 2019 \\
-
-    \hline
-
-    Currencies Accepted & STEEM \\
-
-    \hline
-
-    Minimum Contribution & 1 STEEM \\
-
-    \hline
-
-    Hard Cap & 20M USD \\
-
-    \hline
-
-  \end{tabular}
-
-\end{table}
-
-The targeted launch date for the Cheddur 2.0 platform is May 01, 2019---the day
-after the ICO concludes.
-
-## Token Distribution
-
-The initial supply of 100M \text{\sout{U}} tokens will be distributed as
+The initial supply of 5M \text{\sout{U}} tokens will be distributed as
 follows:
 
 \begin{center}
@@ -1162,21 +1132,91 @@ follows:
      rotate = 90,
      text = pin
    ]{
-     55/Token Sale,
-     15/Cheddur Holdings,
-     15/Team and Advisors,
-     10/Private Sales,
-     5/Bounty Program
+     50/Cheddur Holdings,
+     35/Cheddur Team,
+     15/Bounty Program
    }
 
   \end{tikzpicture}
 
 \end{center}
 
+1.75M \text{\sout{U}} tokens will be allocated to the Cheddur team in order to
+establish an initial set of influencers on the platform. The Cheddur team
+will vote to ensure that, as the Cheddur community contributes to the platform,
+rewards (and influence) flows towards those who are producing the most valuable
+content.
+
+The Cheddur team's influence on the platform will be superseded by the Cheddur
+community after the first year of operation.
+
+\begin{figure}[H]
+
+  \centering
+
+  \begin{tikzpicture}
+
+    \begin{axis}[
+      grid style=dashed,
+      xlabel={Time (Years)},
+      xmax=10,
+      xmin=0,
+      ylabel={Platform Influence},
+      ymajorgrids=true,
+      ymin=0,
+    ]
+
+      \addplot[
+        color=blue,
+        mark=square*,
+      ]
+      coordinates {
+        (0, 1.750000)
+        (1, 1.750000)
+        (2, 1.750000)
+        (3, 1.750000)
+        (4, 1.750000)
+        (5, 1.750000)
+        (6, 1.750000)
+        (7, 1.750000)
+        (8, 1.750000)
+        (9, 1.750000)
+        (10, 1.750000)
+      };
+      \addlegendentry{Cheddur Team}
+
+      \addplot[
+        color=red,
+        mark=square*,
+      ]
+      coordinates {
+        (0, 0.750000)
+        (1, 1.650000)
+        (2, 2.622000)
+        (3, 3.641520)
+        (4, 4.676333)
+        (5, 5.687493)
+        (6, 6.631242)
+        (7, 7.461741)
+        (8, 8.134446)
+        (9, 8.609824)
+        (10, 8.857020)
+      };
+      \addlegendentry{Cheddur Community}
+
+    \end{axis}
+
+  \end{tikzpicture}
+
+  \caption{Platform Influence over Time}
+
+\end{figure}
+
 ## Use of Funds
 
-The 15M \text{\sout{U}} tokens that will be in the Cheddur team's possession
-will be utilized as follows:
+The initial 2.5M \text{\sout{U}} tokens that will be allocated to Cheddur, Inc.
+(as well as the \text{\sout{U}} tokens that are routed to Cheddur, Inc. through
+inflation) will be utilized as follows:
 
 \begin{center}
 
@@ -1189,7 +1229,7 @@ will be utilized as follows:
    ]{
      35/Development,
      35/Sales and Marketing,
-     15/Operations and Exchange Listings,
+     15/Operations,
      10/Legal,
      5/Reserves
    }
@@ -1215,10 +1255,10 @@ platform fee in order to post their cryptocurrency review and a review reader
 would need to pay the writer their reward (directly) when they up-vote.
 
 In this scenario, interests are misaligned between the parties. In order to
-boostrap the growth of the network, the Cheddur platform will need
+boostrap the growth of the platform, the Cheddur platform will need
 cryptocurrency reviews more than experts will need to write them. If a
 transaction fee (or pay wall) is introduced in order for content to be posted on
-the network, little or no content will be posted on the network at all.
+the platform, little or no content will be posted on the platform at all.
 Furthermore, if the review readers (beginners) are responsible for rewarding the
 review writers (experts) directly from their own wallets (another pay wall),
 then:
@@ -1257,7 +1297,7 @@ content.
 
     \hline
 
-    Overall Supply & 100M & 1,000M & 216M \\
+    Overall Supply & 5M & 1,000M & 216M \\
 
     \hline
 
@@ -1345,7 +1385,7 @@ date.
 
 # Roadmap
 
-Cheddur 2.0 is slated to launch on May 01, 2019.
+The targeted launch date for the Cheddur 2.0 platform is May 01, 2019.
 
 ## Historical
 
@@ -1365,9 +1405,9 @@ Cheddur undergoes a
 * **Q4-2018:** Deals signed with private investors in a seed round. Cheddur team
 is expanded.
 * **Q1-2019:** Cheddur 2.0 Alpha and Beta versions are released on the SMT
-test-net. Marketing begins for the Cheddur ICO.
-* **Q2-2019:** Cheddur ICO is conducted. CHDR tokens are listed on exchanges.
-Cheddur 2.0 launches!
+test-net. Marketing begins for the Cheddur 2.0 launch.
+* **Q2-2019:** Cheddur 2.0 launches and the CHDR currency is born! CHDR tokens
+are listed on exchanges.
 * **Q3-2019:** Additional tokenized content types are added (Chat,
 News, Q&A)!
 * **Q4-2019:** Users are able to buy a select number of coins on the platform
@@ -1396,16 +1436,16 @@ By proceeding with the attack, any short-term gains will be simultaneously
 undermined by longer-term losses. In other words, attacking the system will
 require a user to attack themselves.
 
-#### What will stop a user from abusing their influence in the network and then immediately selling their \text{\sout{U}} tokens before the markets can react?
+#### What will stop a user from abusing their influence on the platform and then immediately selling their \text{\sout{U}} tokens before the markets can react?
 
-Influence in the Cheddur network takes a substantial amount of time to
+Influence within the Cheddur platform takes a substantial amount of time to
 liquidate. The process of "powering down" vested \text{\sout{U}} tokens occurs
 over a 13-week time period, which gives the markets plenty of time to react.
 Therefore, the attacker will again be attacking themselves.
 
 #### Can users just up-vote everything in order to maximize their curation rewards?
 
-No. To prevent users from spamming the network with up-votes, each user will be
+No. To prevent users from spamming the platform with up-votes, each user will be
 only be able to cast a maximum of 50 up-votes per every 5 days, or ~10 up-votes
 per day. In order to maximize curation rewards, you'll need to spend those votes
 wisely.
@@ -1422,10 +1462,10 @@ platform for free, and review readers (beginners) to cast votes for free.
 
 \begin{enumerate}[label=(\Alph*)]
 
-  \item Every year, the annual inflation rate will drop by 0.5\% until an annual
+  \item Every year, the annual inflation rate will drop by 2\% until an annual
   inflation rate of 1\% is reached.
 
-  \item As users acquire influence in the network, \text{\sout{U}} tokens
+  \item As users acquire influence on the platform, \text{\sout{U}} tokens
   will be powered up and therefore removed from circulation.
 
   \item An undecided percentage of Cheddur profits may be burned (removed from
@@ -1438,7 +1478,9 @@ platform for free, and review readers (beginners) to cast votes for free.
 
 * Add "Attack Vectors" section
 
-* Mention downvoting / flagging
+* Mention down-voting / flagging
+
+* Type out calculations in examples section
 
 ------------------------------------------------------------------------------->
 
@@ -1447,42 +1489,6 @@ platform for free, and review readers (beginners) to cast votes for free.
 * Revenue model:
   * Users pay to "promote" news? (e.g. Phil from Exodus?)
   * Coins and apps pay to show up in user's feeds.
-
-------------------------------------------------------------------------------->
-
-<!-- QUESTIONS -----------------------------------------------------------------
-
-* ICO:
-  * Opening price? Undetermined price or fixed price?
-    * https://hackernoon.com/top-8-tips-for-launching-a-successful-ico-15d0a4435a8
-    * undetermined price:
-      * $0.02 per U if soft cap reached
-      * $0.36 per U if hard cap reached
-    * fixed price:
-      if $0.12 per U, then 55M U * $0.12 = $6.6M hard cap
-  * Soft cap?
-  * If soft cap not reached, then what?
-  * Legal advice needed:
-    * Which countries blocked, if any? (US, Canada, China)
-    * Tax
-      * ICO itself, concerns?
-      * Advertisers paying in Cheddur tokens, creates tax headache for them?
-  * How to prevent whales? Negative effects of this?
-
-* Airdrop benefits:
-  * wide distribution, biggest STEEM holders = most knowledgeable on crypto
-  * start from 0, can only go up from there
-  * good story
-
-* ICO benefits:
-  * market carries the risk
-
-* ICO downsides:
-  * supply exceeds demand in early days?
-  * low token holders (potentially 1 guy owns 55%), low participants
-  ** Must put soft cap on to prevent this **
-
-* Should company holdings on ICO and TIE be the same (currently 15% and 10%)?
 
 ------------------------------------------------------------------------------->
 
