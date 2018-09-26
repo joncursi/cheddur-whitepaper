@@ -62,7 +62,7 @@ urlcolor: blue
 
       \vspace{5mm}
 
-      {\Large Yelp, for the cryptocurrency ecosystem.}
+      {\Large An incentivized platform for cryptocurrency listings and reviews.}
 
       \vspace{15mm}
 
