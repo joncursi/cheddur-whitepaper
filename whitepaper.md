@@ -11,7 +11,7 @@ header-includes:
     - \definecolor{Teal}{HTML}{00BFA5}
     # Dates
     - \usepackage{datetime}
-    - \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+    - \newdateformat{mydate}{\monthname[\THEMONTH] \THEDAY, \THEYEAR}
     # General
     - \renewcommand{\contentsname}{Table of Contents}
     # Geometry
@@ -74,7 +74,7 @@ urlcolor: blue
 
       \vspace{15mm}
 
-      {\normalsize \textcolor{Grey}{\mydate\today}}
+      {\normalsize \textcolor{Grey}{Updated \mydate\today}}
 
     \end{center}
 
@@ -369,7 +369,7 @@ cryptocurrency companies (as of August 2018) seeking to:
 Despite the bear market of 2018, our community of users and companies has grown
 steadily. As of August 2018, Cheddur has:
 
-* Guided 50,000+ beginners.
+* Guided 50,000+ users.
 * Registered 10,000+ accounts.
 * Amassed 2,500+ cryptocurrency reviews.
 * Amassed 2,000+ coin addresses.
