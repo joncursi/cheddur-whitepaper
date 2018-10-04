@@ -1402,16 +1402,18 @@ Cheddur undergoes a
 
 ## Upcoming
 
-* **Q4-2018:** Deals signed with private investors in a seed round. Cheddur team
-is expanded.
-* **Q1-2019:** Cheddur 2.0 Alpha and Beta versions are released on the SMT
+* **Q4-2018:** Users gain the ability to track news on any crypto company!
+Weekly newsletters and videos start. Deals are signed with private investors in
+our seed round. The Cheddur team is expanded.
+* **Q1-2019:** Users are able to buy a select number of coins on the platform
+using a credit card! Cheddur 2.0 Alpha and Beta versions are released on the SMT
 test-net. Marketing begins for the Cheddur 2.0 launch.
 * **Q2-2019:** Cheddur 2.0 launches and the CHDR currency is born! CHDR tokens
 are listed on exchanges.
-* **Q3-2019:** Additional tokenized content types are added (Chat,
-News, Q&A)!
-* **Q4-2019:** Users are able to buy a select number of coins on the platform
-using a credit card!
+* **Q3-2019:** Additional communication types are added (e.g. chat and Q&A)!
+Our public API is released.
+* **Q4-2019:** Our pay-per-click ad network is released! Crypto companies can pay
+in USD, BTC, or CHDR to upgrade their profiles and advertise on the platform.
 
 # Frequently Asked Questions
 
