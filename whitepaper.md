@@ -1,5 +1,7 @@
 <!-- Preamble ----------------------------------------------------------------->
 
+<!-- markdownlint-disable -->
+
 ---
 header-includes:
     # Colors
@@ -46,6 +48,8 @@ unicode: true
 urlcolor: blue
 ---
 
+<!-- markdownlint-enable -->
+
 <!-- Cover -------------------------------------------------------------------->
 
 \clearpage
@@ -83,7 +87,6 @@ urlcolor: blue
   \vspace{\stretch{3}}
 
 \clearpage
-
 
 <!-- Abstract ----------------------------------------------------------------->
 
@@ -269,33 +272,33 @@ In 2018, however, the barrier to entry into the cryptocurrency market is still
 very high.
 
 * Most consumers are unfamiliar with cryptocurrency as an asset class. As a
-result, they have many questions, doubts, and uncertainties about
-cryptocurrency, and it currently takes too much time, energy, and experience
-to get answers.
+  result, they have many questions, doubts, and uncertainties about
+  cryptocurrency, and it currently takes too much time, energy, and experience
+  to get answers.
 
 * Most cryptocurrency tools, wallets, and applications are still extremely
-technical. To beginners, it can feel as though you need a Ph.D. in computer
-science just to get started.
+  technical. To beginners, it can feel as though you need a Ph.D. in computer
+  science just to get started.
 
 * The fiat-to-crypto "on-ramps"---platforms like
-[Coinbase](https://www.coinbase.com/), [Gemini](https://gemini.com/), and
-[Bittrex](https://bittrex.com/)---greatly simplify the purchasing process.
-However, these platforms have neglected the educational components that are
-needed to help their users understand *what* it is that they are buying. Without
-these educational components, users are less likely to make informed investment
-decisions.
+  [Coinbase](https://www.coinbase.com/), [Gemini](https://gemini.com/), and
+  [Bittrex](https://bittrex.com/)---greatly simplify the purchasing process.
+  However, these platforms have neglected the educational components that are
+  needed to help their users understand *what* it is that they are buying.
+  Without these educational components, users are less likely to make informed
+  investment decisions.
 
-* According to
-[CoinSchedule](https://www.coinschedule.com), ~25 new ICOs have launched per
-week between January and August of 2018[^fn6]. This is up over 500% from the
-number of ICOs that were launched per week in 2017[^fn7]. Even though the
-floodgates are just starting to open, keeping up is already a full-time job.
+* According to [CoinSchedule](https://www.coinschedule.com), ~25 new ICOs have
+  launched per week between January and August of 2018[^fn6]. This is up over
+  500% from the number of ICOs that were launched per week in 2017[^fn7]. Even
+  though the floodgates are just starting to open, keeping up is already a
+  full-time job.
 
 * There's very little (helpful) regulation in the space and, as a result,
-scammers are running rampant. A
-[recent study](https://research.bloomberg.com/pub/res/d28giW28tf6G7T_Wr77aU0gDgFQ)
-from the [Satis Group](http://satisgroup.io/) (an ICO advisory firm) suggests
-that **more than 80% of ICOs that were conducted in 2017 were scams**[^fn8].
+  scammers are running rampant. A
+  [recent study](https://research.bloomberg.com/pub/res/d28giW28tf6G7T_Wr77aU0gDgFQ)
+  from the [Satis Group](http://satisgroup.io/) (an ICO advisory firm) suggests
+  that **more than 80% of ICOs that were conducted in 2017 were scams**[^fn8].
 
 ## Parallels to the Internet
 
@@ -349,10 +352,10 @@ expert for over 50,000 users (as of August 2018) aiming to:
 * Learn the basics of cryptocurrency.
 * Find the best coins and ICOs to invest in.
 * Find the best wallets, exchanges, and other crypto applications to safely
-store, secure, and trade those coins.
+  store, secure, and trade those coins.
 * Read and write cryptocurrency reviews.
 * Send and receive tips, payments, and donations in any cryptocurrency to other
-users.
+  users.
 * Connect with friends, crypto companies, and other cryptocurrency users.
 
 In parallel, Cheddur has also served as an invaluable tool for over 2,000
@@ -374,10 +377,10 @@ steadily. As of August 2018, Cheddur has:
 * Amassed 2,500+ cryptocurrency reviews.
 * Amassed 2,000+ coin addresses.
 * Listed 2,000+ [coins](https://www.cheddur.com/coins) and
-[crypto apps](https://www.cheddur.com/apps).
+  [crypto apps](https://www.cheddur.com/apps).
 * Established 200+
-[partnerships](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
-with cryptocurrency companies across the globe.
+  [partnerships](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
+  with cryptocurrency companies across the globe.
 
 We've also received an overwhelming amount of positive feedback over the past
 few months, as evidenced by our
@@ -416,19 +419,22 @@ speaking with dozens of community members one-on-one, our team has been able to
 identify several important challenges with user-generated reviews:
 
 1. Tribalism is prevalent among cryptocurrency communities, and can cause users
-to be overly positive in their reviews of coins that they hold (5 stars), or
-overly negative in their reviews of "rival" projects (1 star)[^fn13].
+  to be overly positive in their reviews of coins that they hold (5 stars), or
+  overly negative in their reviews of "rival" projects (1 star)[^fn13].
+
 2. Companies are not permitted to remove user reviews of their coin or crypto
-app, so long as those reviews abide by the
-[Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
-result, companies may resort to astroturfing[^fn14] or vote brigading[^fn15] in
-order to drown out critical reviews and/or fake their popularity on the
-platform.
+  app, so long as those reviews abide by the
+  [Cheddur Content Guidelines](https://www.cheddur.com/about/guidelines). As a
+  result, companies may resort to astroturfing[^fn14] or vote brigading[^fn15]
+  in order to drown out critical reviews and/or fake their popularity on the
+  platform.
+
 3. The less familiar a user is with cryptocurrency, the exponentially more
-reliant they tend to be on the opinions of others.
+  reliant they tend to be on the opinions of others.
+
 4. Generally speaking, the experts and innovators in the cryptocurrency
-space---those with the wisdom and experience to produce the highest-quality
-reviews---have not been properly incentivized to do so.
+  space---those with the wisdom and experience to produce the highest-quality
+  reviews---have not been properly incentivized to do so.
 
 ## Conclusions
 
@@ -440,23 +446,23 @@ Based on the findings from the Cheddur user study above, we have been able to
 draw the following conclusions:
 
 1. High-quality reviews ought to carry more weight towards determining a
-cryptocurrency company's overall star rating then should spammy, low-quality
-reviews.
+  cryptocurrency company's overall star rating then should spammy, low-quality
+  reviews.
 2. If the quality of a review can be determined through the up-votes (or lack
-thereof) that it receives, the *quality* of the users who casted the up-votes is
-arguably more important than the *quantity* of users who casted votes.
+  thereof) that it receives, the *quality* of the users who casted the up-votes
+  is arguably more important than the *quantity* of users who casted votes.
 3. In order to properly calculate the quality of each user, a reputation system
-is needed. A user's reputation should dictate the amount of influence that user
-has on the platform.
+  is needed. A user's reputation should dictate the amount of influence that
+  user has on the platform.
 4. Reputation cannot be an abundant resource that is freely available on the
-platform. Increasing a user's reputation must come at a cost to that
-user---either financial, or in the form of sweat equity[^fn16].
+  platform. Increasing a user's reputation must come at a cost to that
+  user---either financial, or in the form of sweat equity[^fn16].
 5. To prevent timing attacks[^fn17], reputation on the platform should not be
-easily transferred or sold.
+  easily transferred or sold.
 6. Rewards are needed to encourage users to acquire (and compete for)
-reputation and influence on the platform via the creation and curation of
-high-quality content. At the same time, penalties are needed to discourage users
-of influence from abusing it.
+  reputation and influence on the platform via the creation and curation of
+  high-quality content. At the same time, penalties are needed to discourage
+  users of influence from abusing it.
 
 ## The High Quality Review
 
@@ -475,16 +481,16 @@ of the platform. The purpose of this token system is to:
 
 * Establish a reputation system to designate user influence on the platform.
 * Determine the subjective quality of each user-generated review using the
-wisdom of the crowd.
+  wisdom of the crowd.
 * Incentivize users to create and curate the highest-quality cryptocurrency
-reviews via rewards and platform influence.
+  reviews via rewards and platform influence.
 * More accurately calculate the overall star rating and popularity of each
-cryptocurrency company by favoring reviews that are deemed to be high quality.
+  cryptocurrency company by favoring reviews that are deemed to be high quality.
 * Minimize the effects of tribalism, astroturfing, review brigading, and other
-forms of malicious activity.
+  forms of malicious activity.
 * Empower the Cheddur community to be self-policing and self-sustaining.
 * Enable beginners to *earn* their way into the market with little or no
-downside risk.
+  downside risk.
 
 ## CHDR Tokens (\text{\sout{U}})
 
@@ -900,9 +906,13 @@ rating will be calculated as follows:
   Total Review Score = \sum_k^n(Review Score_k)
 \end{equation}
 
+<!-- markdownlint-disable MD013 -->
+
 \begin{equation}
   Overall Rating = \frac{\sum_k^n(Review Score_k * Review Rating_k)}{Total Review Score}
 \end{equation}
+
+<!-- markdownlint-disable MD013 -->
 
 ### Popularity
 
@@ -1360,7 +1370,6 @@ Being that the SMT protocol is in the early stages of development, it is
 difficult to anticipate every major change that will be needed to migrate from
 Cheddur 1.0 to Cheddur 2.0. A non-exhaustive list of items is presented below.
 
-
 Remove the hurdles associated with blockchain to make it so that
 
 General Comment: You want them to know they are using blockchain, but feel like using it is seamless.
@@ -1390,34 +1399,40 @@ The targeted launch date for the Cheddur 2.0 platform is May 01, 2019.
 ## Historical
 
 * **Q4-2017:** Cheddur 1.0 is released on
-[iOS](https://itunes.apple.com/us/app/id1269377156) and [Android](https://play.google.com/store/apps/details?id=com.cheddur)!
+  [iOS](https://itunes.apple.com/us/app/id1269377156) and
+  [Android](https://play.google.com/store/apps/details?id=com.cheddur)!
 * **Q1-2018:**
-[Managed Profiles](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
-feature is released!
-* **Q2-2018:** Deal signed with first private investor! Cheddur team relocates to
-the [Desai Startup Accelerator](https://desaiaccelerator.umich.edu/).
+  [Managed Profiles](https://blog.cheddur.com/introducing-managed-coin-and-service-profiles-b33be38acf8d)
+  feature is released!
+* **Q2-2018:** Deal signed with first private investor! Cheddur team relocates
+  to the [Desai Startup Accelerator](https://desaiaccelerator.umich.edu/).
 * **Q3-2018:** [Cheddur.com](https://www.cheddur.com/) website is released!
-Cheddur undergoes a
-[re-brand](https://blog.cheddur.com/were-re-branding-acae61cd3dd4).
+  Cheddur undergoes a
+  [re-brand](https://blog.cheddur.com/were-re-branding-acae61cd3dd4).
 
 ## Upcoming
 
 * **Q4-2018:** Users gain the ability to track news on any crypto company!
-Weekly newsletters and videos start. Deals are signed with private investors in
-our seed round. The Cheddur team is expanded.
+  Weekly newsletters and videos start. Deals are signed with private investors
+  in our seed round. The Cheddur team is expanded.
 * **Q1-2019:** Users are able to buy a select number of coins on the platform
-using a credit card! Cheddur 2.0 Alpha and Beta versions are released on the SMT
-test-net. Marketing begins for the Cheddur 2.0 launch.
+  using a credit card! Cheddur 2.0 Alpha and Beta versions are released on the
+  SMT test-net. Marketing begins for the Cheddur 2.0 launch.
 * **Q2-2019:** Cheddur 2.0 launches and the CHDR currency is born! CHDR tokens
-are listed on exchanges.
+  are listed on exchanges.
 * **Q3-2019:** Additional communication types are added (e.g. chat and Q&A)!
-Our public API is released.
-* **Q4-2019:** Our pay-per-click ad network is released! Crypto companies can pay
-in USD, BTC, or CHDR to upgrade their profiles and advertise on the platform.
+  Our public API is released.
+* **Q4-2019:** Our pay-per-click ad network is released! Crypto companies can
+  pay in USD, BTC, or CHDR to upgrade their profiles and advertise on the
+  platform.
 
 # Frequently Asked Questions
 
+<!-- markdownlint-disable MD001 -->
+
 #### Can a malicious user game the reward system by creating multiple, fake accounts?
+
+<!-- markdownlint-enable MD001 -->
 
 While it is difficult to stop a malicious user from creating multiple accounts,
 the creation of these accounts will not affect the distribution of
@@ -1494,6 +1509,8 @@ platform for free, and review readers (beginners) to cast votes for free.
 
 ------------------------------------------------------------------------------->
 
+<!-- markdownlint-disable MD034 -->
+
 [^fn1]: Medium, Chris McCann, "12 Graphs That Show Just How Early The Cryptocurrency Market Is," May 2018.
 \hfill\break
 https://medium.com/@mccannatron/12-graphs-that-show-just-how-early-the-cryptocurrency-market-is-653a4b8b2720
@@ -1560,3 +1577,5 @@ https://techcrunch.com/2018/05/20/with-at-least-1-3-billion-invested-globally-in
 [^fn22]: Blockonomi, Carlos Terenzi, "Tech Giants Ban Cryptocurrency Advertising – What Does it Mean?," April 2018.
 https://blockonomi.com/cryptocurrency-advertising-ban/
 \hfill\break
+
+<!-- markdownlint-enable MD034 -->
